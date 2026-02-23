@@ -1,0 +1,233 @@
+topics:
+  - name: classical-special-functions
+    search_keywords:
+      - "Bessel function"
+      - "Gamma function"
+      - "Beta function"
+      - "hypergeometric"
+      - "elliptic function"
+      - "Pochhammer"
+      - "special function"
+    matchers:
+      module_prefixes:
+        - "Mathlib.Analysis.SpecialFunctions.Gamma."
+        - "Mathlib.Analysis.SpecialFunctions.Elliptic."
+        - "Mathlib.Analysis.SpecialFunctions.OrdinaryHypergeometric"
+        - "Mathlib.Analysis.SpecialFunctions.Pochhammer"
+        - "Mathlib.Analysis.SpecialFunctions.Sigmoid"
+        - "Mathlib.Analysis.SpecialFunctions.Stirling"
+        - "Mathlib.Analysis.SpecialFunctions.Bernstein"
+        - "Mathlib.Analysis.SpecialFunctions.ArithmeticGeometricMean"
+        - "Mathlib.Analysis.SpecialFunctions.JapaneseBracket"
+        - "Mathlib.Analysis.SpecialFunctions.Gaussian."
+        - "Mathlib.Analysis.SpecialFunctions.MulExpNegMulSq"
+        - "Mathlib.Analysis.SpecialFunctions.Integrals."
+        - "Mathlib.Analysis.SpecialFunctions.Integrability."
+        - "Mathlib.Analysis.SpecialFunctions.ImproperIntegrals"
+        - "Mathlib.MeasureTheory.Integral.Gamma"
+        - "Mathlib.RingTheory.Polynomial.Pochhammer"
+        - "Mathlib.RingTheory.Polynomial.Hermite."
+        - "Mathlib.Probability.Distributions.Gamma"
+        - "Mathlib.Probability.Distributions.Beta"
+      type_mentions:
+        - "Real.Gamma"
+        - "Complex.Gamma"
+        - "Real.Beta"
+        - "Complex.Beta"
+        - "Real.digamma"
+        - "Complex.digamma"
+        - "ascPochhammer"
+        - "descPochhammer"
+        - "ordinaryHypergeometric"
+        - "WeierstrassEllipticFunction"
+        - "GaussianInt"
+      name_patterns:
+        - ".*[Gg]amma.*"
+        - ".*[Bb]eta[FI].*"
+        - ".*[Bb]essel.*"
+        - ".*[Hh]ypergeometric.*"
+        - ".*[Pp]ochhammer.*"
+        - ".*[Ss]tirling.*"
+        - ".*[Bb]ernstein.*"
+        - ".*[Hh]ermite.*"
+        - ".*[Gg]aussian[Ii]nt.*"
+        - ".*[Dd]igamma.*"
+
+  - name: exponential-logarithmic
+    search_keywords:
+      - "exponential function"
+      - "logarithm"
+      - "power function"
+      - "rpow"
+    matchers:
+      module_prefixes:
+        - "Mathlib.Analysis.SpecialFunctions.Exp"
+        - "Mathlib.Analysis.SpecialFunctions.ExpDeriv"
+        - "Mathlib.Analysis.SpecialFunctions.Exponential"
+        - "Mathlib.Analysis.SpecialFunctions.CompareExp"
+        - "Mathlib.Analysis.SpecialFunctions.PolynomialExp"
+        - "Mathlib.Analysis.SpecialFunctions.Log."
+        - "Mathlib.Analysis.SpecialFunctions.Complex.Log"
+        - "Mathlib.Analysis.SpecialFunctions.Pow."
+        - "Mathlib.Analysis.SpecialFunctions.Sqrt"
+        - "Mathlib.Data.Complex.Exponential"
+      type_mentions:
+        - "Real.exp"
+        - "Complex.exp"
+        - "Real.log"
+        - "Complex.log"
+        - "Real.rpow"
+        - "NNReal.rpow"
+        - "Complex.cpow"
+        - "Real.sqrt"
+      name_patterns:
+        - ".*[Rr]pow.*"
+
+  - name: trigonometric
+    search_keywords:
+      - "trigonometric"
+      - "sine"
+      - "cosine"
+      - "tangent"
+      - "arctan"
+      - "hyperbolic"
+      - "Chebyshev polynomial"
+    matchers:
+      module_prefixes:
+        - "Mathlib.Analysis.SpecialFunctions.Trigonometric."
+        - "Mathlib.Analysis.SpecialFunctions.Arcosh"
+        - "Mathlib.Analysis.SpecialFunctions.Arsinh"
+        - "Mathlib.Analysis.SpecialFunctions.Artanh"
+        - "Mathlib.Analysis.SpecialFunctions.BinaryEntropy"
+        - "Mathlib.RingTheory.Polynomial.Chebyshev"
+        - "Mathlib.NumberTheory.Chebyshev"
+      type_mentions:
+        - "Real.sin"
+        - "Real.cos"
+        - "Real.tan"
+        - "Real.arcsin"
+        - "Real.arccos"
+        - "Real.arctan"
+        - "Complex.sin"
+        - "Complex.cos"
+        - "Real.cosh"
+        - "Real.sinh"
+        - "Real.sinc"
+        - "Polynomial.Chebyshev.T"
+        - "Polynomial.Chebyshev.U"
+      name_patterns:
+        - ".*[Cc]hebyshev.*"
+
+  - name: zeta-and-l-functions
+    search_keywords:
+      - "Riemann zeta"
+      - "Hurwitz zeta"
+      - "L-series"
+      - "Dirichlet series"
+      - "Bernoulli number"
+      - "Euler product"
+      - "arithmetic function"
+      - "von Mangoldt"
+    matchers:
+      module_prefixes:
+        - "Mathlib.NumberTheory.LSeries."
+        - "Mathlib.NumberTheory.ZetaValues"
+        - "Mathlib.NumberTheory.NumberField.DedekindZeta"
+        - "Mathlib.NumberTheory.ArithmeticFunction."
+        - "Mathlib.NumberTheory.EulerProduct."
+        - "Mathlib.NumberTheory.Bernoulli"
+        - "Mathlib.NumberTheory.BernoulliPolynomials"
+        - "Mathlib.NumberTheory.Harmonic."
+      type_mentions:
+        - "riemannZeta"
+        - "hurwitzZeta"
+        - "hurwitzZetaEven"
+        - "hurwitzZetaOdd"
+        - "LSeries"
+        - "LSeriesHasSum"
+        - "LSeriesSummable"
+        - "DirichletCharacter"
+        - "ArithmeticFunction"
+        - "DedekindZetaFunction"
+        - "EulerProduct"
+        - "eulerMascheroniConstant"
+        - "bernoulli"
+      name_patterns:
+        - ".*[Zz]eta.*"
+        - ".*[Bb]ernoulli.*"
+        - ".*LSeries.*"
+        - ".*[Dd]irichlet.*"
+        - ".*[Ee]uler[Pp]roduct.*"
+        - ".*[Vv]on[Mm]angoldt.*"
+        - ".*[Mm]oebius.*"
+
+  - name: modular-forms
+    search_keywords:
+      - "modular form"
+      - "cusp form"
+      - "Eisenstein series"
+      - "Jacobi theta"
+      - "upper half plane"
+      - "Dedekind eta"
+    matchers:
+      module_prefixes:
+        - "Mathlib.NumberTheory.ModularForms."
+        - "Mathlib.Analysis.Complex.UpperHalfPlane."
+      type_mentions:
+        - "ModularForm"
+        - "CuspForm"
+        - "SlashInvariantForm"
+        - "EisensteinSeries"
+        - "UpperHalfPlane"
+        - "CongruenceSubgroup"
+        - "jacobiTheta"
+      name_patterns:
+        - ".*[Mm]odular[Ff]orm.*"
+        - ".*[Cc]usp[Ff]orm.*"
+        - ".*[Ee]isenstein.*"
+        - ".*[Jj]acobi[Tt]heta.*"
+        - ".*[Dd]edekind[Ee]ta.*"
+        - ".*[Ss]lash[Aa]ction.*"
+
+  - name: power-series
+    search_keywords:
+      - "power series"
+      - "formal power series"
+      - "Hahn series"
+      - "Fourier transform"
+      - "Mellin transform"
+    matchers:
+      module_prefixes:
+        - "Mathlib.RingTheory.PowerSeries."
+        - "Mathlib.RingTheory.MvPowerSeries."
+        - "Mathlib.RingTheory.HahnSeries."
+        - "Mathlib.Analysis.Fourier."
+        - "Mathlib.Analysis.MellinTransform"
+        - "Mathlib.Analysis.MellinInversion"
+      type_mentions:
+        - "PowerSeries"
+        - "MvPowerSeries"
+        - "HahnSeries"
+        - "FourierTransform"
+      name_patterns:
+        - ".*[Pp]ower[Ss]eries.*"
+        - ".*[Hh]ahn[Ss]eries.*"
+        - ".*[Ff]ourier.*"
+        - ".*[Mm]ellin.*"
+
+  - name: elliptic-curves
+    search_keywords:
+      - "elliptic curve"
+      - "Weierstrass curve"
+      - "j-invariant"
+      - "division polynomial"
+    matchers:
+      module_prefixes:
+        - "Mathlib.AlgebraicGeometry.EllipticCurve."
+        - "Mathlib.NumberTheory.EllipticDivisibilitySequence"
+      type_mentions:
+        - "EllipticCurve"
+        - "WeierstrassCurve"
+      name_patterns:
+        - ".*[Ee]lliptic[Cc]urve.*"
+        - ".*[Ww]eierstrass[Cc]urve.*"

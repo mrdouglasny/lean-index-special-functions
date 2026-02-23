@@ -1,0 +1,53 @@
+repos:
+  - url: https://github.com/leanprover-community/mathlib4
+    description: "The math library for Lean 4 (indexed via cache, not cloned)"
+
+  # Special functions
+  - url: https://github.com/jamesa9283/special-functions
+    branch: master
+    description: "Special functions in Lean"
+  - url: https://github.com/jamesa9283/GammaStirlingsForLean
+    branch: master
+    description: "Gamma function and Stirling's formula"
+  - url: https://github.com/mo271/stirling
+    description: "Stirling's formula in Lean"
+
+  # Zeta functions & analytic number theory
+  - url: https://github.com/AlexKontorovich/PrimeNumberTheoremAnd
+    description: "Prime Number Theorem, L-series, Mellin transforms"
+  - url: https://github.com/MichaelStollBayreuth/EulerProducts
+    description: "Euler products for Dirichlet L-series"
+  - url: https://github.com/mmew-2022/Riemann_zeta
+    description: "Riemann zeta function"
+  - url: https://github.com/AlexKontorovich/Lean-RH
+    description: "Riemann hypothesis formalization"
+  - url: https://github.com/laughinggas/padic-L-functions4
+    branch: master
+    description: "p-adic L-functions"
+  - url: https://github.com/laughinggas/bernoulli
+    description: "Bernoulli numbers"
+
+  # Modular forms
+  - url: https://github.com/CBirkbeck/ModularForms_Lean4
+    branch: master
+    description: "Modular forms in Lean 4"
+  - url: https://github.com/Eloitor/four-squares-modular-forms
+    description: "Four squares theorem via modular forms"
+  - url: https://github.com/loefflerd/ModularFormDimensions
+    branch: master
+    description: "Finite-dimensionality of modular forms spaces"
+  - url: https://github.com/ferrandf/valenceformula
+    description: "Valence formula for modular forms"
+
+  # Series & analytic functions
+  - url: https://github.com/girving/ray
+    description: "Analytic number theory, special functions"
+  - url: https://github.com/girving/interval
+    description: "Interval arithmetic, rigorous numerics"
+  - url: https://github.com/girving/series
+    description: "Power series, analytic functions"
+
+  # Transcendence
+  - url: https://github.com/astrainfinita/transcendental
+    branch: master
+    description: "Lindemann-Weierstrass theorem"
