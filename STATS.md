@@ -54,7 +54,7 @@
 
 ## Last Update
 
-- **When**: 2026-02-23T05:00:44.450767+00:00
+- **When**: 2026-02-23T08:42:53.017745+00:00
 - **Repos checked**: 28
 - **Repos updated**: 29
 - **New declarations**: 7962
