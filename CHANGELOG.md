@@ -1,6 +1,6 @@
-# Changelog (since 2026-02-23)
+# Changelog (since 2026-03-02)
 
-## New Declarations (19970)
+## New Declarations (20167)
 
 ### EllipticCurve (+583)
 
@@ -240,7 +240,7 @@
 - `tsum_coe_eq` (theorem) in Modformsported.ForMathlib.TsumLemmas
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+1977)
+### PrimeNumberTheoremAnd (+2011)
 
 - `smooth_urysohn_support_Ioo` (lemma) in PrimeNumberTheoremAnd.SmoothExistence
 - `SmoothExistence` (lemma) in PrimeNumberTheoremAnd.SmoothExistence
@@ -292,7 +292,7 @@
 - `bound_f_first_term` (lemma) in PrimeNumberTheoremAnd.Consequences
 - `smaller_terms` (lemma) in PrimeNumberTheoremAnd.Consequences
 - `second_smaller_terms` (lemma) in PrimeNumberTheoremAnd.Consequences
-- ... and 1927 more
+- ... and 1961 more
 
 ### Riemann_zeta (+42)
 
@@ -456,7 +456,7 @@
 - `special_linear_group.mem_principal_subgroup` (structure) in src.congruence_groups
 - `special_linear_group.principal_condition₁₁` (lemma) in src.congruence_groups
 
-### hyperlocal (+1425)
+### hyperlocal (+1518)
 
 - `Hyperlocal.GrowthOrder.EntireFun` (def) in formalisation.Hyperlocal.GrowthOrder
 - `Hyperlocal.GrowthOrder.OrderLEOne` (def) in formalisation.Hyperlocal.GrowthOrder
@@ -508,7 +508,7 @@
 - `Hyperlocal.FactorizationGofSEntire.W_at_rho_analytic` (lemma) in formalisation_v3.3.Hyperlocal.Entire
 - `Hyperlocal.FactorizationGofSEntire.W_at_rho_ne_zero_at_rho` (lemma) in formalisation_v3.3.Hyperlocal.Entire
 - `Hyperlocal.FactorizationGofSEntire.G_analytic_at_rho` (theorem) in formalisation_v3.3.Hyperlocal.Entire
-- ... and 1375 more
+- ... and 1468 more
 
 ### interval (+844)
 
@@ -595,7 +595,7 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
-### mathlib4 (+11690)
+### mathlib4 (+11760)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -647,7 +647,7 @@
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
 - `AddChar.zmodAddEquiv` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 11640 more
+- ... and 11710 more
 
 ### padic-L-functions4 (+382)
 
@@ -1043,4 +1043,4 @@
 
 ## Update History (1 runs)
 
-- **2026-03-02T08:42:21.136140+00:00**: Checked 28 repos, updated 29, +8280 -0 declarations
+- **2026-03-09T08:42:16.532404+00:00**: Checked 28 repos, updated 29, +8407 -0 declarations
