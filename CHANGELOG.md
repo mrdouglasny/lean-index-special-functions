@@ -1,6 +1,6 @@
-# Changelog (since 2026-03-02)
+# Changelog (since 2026-03-09)
 
-## New Declarations (20167)
+## New Declarations (20546)
 
 ### EllipticCurve (+583)
 
@@ -240,7 +240,7 @@
 - `tsum_coe_eq` (theorem) in Modformsported.ForMathlib.TsumLemmas
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+2011)
+### PrimeNumberTheoremAnd (+2069)
 
 - `smooth_urysohn_support_Ioo` (lemma) in PrimeNumberTheoremAnd.SmoothExistence
 - `SmoothExistence` (lemma) in PrimeNumberTheoremAnd.SmoothExistence
@@ -292,7 +292,7 @@
 - `bound_f_first_term` (lemma) in PrimeNumberTheoremAnd.Consequences
 - `smaller_terms` (lemma) in PrimeNumberTheoremAnd.Consequences
 - `second_smaller_terms` (lemma) in PrimeNumberTheoremAnd.Consequences
-- ... and 1961 more
+- ... and 2019 more
 
 ### Riemann_zeta (+42)
 
@@ -456,7 +456,7 @@
 - `special_linear_group.mem_principal_subgroup` (structure) in src.congruence_groups
 - `special_linear_group.principal_condition₁₁` (lemma) in src.congruence_groups
 
-### hyperlocal (+1518)
+### hyperlocal (+1755)
 
 - `Hyperlocal.GrowthOrder.EntireFun` (def) in formalisation.Hyperlocal.GrowthOrder
 - `Hyperlocal.GrowthOrder.OrderLEOne` (def) in formalisation.Hyperlocal.GrowthOrder
@@ -508,7 +508,7 @@
 - `Hyperlocal.FactorizationGofSEntire.W_at_rho_analytic` (lemma) in formalisation_v3.3.Hyperlocal.Entire
 - `Hyperlocal.FactorizationGofSEntire.W_at_rho_ne_zero_at_rho` (lemma) in formalisation_v3.3.Hyperlocal.Entire
 - `Hyperlocal.FactorizationGofSEntire.G_analytic_at_rho` (theorem) in formalisation_v3.3.Hyperlocal.Entire
-- ... and 1468 more
+- ... and 1705 more
 
 ### interval (+844)
 
@@ -595,7 +595,7 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
-### mathlib4 (+11760)
+### mathlib4 (+11844)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -613,6 +613,7 @@
 - `AbsoluteValue.IsEquiv.log_div_log_eq_log_div_log` (theorem) in Mathlib.Analysis.AbsoluteValue.Equivalence
 - `AbsoluteValue.IsEquiv.log_div_log_pos` (theorem) in Mathlib.Analysis.AbsoluteValue.Equivalence
 - `AbsoluteValue.isEquiv_iff_exists_rpow_eq` (theorem) in Mathlib.Analysis.AbsoluteValue.Equivalence
+- `AbstractSimplicialComplex.singleton_mem` (theorem) in Mathlib.AlgebraicTopology.SimplicialComplex.Basic
 - `AddChar.card_addChar_le` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.card_eq` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
 - `AddChar.circleEquivComplex` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
@@ -646,8 +647,7 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- `AddChar.zmodAddEquiv` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 11710 more
+- ... and 11794 more
 
 ### padic-L-functions4 (+382)
 
@@ -1043,4 +1043,4 @@
 
 ## Update History (1 runs)
 
-- **2026-03-09T08:42:16.532404+00:00**: Checked 28 repos, updated 29, +8407 -0 declarations
+- **2026-03-16T08:54:24.532166+00:00**: Checked 28 repos, updated 29, +8702 -0 declarations
