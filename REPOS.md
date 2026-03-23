@@ -4,25 +4,25 @@ Repositories with declarations matching the configured topics.
 
 | Repository | Topic Matches | Total Decls | Source | Last Indexed |
 |-----------|:---:|:---:|--------|-------------|
-| [mathlib4](https://github.com/leanprover-community/mathlib4) | 11,844 | 11,844 | curated | 2026-03-16 |
-| [PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 407 | 2,069 | curated | 2026-03-16 |
-| [ModularForms_Lean4](https://github.com/CBirkbeck/ModularForms_Lean4) | 258 | 727 | curated | 2026-03-16 |
-| [padic-L-functions4](https://github.com/laughinggas/padic-L-functions4) | 78 | 382 | curated | 2026-03-16 |
-| [power-series-ring-is-noetherian-](https://github.com/BryceT233/power-series-ring-is-noetherian-) | 60 | 103 | github_search | 2026-03-16 |
-| [hyperlocal](https://github.com/attila-ac/hyperlocal) | 53 | 1,755 | github_search | 2026-03-16 |
-| [stirling](https://github.com/mo271/stirling) | 45 | 45 | curated | 2026-03-16 |
-| [a-lean4-formalisation-of-Hilbert-basis-theorem-for-power-series-ring](https://github.com/chenlingccll/a-lean4-formalisation-of-Hilbert-basis-theorem-for-power-series-ring) | 39 | 39 | github_search | 2026-03-16 |
-| [interval](https://github.com/girving/interval) | 34 | 844 | curated | 2026-03-16 |
-| [ray](https://github.com/girving/ray) | 24 | 851 | curated | 2026-03-16 |
-| [EulerProducts](https://github.com/MichaelStollBayreuth/EulerProducts) | 16 | 36 | curated | 2026-03-16 |
-| [Lean-RH](https://github.com/AlexKontorovich/Lean-RH) | 15 | 210 | curated | 2026-03-16 |
-| [ModularFormDimensions](https://github.com/loefflerd/ModularFormDimensions) | 11 | 30 | curated | 2026-03-16 |
-| [EllipticCurve](https://github.com/kckennylau/EllipticCurve) | 5 | 583 | reservoir | 2026-03-16 |
-| [leanproject](https://github.com/daniele-bolla/leanproject) | 3 | 28 | github_search | 2026-03-16 |
-| [Riemann_zeta](https://github.com/mmew-2022/Riemann_zeta) | 3 | 42 | curated | 2026-03-16 |
-| [bernoulli](https://github.com/laughinggas/bernoulli) | 1 | 8 | curated | 2026-03-16 |
-| [special-functions](https://github.com/jamesa9283/special-functions) | 1 | 17 | curated | 2026-03-16 |
+| [mathlib4](https://github.com/leanprover-community/mathlib4) | 11,946 | 11,946 | curated | 2026-03-23 |
+| [PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 407 | 2,128 | curated | 2026-03-23 |
+| [ModularForms_Lean4](https://github.com/CBirkbeck/ModularForms_Lean4) | 258 | 727 | curated | 2026-03-23 |
+| [hyperlocal](https://github.com/attila-ac/hyperlocal) | 167 | 2,029 | github_search | 2026-03-23 |
+| [padic-L-functions4](https://github.com/laughinggas/padic-L-functions4) | 78 | 382 | curated | 2026-03-23 |
+| [power-series-ring-is-noetherian-](https://github.com/BryceT233/power-series-ring-is-noetherian-) | 60 | 103 | github_search | 2026-03-23 |
+| [stirling](https://github.com/mo271/stirling) | 45 | 45 | curated | 2026-03-23 |
+| [a-lean4-formalisation-of-Hilbert-basis-theorem-for-power-series-ring](https://github.com/chenlingccll/a-lean4-formalisation-of-Hilbert-basis-theorem-for-power-series-ring) | 39 | 39 | github_search | 2026-03-23 |
+| [interval](https://github.com/girving/interval) | 34 | 844 | curated | 2026-03-23 |
+| [ray](https://github.com/girving/ray) | 24 | 851 | curated | 2026-03-23 |
+| [EulerProducts](https://github.com/MichaelStollBayreuth/EulerProducts) | 16 | 36 | curated | 2026-03-23 |
+| [Lean-RH](https://github.com/AlexKontorovich/Lean-RH) | 15 | 210 | curated | 2026-03-23 |
+| [ModularFormDimensions](https://github.com/loefflerd/ModularFormDimensions) | 11 | 30 | curated | 2026-03-23 |
+| [EllipticCurve](https://github.com/kckennylau/EllipticCurve) | 5 | 583 | reservoir | 2026-03-23 |
+| [leanproject](https://github.com/daniele-bolla/leanproject) | 3 | 28 | github_search | 2026-03-23 |
+| [Riemann_zeta](https://github.com/mmew-2022/Riemann_zeta) | 3 | 42 | curated | 2026-03-23 |
+| [bernoulli](https://github.com/laughinggas/bernoulli) | 1 | 8 | curated | 2026-03-23 |
+| [special-functions](https://github.com/jamesa9283/special-functions) | 1 | 17 | curated | 2026-03-23 |
 
-**12,897 topic-matched declarations across 18 repositories**
+**13,113 topic-matched declarations across 18 repositories**
 
-*Scanned 28 repositories (20,546 total declarations) from Mathlib, Lean Reservoir, GitHub search, and curated lists.*
+*Scanned 28 repositories (20,981 total declarations) from Mathlib, Lean Reservoir, GitHub search, and curated lists.*
