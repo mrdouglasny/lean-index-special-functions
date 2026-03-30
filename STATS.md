@@ -1,28 +1,28 @@
 # Lean Index Statistics
 
-**13,816 topic-matched declarations** across **18 repositories**
-(20,981 total declarations scanned from 28 repos)
+**13,813 topic-matched declarations** across **18 repositories**
+(21,060 total declarations scanned from 30 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| power-series                   |      3,052 |
-| exponential-logarithmic        |      2,810 |
-| trigonometric                  |      2,276 |
-| zeta-and-l-functions           |      1,802 |
-| elliptic-curves                |      1,417 |
-| modular-forms                  |      1,348 |
-| classical-special-functions    |      1,111 |
+| power-series                   |      3,027 |
+| exponential-logarithmic        |      2,812 |
+| trigonometric                  |      2,279 |
+| zeta-and-l-functions           |      1,820 |
+| elliptic-curves                |      1,425 |
+| modular-forms                  |      1,346 |
+| classical-special-functions    |      1,104 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     10,901 |
-| def             |      1,162 |
-| lemma           |        501 |
-| instance        |        409 |
+| theorem         |     10,895 |
+| def             |      1,161 |
+| lemma           |        519 |
+| instance        |        391 |
 | ctor            |         73 |
 | class           |         30 |
 | structure       |         27 |
@@ -33,8 +33,8 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     11,946 |     11,946 |
-| PrimeNumberTheoremAnd               |        407 |      2,128 |
+| mathlib4                            |     11,917 |     11,917 |
+| PrimeNumberTheoremAnd               |        429 |      2,236 |
 | ModularForms_Lean4                  |        258 |        727 |
 | hyperlocal                          |        167 |      2,029 |
 | padic-L-functions4                  |         78 |        382 |
@@ -54,9 +54,9 @@
 
 ## Last Update
 
-- **When**: 2026-03-23T08:49:12.807492+00:00
-- **Repos checked**: 28
-- **Repos updated**: 29
-- **New declarations**: 9035
+- **When**: 2026-03-30T08:58:15.258244+00:00
+- **Repos checked**: 30
+- **Repos updated**: 31
+- **New declarations**: 9143
 - **Removed declarations**: 0
-- **Summary**: Checked 28 repos, updated 29, +9035 -0 declarations
+- **Summary**: Checked 30 repos, updated 31, +9143 -0 declarations
