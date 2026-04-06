@@ -3,16 +3,16 @@
 Topical index for special functions formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
 <!-- STATS_START -->
-**13,106 topic-matched declarations** across **18 repositories** (scanned 30 repos, 21,060 declarations).
+**13,160 topic-matched declarations** across **18 repositories** (scanned 30 repos, 21,134 declarations).
 
 Tracks Lean declarations related to:
-- **Power series** (3,027 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
-- **Exponential and logarithmic** (2,812 matches): exp, log, rpow, sqrt, complex powers
+- **Power series** (3,028 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
+- **Exponential and logarithmic** (2,829 matches): exp, log, rpow, sqrt, complex powers
 - **Trigonometric** (2,279 matches): sin, cos, tan, arctan, hyperbolic functions, Chebyshev polynomials
-- **Zeta and L-functions** (1,820 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
-- **Elliptic curves** (1,425 matches): Weierstrass curves, division polynomials, j-invariant
-- **Modular forms** (1,346 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
-- **Classical special functions** (1,104 matches): Gamma, Beta, digamma, Pochhammer, hypergeometric, Gaussian, Stirling, Hermite, elliptic functions
+- **Zeta and L-functions** (1,829 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
+- **Elliptic curves** (1,430 matches): Weierstrass curves, division polynomials, j-invariant
+- **Modular forms** (1,365 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
+- **Classical special functions** (1,110 matches): Gamma, Beta, digamma, Pochhammer, hypergeometric, Gaussian, Stirling, Hermite, elliptic functions
 <!-- STATS_END -->
 
 See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](REPOS.md) for all indexed repositories.
@@ -22,8 +22,8 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 <!-- REPOS_TABLE_START -->
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 11,917 | The math library for Lean 4 (indexed via cache, not cloned) |
-| [AlexKontorovich/PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 429 | Prime Number Theorem, L-series, Mellin transforms |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 11,970 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [AlexKontorovich/PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 430 | Prime Number Theorem, L-series, Mellin transforms |
 | [CBirkbeck/ModularForms_Lean4](https://github.com/CBirkbeck/ModularForms_Lean4) | 258 | Modular forms in Lean 4 |
 | [attila-ac/hyperlocal](https://github.com/attila-ac/hyperlocal) | 167 | Off-Critical Riemann Zeta Zeros Cannot Seed Symmetric Entire Functions: A... |
 | [laughinggas/padic-L-functions4](https://github.com/laughinggas/padic-L-functions4) | 78 | p-adic L-functions |

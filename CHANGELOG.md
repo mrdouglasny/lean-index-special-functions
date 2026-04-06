@@ -1,6 +1,6 @@
-# Changelog (since 2026-03-23)
+# Changelog (since 2026-03-30)
 
-## New Declarations (21060)
+## New Declarations (21134)
 
 ### EllipticCurve (+583)
 
@@ -240,7 +240,7 @@
 - `iter_eqOn_cong` (theorem) in Modformsported.ForMathlib.QExpAux
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+2236)
+### PrimeNumberTheoremAnd (+2257)
 
 - `BKLNW.table_14_margin` (abbrev) in PrimeNumberTheoremAnd.BKLNW_tables
 - `BKLNW.table_14` (def) in PrimeNumberTheoremAnd.BKLNW_tables
@@ -253,6 +253,9 @@
 - `BKLNW.exp_neg_le_pow'` (lemma) in PrimeNumberTheoremAnd.BKLNW_tables
 - `BKLNW.check_row_prop_of_bounds` (lemma) in PrimeNumberTheoremAnd.BKLNW_tables
 - `BKLNW.table_14_check` (theorem) in PrimeNumberTheoremAnd.BKLNW_tables
+- `BKLNW.table_10` (def) in PrimeNumberTheoremAnd.BKLNW_tables
+- `BKLNW.table_11` (def) in PrimeNumberTheoremAnd.BKLNW_tables
+- `BKLNW.table_12` (def) in PrimeNumberTheoremAnd.BKLNW_tables
 - `BKLNW_app.le_of_not_lt` (lemma) in PrimeNumberTheoremAnd.BKLNW_app_tables
 - `BKLNW_app.table_8` (def) in PrimeNumberTheoremAnd.BKLNW_app_tables
 - `BKLNW_app.table_8_mem_20` (lemma) in PrimeNumberTheoremAnd.BKLNW_app_tables
@@ -289,10 +292,7 @@
 - `BKLNW_app.table_8_mem_6500` (lemma) in PrimeNumberTheoremAnd.BKLNW_app_tables
 - `BKLNW_app.table_8_mem_7000` (lemma) in PrimeNumberTheoremAnd.BKLNW_app_tables
 - `BKLNW_app.table_8_mem_7500` (lemma) in PrimeNumberTheoremAnd.BKLNW_app_tables
-- `BKLNW_app.table_8_mem_8000` (lemma) in PrimeNumberTheoremAnd.BKLNW_app_tables
-- `BKLNW_app.table_8_mem_8500` (lemma) in PrimeNumberTheoremAnd.BKLNW_app_tables
-- `BKLNW_app.table_8_mem_9000` (lemma) in PrimeNumberTheoremAnd.BKLNW_app_tables
-- ... and 2186 more
+- ... and 2207 more
 
 ### Riemann_zeta (+42)
 
@@ -595,7 +595,7 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
-### mathlib4 (+11917)
+### mathlib4 (+11970)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -647,7 +647,7 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 11867 more
+- ... and 11920 more
 
 ### padic-L-functions4 (+382)
 
@@ -1043,4 +1043,4 @@
 
 ## Update History (1 runs)
 
-- **2026-03-30T08:58:15.258244+00:00**: Checked 30 repos, updated 31, +9143 -0 declarations
+- **2026-04-06T09:02:30.845825+00:00**: Checked 30 repos, updated 31, +9164 -0 declarations
