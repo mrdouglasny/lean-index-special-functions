@@ -1,6 +1,6 @@
-# Changelog (since 2026-04-13)
+# Changelog (since 2026-04-20)
 
-## New Declarations (21480)
+## New Declarations (21610)
 
 ### EllipticCurve (+583)
 
@@ -240,7 +240,7 @@
 - `aux_rie_sum` (theorem) in Modformsported.ForMathlib.AuxpLemmas
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+2362)
+### PrimeNumberTheoremAnd (+2440)
 
 - `Ramanujan.ε` (def) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.ε'` (def) in PrimeNumberTheoremAnd.Ramanujan
@@ -254,14 +254,6 @@
 - `Ramanujan.ex_pi_gt_nonneg` (theorem) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.ex_pi_gt` (theorem) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.criterion` (theorem) in PrimeNumberTheoremAnd.Ramanujan
-- `Ramanujan.Li_eq_sub_add_integral` (lemma) in PrimeNumberTheoremAnd.Ramanujan
-- `Ramanujan.pi_error_identity` (theorem) in PrimeNumberTheoremAnd.Ramanujan
-- `Ramanujan.integrable_theta` (theorem) in PrimeNumberTheoremAnd.Ramanujan
-- `Ramanujan.pi_upper` (theorem) in PrimeNumberTheoremAnd.Ramanujan
-- `Ramanujan.pi_lower` (theorem) in PrimeNumberTheoremAnd.Ramanujan
-- `Ramanujan.log_7_IBP` (theorem) in PrimeNumberTheoremAnd.Ramanujan
-- `Ramanujan.log_8_bound` (theorem) in PrimeNumberTheoremAnd.Ramanujan
-- `Ramanujan.log_7_int_bound` (theorem) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.allThetaChecks_3_599` (theorem) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.thetaCheck599` (theorem) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.pi_bound_1` (theorem) in PrimeNumberTheoremAnd.Ramanujan
@@ -281,6 +273,7 @@
 - `Ramanujan.B` (def) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.Mₐ` (def) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.mₐ` (def) in PrimeNumberTheoremAnd.Ramanujan
+- `Ramanujan.mLower` (def) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.exₐ` (def) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.log_xₐ_val` (theorem) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.xₐ_pos` (lemma) in PrimeNumberTheoremAnd.Ramanujan
@@ -292,7 +285,14 @@
 - `Ramanujan.two_le_exₐ` (lemma) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.exₐ_eq` (theorem) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.exₐ_pos` (lemma) in PrimeNumberTheoremAnd.Ramanujan
-- ... and 2312 more
+- `Ramanujan.integrable_a_over_log7_piecewise` (lemma) in PrimeNumberTheoremAnd.Ramanujan
+- `Ramanujan.log_6_IBP_t` (lemma) in PrimeNumberTheoremAnd.Ramanujan
+- `Ramanujan.log_5_IBP_t` (lemma) in PrimeNumberTheoremAnd.Ramanujan
+- `Ramanujan.log_4_IBP_t` (lemma) in PrimeNumberTheoremAnd.Ramanujan
+- `Ramanujan.log_3_IBP_t` (lemma) in PrimeNumberTheoremAnd.Ramanujan
+- `Ramanujan.log_2_IBP_t` (lemma) in PrimeNumberTheoremAnd.Ramanujan
+- `Ramanujan.log_2_expansion_t` (lemma) in PrimeNumberTheoremAnd.Ramanujan
+- ... and 2390 more
 
 ### Riemann_zeta (+42)
 
@@ -595,7 +595,7 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
-### mathlib4 (+12131)
+### mathlib4 (+12183)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -647,7 +647,7 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12081 more
+- ... and 12133 more
 
 ### padic-L-functions4 (+382)
 
@@ -1097,4 +1097,4 @@
 
 ## Update History (1 runs)
 
-- **2026-04-20T09:09:15.966838+00:00**: Checked 31 repos, updated 32, +9349 -0 declarations
+- **2026-04-27T09:16:08.850105+00:00**: Checked 31 repos, updated 32, +9427 -0 declarations
