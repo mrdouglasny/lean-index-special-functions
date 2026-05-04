@@ -1,6 +1,6 @@
-# Changelog (since 2026-04-20)
+# Changelog (since 2026-04-27)
 
-## New Declarations (21610)
+## New Declarations (21843)
 
 ### EllipticCurve (+583)
 
@@ -240,7 +240,7 @@
 - `aux_rie_sum` (theorem) in Modformsported.ForMathlib.AuxpLemmas
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+2440)
+### PrimeNumberTheoremAnd (+2561)
 
 - `Ramanujan.ε` (def) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.ε'` (def) in PrimeNumberTheoremAnd.Ramanujan
@@ -292,7 +292,7 @@
 - `Ramanujan.log_3_IBP_t` (lemma) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.log_2_IBP_t` (lemma) in PrimeNumberTheoremAnd.Ramanujan
 - `Ramanujan.log_2_expansion_t` (lemma) in PrimeNumberTheoremAnd.Ramanujan
-- ... and 2390 more
+- ... and 2511 more
 
 ### Riemann_zeta (+42)
 
@@ -595,7 +595,7 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
-### mathlib4 (+12183)
+### mathlib4 (+12295)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -647,7 +647,7 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12133 more
+- ... and 12245 more
 
 ### padic-L-functions4 (+382)
 
@@ -1097,4 +1097,4 @@
 
 ## Update History (1 runs)
 
-- **2026-04-27T09:16:08.850105+00:00**: Checked 31 repos, updated 32, +9427 -0 declarations
+- **2026-05-04T09:15:27.786299+00:00**: Checked 31 repos, updated 32, +9548 -0 declarations
