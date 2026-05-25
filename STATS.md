@@ -1,27 +1,27 @@
 # Lean Index Statistics
 
-**14,519 topic-matched declarations** across **20 repositories**
-(22,384 total declarations scanned from 32 repos)
+**14,508 topic-matched declarations** across **20 repositories**
+(22,483 total declarations scanned from 33 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| power-series                   |      3,165 |
-| exponential-logarithmic        |      2,919 |
-| trigonometric                  |      2,405 |
-| zeta-and-l-functions           |      1,915 |
+| power-series                   |      3,159 |
+| exponential-logarithmic        |      2,926 |
+| trigonometric                  |      2,400 |
+| zeta-and-l-functions           |      1,914 |
 | modular-forms                  |      1,495 |
-| elliptic-curves                |      1,493 |
+| elliptic-curves                |      1,487 |
 | classical-special-functions    |      1,127 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     11,372 |
-| def             |      1,241 |
-| lemma           |        592 |
+| theorem         |     11,346 |
+| def             |      1,239 |
+| lemma           |        609 |
 | instance        |        403 |
 | ctor            |         76 |
 | structure       |         32 |
@@ -33,8 +33,8 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     12,395 |     12,395 |
-| PrimeNumberTheoremAnd               |        549 |      2,706 |
+| mathlib4                            |     12,364 |     12,364 |
+| PrimeNumberTheoremAnd               |        569 |      2,836 |
 | ModularForms_Lean4                  |        258 |        727 |
 | hyperlocal                          |        167 |      2,029 |
 | padic-L-functions4                  |         78 |        382 |
@@ -56,9 +56,9 @@
 
 ## Last Update
 
-- **When**: 2026-05-18T09:40:05.348598+00:00
-- **Repos checked**: 32
-- **Repos updated**: 33
-- **New declarations**: 9989
+- **When**: 2026-05-25T09:44:05.705049+00:00
+- **Repos checked**: 33
+- **Repos updated**: 34
+- **New declarations**: 10119
 - **Removed declarations**: 0
-- **Summary**: Checked 32 repos, updated 33, +9989 -0 declarations
+- **Summary**: Checked 33 repos, updated 34, +10119 -0 declarations
