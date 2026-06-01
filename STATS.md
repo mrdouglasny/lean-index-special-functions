@@ -1,30 +1,30 @@
 # Lean Index Statistics
 
-**14,508 topic-matched declarations** across **20 repositories**
-(22,483 total declarations scanned from 33 repos)
+**14,558 topic-matched declarations** across **20 repositories**
+(22,638 total declarations scanned from 34 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| power-series                   |      3,159 |
-| exponential-logarithmic        |      2,926 |
-| trigonometric                  |      2,400 |
-| zeta-and-l-functions           |      1,914 |
-| modular-forms                  |      1,495 |
-| elliptic-curves                |      1,487 |
+| power-series                   |      3,179 |
+| exponential-logarithmic        |      2,936 |
+| trigonometric                  |      2,398 |
+| zeta-and-l-functions           |      1,947 |
+| modular-forms                  |      1,508 |
+| elliptic-curves                |      1,463 |
 | classical-special-functions    |      1,127 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     11,346 |
-| def             |      1,239 |
-| lemma           |        609 |
-| instance        |        403 |
+| theorem         |     11,384 |
+| def             |      1,247 |
+| lemma           |        608 |
+| instance        |        404 |
 | ctor            |         76 |
-| structure       |         32 |
+| structure       |         33 |
 | class           |         31 |
 | abbrev          |         12 |
 | inductive       |          2 |
@@ -33,14 +33,14 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     12,364 |     12,364 |
-| PrimeNumberTheoremAnd               |        569 |      2,836 |
+| mathlib4                            |     12,411 |     12,411 |
+| PrimeNumberTheoremAnd               |        568 |      2,944 |
 | ModularForms_Lean4                  |        258 |        727 |
 | hyperlocal                          |        167 |      2,029 |
 | padic-L-functions4                  |         78 |        382 |
 | power-series-ring-is-noetherian-    |         60 |        103 |
 | stirling                            |         45 |         45 |
-| flt-from-scratch                    |         40 |        296 |
+| flt-from-scratch                    |         41 |        296 |
 | a-lean4-formalisation-of-Hilbert-ba |         39 |         39 |
 | interval                            |         34 |        844 |
 | ray                                 |         24 |        851 |
@@ -56,9 +56,9 @@
 
 ## Last Update
 
-- **When**: 2026-05-25T09:44:05.705049+00:00
-- **Repos checked**: 33
-- **Repos updated**: 34
-- **New declarations**: 10119
+- **When**: 2026-06-01T10:21:20.719933+00:00
+- **Repos checked**: 34
+- **Repos updated**: 35
+- **New declarations**: 10227
 - **Removed declarations**: 0
-- **Summary**: Checked 33 repos, updated 34, +10119 -0 declarations
+- **Summary**: Checked 34 repos, updated 35, +10227 -0 declarations
