@@ -1,6 +1,6 @@
-# Changelog (since 2026-05-25)
+# Changelog (since 2026-06-01)
 
-## New Declarations (22638)
+## New Declarations (23272)
 
 ### EllipticCurve (+583)
 
@@ -240,7 +240,7 @@
 - `Complex.circleTransform_circle_int` (theorem) in Modformsported.ModForms.UnformLimitsOfHolomorphic
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+2944)
+### PrimeNumberTheoremAnd (+3232)
 
 - `Complex.hasDerivAt_ofReal` (lemma) in PrimeNumberTheoremAnd.Auxiliary
 - `Complex.deriv_ofReal` (lemma) in PrimeNumberTheoremAnd.Auxiliary
@@ -292,7 +292,7 @@
 - `pi_alt'` (theorem) in PrimeNumberTheoremAnd.Consequences
 - `pi_nth_prime` (lemma) in PrimeNumberTheoremAnd.Consequences
 - `tendsto_nth_prime_atTop` (lemma) in PrimeNumberTheoremAnd.Consequences
-- ... and 2894 more
+- ... and 3182 more
 
 ### Riemann_zeta (+42)
 
@@ -445,6 +445,60 @@
 - `quad_ring.round_add_nat` (lemma) in src.number_theory.class_number_bound
 - `quad_ring.round_sub_nat` (lemma) in src.number_theory.class_number_bound
 - ... and 341 more
+
+### ec-tate-lean (+316)
+
+- `X` (structure) in test.simptest
+- `g` (def) in test.tet
+- `h` (def) in test.testspecialize
+- `f` (def) in test.tet
+- `main` (def) in test.TateRingTest
+- `kodaira_decode` (def) in test.LMFDB
+- `parsefunc` (def) in test.LMFDB
+- `v_b6_of_v_a3_a` (lemma) in test.testelin
+- `ECTate.PerfectRing` (class) in ECTate.FieldTheory.PerfectClosure
+- `ECTate.PerfectRing.pth_power_bijective_of_char_nonzero` (lemma) in ECTate.FieldTheory.PerfectClosure
+- `ECTate.PerfectRing.pth_root` (def) in ECTate.FieldTheory.PerfectClosure
+- `ECTate.PerfectRing.pth_root_pow_char` (lemma) in ECTate.FieldTheory.PerfectClosure
+- `ECTate.PerfectRing.pth_root_pow_eq` (lemma) in ECTate.FieldTheory.PerfectClosure
+- `ECTate.PerfectRing.pth_root_zero` (lemma) in ECTate.FieldTheory.PerfectClosure
+- `ECTate.Tactic.reprfun` (def) in ECTate.Tactic.SimpSafe
+- `ECTate.Tactic.simpSafeGoal` (def) in ECTate.Tactic.SimpSafe
+- `ECTate.Tactic.simpSafeLocation` (def) in ECTate.Tactic.SimpSafe
+- `ECTate.Tactic.elabSimpSafeArgs` (def) in ECTate.Tactic.SimpSafe
+- `ECTate.Tactic.mkSimpSafeContext` (def) in ECTate.Tactic.SimpSafe
+- `Specialize.Config` (structure) in ECTate.Tactic.Specialize
+- `Specialize.elabSpecialize` (def) in ECTate.Tactic.Specialize
+- `Specialize.guessName` (def) in ECTate.Tactic.Specialize
+- `Specialize.targetName` (def) in ECTate.Tactic.Specialize
+- `Specialize.findTargetName` (def) in ECTate.Tactic.Specialize
+- `Specialize.updateDecl` (def) in ECTate.Tactic.Specialize
+- `Specialize.transformDeclAux` (def) in ECTate.Tactic.Specialize
+- `Specialize.transformDecl` (def) in ECTate.Tactic.Specialize
+- `Specialize.addSpecializeAttr` (def) in ECTate.Tactic.Specialize
+- `is_enat_atom` (def) in ECTate.Tactic.ELinarith
+- `SurjVal.ideal` (def) in ECTate.Algebra.ResidueRing
+- `SurjVal.mem_ideal_iff` (lemma) in ECTate.Algebra.ResidueRing
+- `SurjVal.isPrime_ideal` (instance) in ECTate.Algebra.ResidueRing
+- `RingCon.exists_rep` (lemma) in ECTate.Algebra.ResidueRing
+- `SurjVal` (structure) in ECTate.Algebra.ValuedRing
+- `SurjVal.v_uniformizer` (theorem) in ECTate.Algebra.ValuedRing
+- `SurjVal.v_mul_eq_add_v` (theorem) in ECTate.Algebra.ValuedRing
+- `SurjVal.v_add_ge_min_v` (theorem) in ECTate.Algebra.ValuedRing
+- `SurjVal.v_eq_top_iff_zero` (theorem) in ECTate.Algebra.ValuedRing
+- `SurjVal.p_non_zero` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_zero` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_mul_ge_left` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_mul_ge_right` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_mul_ge_of_left_ge` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_mul_ge_of_right_ge` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_mul_ge_of_both_ge` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_pow_ge_of_ge` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_pow_eq_of_eq` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_pow_eq` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_add_ge_of_ge` (lemma) in ECTate.Algebra.ValuedRing
+- `SurjVal.val_of_minus_one` (lemma) in ECTate.Algebra.ValuedRing
+- ... and 266 more
 
 ### flt-from-scratch (+296)
 
@@ -649,7 +703,7 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
-### mathlib4 (+12411)
+### mathlib4 (+12441)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -701,7 +755,7 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12361 more
+- ... and 12391 more
 
 ### padic-L-functions4 (+382)
 
@@ -1151,4 +1205,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-01T10:21:20.719933+00:00**: Checked 34 repos, updated 35, +10227 -0 declarations
+- **2026-06-08T10:06:45.957849+00:00**: Checked 34 repos, updated 35, +10831 -0 declarations
