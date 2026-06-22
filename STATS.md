@@ -1,27 +1,27 @@
 # Lean Index Statistics
 
-**14,966 topic-matched declarations** across **20 repositories**
-(27,741 total declarations scanned from 34 repos)
+**15,086 topic-matched declarations** across **22 repositories**
+(28,073 total declarations scanned from 36 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| power-series                   |      3,199 |
-| exponential-logarithmic        |      3,012 |
-| trigonometric                  |      2,385 |
-| zeta-and-l-functions           |      2,203 |
+| power-series                   |      3,218 |
+| exponential-logarithmic        |      3,039 |
+| trigonometric                  |      2,400 |
+| zeta-and-l-functions           |      2,227 |
 | modular-forms                  |      1,508 |
-| elliptic-curves                |      1,470 |
-| classical-special-functions    |      1,189 |
+| elliptic-curves                |      1,485 |
+| classical-special-functions    |      1,209 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     11,540 |
-| def             |      1,276 |
-| lemma           |        812 |
+| theorem         |     11,615 |
+| def             |      1,290 |
+| lemma           |        831 |
 | instance        |        404 |
 | ctor            |         76 |
 | structure       |         33 |
@@ -33,8 +33,8 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     12,474 |     12,474 |
-| PrimeNumberTheoremAnd               |        895 |      7,668 |
+| mathlib4                            |     12,499 |     12,499 |
+| PrimeNumberTheoremAnd               |        961 |      7,929 |
 | ModularForms_Lean4                  |        258 |        727 |
 | hyperlocal                          |        167 |      2,029 |
 | padic-L-functions4                  |         78 |        382 |
@@ -46,19 +46,21 @@
 | ray                                 |         24 |        851 |
 | riemann-von-mangoldt-formalized     |         17 |         80 |
 | EulerProducts                       |         16 |         36 |
+| EllipticCurveSafety                 |         15 |         15 |
 | Lean-RH                             |         15 |        210 |
 | ModularFormDimensions               |         11 |         30 |
 | EllipticCurve                       |          5 |        583 |
 | leanproject                         |          3 |         28 |
 | Riemann_zeta                        |          3 |         42 |
+| countable-sums-of-sines             |          2 |         31 |
 | bernoulli                           |          1 |          8 |
 | special-functions                   |          1 |         17 |
 
 ## Last Update
 
-- **When**: 2026-06-15T10:35:51.802032+00:00
-- **Repos checked**: 34
-- **Repos updated**: 35
-- **New declarations**: 15267
+- **When**: 2026-06-22T10:28:55.025196+00:00
+- **Repos checked**: 36
+- **Repos updated**: 37
+- **New declarations**: 15574
 - **Removed declarations**: 0
-- **Summary**: Checked 34 repos, updated 35, +15267 -0 declarations
+- **Summary**: Checked 36 repos, updated 37, +15574 -0 declarations

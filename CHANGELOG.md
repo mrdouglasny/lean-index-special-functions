@@ -1,6 +1,6 @@
-# Changelog (since 2026-06-08)
+# Changelog (since 2026-06-15)
 
-## New Declarations (27741)
+## New Declarations (28073)
 
 ### EllipticCurve (+583)
 
@@ -55,6 +55,24 @@
 - `CategoryTheory.CostructuredArrow.inducedTopology` (def) in EllipticCurve.AlgebraicGeometry.OverScheme
 - `CategoryTheory.CostructuredArrow.FamilyOfElements` (def) in EllipticCurve.AlgebraicGeometry.OverScheme
 - ... and 533 more
+
+### EllipticCurveSafety (+15)
+
+- `EllipticCurveSafety.nonsingular` (def) in EllipticCurveSafety.Safety
+- `EllipticCurveSafety.order` (def) in EllipticCurveSafety.Safety
+- `EllipticCurveSafety.highEmbedding` (def) in EllipticCurveSafety.Safety
+- `EllipticCurveSafety.isSafe` (def) in EllipticCurveSafety.Safety
+- `EllipticCurveSafety.order_example` (theorem) in EllipticCurveSafety.Safety
+- `EllipticCurveSafety.safe_example` (theorem) in EllipticCurveSafety.Safety
+- `EllipticCurveSafety.anomalous_rejected` (theorem) in EllipticCurveSafety.Safety
+- `EllipticCurveSafety.supersingular_rejected` (theorem) in EllipticCurveSafety.Safety
+- `EllipticCurveSafety.supersingular_low_embedding` (theorem) in EllipticCurveSafety.Safety
+- `EllipticCurveSafety.Secp256k1.p` (def) in EllipticCurveSafety.Secp256k1
+- `EllipticCurveSafety.Secp256k1.n` (def) in EllipticCurveSafety.Secp256k1
+- `EllipticCurveSafety.Secp256k1.p_value` (theorem) in EllipticCurveSafety.Secp256k1
+- `EllipticCurveSafety.Secp256k1.non_anomalous` (theorem) in EllipticCurveSafety.Secp256k1
+- `EllipticCurveSafety.Secp256k1.hasse` (theorem) in EllipticCurveSafety.Secp256k1
+- `EllipticCurveSafety.Secp256k1.high_embedding` (theorem) in EllipticCurveSafety.Secp256k1
 
 ### EulerProducts (+36)
 
@@ -240,7 +258,7 @@
 - `extendByZero_neg` (theorem) in Modformsported.ModForms.HolomorphicFunctions
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+7668)
+### PrimeNumberTheoremAnd (+7929)
 
 - `Complex.hasDerivAt_ofReal` (lemma) in PrimeNumberTheoremAnd.Auxiliary
 - `Complex.deriv_ofReal` (lemma) in PrimeNumberTheoremAnd.Auxiliary
@@ -259,6 +277,8 @@
 - `RectangleIntegral_tendsTo_VerticalIntegral` (lemma) in PrimeNumberTheoremAnd.PerronFormula
 - `verticalIntegral_eq_verticalIntegral` (lemma) in PrimeNumberTheoremAnd.PerronFormula
 - `verticalIntegral_sub_verticalIntegral_eq_squareIntegral` (lemma) in PrimeNumberTheoremAnd.PerronFormula
+- `tendsto_truncated_vertical_shift_with_simple_pole` (theorem) in PrimeNumberTheoremAnd.PerronFormula
+- `tendsto_truncated_vertical_shift_with_simple_pole_Ioo` (theorem) in PrimeNumberTheoremAnd.PerronFormula
 - `RectangleIntegral_tendsTo_UpperU` (lemma) in PrimeNumberTheoremAnd.PerronFormula
 - `RectangleIntegral_tendsTo_LowerU` (lemma) in PrimeNumberTheoremAnd.PerronFormula
 - `limitOfConstant` (lemma) in PrimeNumberTheoremAnd.PerronFormula
@@ -290,9 +310,7 @@
 - `Perron.HolomorphicOn.lowerUIntegral_eq_zero` (theorem) in PrimeNumberTheoremAnd.PerronFormula
 - `Perron.sPlusOneNeZero` (lemma) in PrimeNumberTheoremAnd.PerronFormula
 - `Perron.keyIdentity` (lemma) in PrimeNumberTheoremAnd.PerronFormula
-- `Perron.bddAbove_square_of_tendsto` (lemma) in PrimeNumberTheoremAnd.PerronFormula
-- `Perron.diffBddAtZero` (lemma) in PrimeNumberTheoremAnd.PerronFormula
-- ... and 7618 more
+- ... and 7879 more
 
 ### Riemann_zeta (+42)
 
@@ -445,6 +463,40 @@
 - `tactic.times_table.tactic.norm_num.list.not_mem_cons` (lemma) in src.tactic.times_table
 - `tactic.times_table.tactic.norm_num.finset.insert_eq_coe_list_of_mem` (lemma) in src.tactic.times_table
 - ... and 341 more
+
+### countable-sums-of-sines (+31)
+
+- `Moments.norm_iteratedDeriv_sin_le` (lemma) in RequestProject.Moments
+- `Moments.iteratedDeriv_sin_zero` (lemma) in RequestProject.Moments
+- `Moments.hasDerivAt_iteratedDeriv_sin_comp` (lemma) in RequestProject.Moments
+- `Moments.summable_Gterm` (lemma) in RequestProject.Moments
+- `Moments.iteratedDeriv_fSum` (lemma) in RequestProject.Moments
+- `Moments.iteratedDeriv_sin_comp` (lemma) in RequestProject.Moments
+- `Moments.moment_eq` (lemma) in RequestProject.Moments
+- `Ssum` (def) in RequestProject.Main
+- `finite_large_index` (lemma) in RequestProject.Main
+- `summable_Ssum` (lemma) in RequestProject.Main
+- `Ssum_ne_zero_imp_mem_range` (lemma) in RequestProject.Main
+- `Ssum_bounded_support` (lemma) in RequestProject.Main
+- `tsum_group_by` (lemma) in RequestProject.Main
+- `tsum_subtype_if` (lemma) in RequestProject.Main
+- `grouping` (lemma) in RequestProject.Main
+- `summable_weight_pow` (lemma) in RequestProject.Main
+- `filter_moments` (lemma) in RequestProject.Main
+- `entire` (theorem) in RequestProject.Main
+- `not_finite_sine_sum` (theorem) in RequestProject.Main
+- `KeyVanish.exists_max_modulus` (lemma) in RequestProject.Key
+- `KeyVanish.Phi_eq_zero` (lemma) in RequestProject.Key
+- `KeyVanish.denom_pos` (lemma) in RequestProject.Key
+- `KeyVanish.exists_uniform_denom` (lemma) in RequestProject.Key
+- `KeyVanish.rest_bounded` (lemma) in RequestProject.Key
+- `KeyVanish.top_term_le` (lemma) in RequestProject.Key
+- `KeyVanish.key_vanish` (theorem) in RequestProject.Key
+- `fSum` (def) in RequestProject.SineBound
+- `norm_sin_le` (lemma) in RequestProject.SineBound
+- `norm_cos_le` (lemma) in RequestProject.SineBound
+- `summable_sin_terms` (lemma) in RequestProject.SineBound
+- `fSum_differentiable` (theorem) in RequestProject.SineBound
 
 ### ec-tate-lean (+316)
 
@@ -703,7 +755,7 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
-### mathlib4 (+12474)
+### mathlib4 (+12499)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -755,7 +807,7 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12424 more
+- ... and 12449 more
 
 ### padic-L-functions4 (+382)
 
@@ -1205,4 +1257,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-15T10:35:51.802032+00:00**: Checked 34 repos, updated 35, +15267 -0 declarations
+- **2026-06-22T10:28:55.025196+00:00**: Checked 36 repos, updated 37, +15574 -0 declarations
