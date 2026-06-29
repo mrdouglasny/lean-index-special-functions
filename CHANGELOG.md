@@ -1,6 +1,6 @@
-# Changelog (since 2026-06-15)
+# Changelog (since 2026-06-22)
 
-## New Declarations (28073)
+## New Declarations (28108)
 
 ### EllipticCurve (+583)
 
@@ -258,7 +258,7 @@
 - `extendByZero_neg` (theorem) in Modformsported.ModForms.HolomorphicFunctions
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+7929)
+### PrimeNumberTheoremAnd (+7940)
 
 - `Complex.hasDerivAt_ofReal` (lemma) in PrimeNumberTheoremAnd.Auxiliary
 - `Complex.deriv_ofReal` (lemma) in PrimeNumberTheoremAnd.Auxiliary
@@ -310,7 +310,7 @@
 - `Perron.HolomorphicOn.lowerUIntegral_eq_zero` (theorem) in PrimeNumberTheoremAnd.PerronFormula
 - `Perron.sPlusOneNeZero` (lemma) in PrimeNumberTheoremAnd.PerronFormula
 - `Perron.keyIdentity` (lemma) in PrimeNumberTheoremAnd.PerronFormula
-- ... and 7879 more
+- ... and 7890 more
 
 ### Riemann_zeta (+42)
 
@@ -755,7 +755,7 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
-### mathlib4 (+12499)
+### mathlib4 (+12523)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -807,7 +807,7 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12449 more
+- ... and 12473 more
 
 ### padic-L-functions4 (+382)
 
@@ -1257,4 +1257,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-22T10:28:55.025196+00:00**: Checked 36 repos, updated 37, +15574 -0 declarations
+- **2026-06-29T10:08:48.395091+00:00**: Checked 36 repos, updated 37, +15585 -0 declarations
