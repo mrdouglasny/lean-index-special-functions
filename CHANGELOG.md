@@ -1,6 +1,6 @@
-# Changelog (since 2026-06-22)
+# Changelog (since 2026-06-29)
 
-## New Declarations (28108)
+## New Declarations (28236)
 
 ### EllipticCurve (+583)
 
@@ -258,7 +258,7 @@
 - `extendByZero_neg` (theorem) in Modformsported.ModForms.HolomorphicFunctions
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+7940)
+### PrimeNumberTheoremAnd (+7958)
 
 - `Complex.hasDerivAt_ofReal` (lemma) in PrimeNumberTheoremAnd.Auxiliary
 - `Complex.deriv_ofReal` (lemma) in PrimeNumberTheoremAnd.Auxiliary
@@ -310,7 +310,7 @@
 - `Perron.HolomorphicOn.lowerUIntegral_eq_zero` (theorem) in PrimeNumberTheoremAnd.PerronFormula
 - `Perron.sPlusOneNeZero` (lemma) in PrimeNumberTheoremAnd.PerronFormula
 - `Perron.keyIdentity` (lemma) in PrimeNumberTheoremAnd.PerronFormula
-- ... and 7890 more
+- ... and 7908 more
 
 ### Riemann_zeta (+42)
 
@@ -755,7 +755,35 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
-### mathlib4 (+12523)
+### logarithmic-capacity (+25)
+
+- `LogCapacity.logKernelPos` (def) in Main
+- `LogCapacity.logKernelNeg` (def) in Main
+- `LogCapacity.Epos` (def) in Main
+- `LogCapacity.Eneg` (def) in Main
+- `LogCapacity.energy` (def) in Main
+- `LogCapacity.IsProbOn` (def) in Main
+- `LogCapacity.robin` (def) in Main
+- `LogCapacity.cap` (def) in Main
+- `LogCapacity.IsPolar` (def) in Main
+- `LogCapacity.top_sub_coe_ennreal` (lemma) in Main
+- `LogCapacity.coe_sub_coe_ne_top` (lemma) in Main
+- `LogCapacity.energy_eq_top_iff` (lemma) in Main
+- `LogCapacity.Epos_smul` (lemma) in Main
+- `LogCapacity.Epos_mono` (lemma) in Main
+- `LogCapacity.Eneg_lt_top_of_subset_ball` (lemma) in Main
+- `LogCapacity.Eneg_ne_top_of_supp` (lemma) in Main
+- `LogCapacity.robin_eq_top_of_polar` (lemma) in Main
+- `LogCapacity.energy_top_of_measure_pos` (lemma) in Main
+- `LogCapacity.IsProbOn.mono` (lemma) in Main
+- `LogCapacity.robin_mono` (lemma) in Main
+- `LogCapacity.isPolar_singleton` (lemma) in Main
+- `LogCapacity.robin_union` (theorem) in Main
+- `LogCapacity.robin_diff` (theorem) in Main
+- `LogCapacity.cap_congr` (theorem) in Main
+- `LogCapacity.capacity_eq` (theorem) in Main
+
+### mathlib4 (+12608)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -807,7 +835,7 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12473 more
+- ... and 12558 more
 
 ### padic-L-functions4 (+382)
 
@@ -1257,4 +1285,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-29T10:08:48.395091+00:00**: Checked 36 repos, updated 37, +15585 -0 declarations
+- **2026-07-06T09:54:44.258666+00:00**: Checked 37 repos, updated 38, +15628 -0 declarations

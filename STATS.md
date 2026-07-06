@@ -1,17 +1,17 @@
 # Lean Index Statistics
 
-**15,115 topic-matched declarations** across **22 repositories**
-(28,108 total declarations scanned from 36 repos)
+**15,208 topic-matched declarations** across **22 repositories**
+(28,236 total declarations scanned from 37 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| power-series                   |      3,228 |
-| exponential-logarithmic        |      3,042 |
-| trigonometric                  |      2,398 |
-| zeta-and-l-functions           |      2,236 |
-| modular-forms                  |      1,508 |
+| power-series                   |      3,264 |
+| exponential-logarithmic        |      3,054 |
+| trigonometric                  |      2,400 |
+| zeta-and-l-functions           |      2,269 |
+| modular-forms                  |      1,518 |
 | elliptic-curves                |      1,494 |
 | classical-special-functions    |      1,209 |
 
@@ -19,9 +19,9 @@
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     11,637 |
-| def             |      1,292 |
-| lemma           |        836 |
+| theorem         |     11,715 |
+| def             |      1,299 |
+| lemma           |        837 |
 | instance        |        404 |
 | ctor            |         76 |
 | structure       |         33 |
@@ -33,8 +33,8 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     12,523 |     12,523 |
-| PrimeNumberTheoremAnd               |        966 |      7,940 |
+| mathlib4                            |     12,608 |     12,608 |
+| PrimeNumberTheoremAnd               |        967 |      7,958 |
 | ModularForms_Lean4                  |        258 |        727 |
 | hyperlocal                          |        167 |      2,029 |
 | padic-L-functions4                  |         78 |        382 |
@@ -58,9 +58,9 @@
 
 ## Last Update
 
-- **When**: 2026-06-29T10:08:48.395091+00:00
-- **Repos checked**: 36
-- **Repos updated**: 37
-- **New declarations**: 15585
+- **When**: 2026-07-06T09:54:44.258666+00:00
+- **Repos checked**: 37
+- **Repos updated**: 38
+- **New declarations**: 15628
 - **Removed declarations**: 0
-- **Summary**: Checked 36 repos, updated 37, +15585 -0 declarations
+- **Summary**: Checked 37 repos, updated 38, +15628 -0 declarations
