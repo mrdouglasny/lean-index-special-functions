@@ -1,6 +1,6 @@
-# Changelog (since 2026-06-29)
+# Changelog (since 2026-07-06)
 
-## New Declarations (28236)
+## New Declarations (37740)
 
 ### EllipticCurve (+583)
 
@@ -258,7 +258,7 @@
 - `extendByZero_neg` (theorem) in Modformsported.ModForms.HolomorphicFunctions
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+7958)
+### PrimeNumberTheoremAnd (+8155)
 
 - `Complex.hasDerivAt_ofReal` (lemma) in PrimeNumberTheoremAnd.Auxiliary
 - `Complex.deriv_ofReal` (lemma) in PrimeNumberTheoremAnd.Auxiliary
@@ -310,7 +310,7 @@
 - `Perron.HolomorphicOn.lowerUIntegral_eq_zero` (theorem) in PrimeNumberTheoremAnd.PerronFormula
 - `Perron.sPlusOneNeZero` (lemma) in PrimeNumberTheoremAnd.PerronFormula
 - `Perron.keyIdentity` (lemma) in PrimeNumberTheoremAnd.PerronFormula
-- ... and 7908 more
+- ... and 8105 more
 
 ### Riemann_zeta (+42)
 
@@ -409,6 +409,60 @@
 - `rescale_mk` (lemma) in src.sheet3
 - `power_series.sum_mk` (lemma) in src.sheet3
 - `rescale_one'` (lemma) in src.sheet3
+
+### birch-swinnerton-dyer-143 (+8992)
+
+- `BSD_LFunctionIsLinFunc_OPEN` (def) in BSD.BSD_LAnalytic_Anchor_CLOSED
+- `BSD_L_Analytic_via_LinFunc` (theorem) in BSD.BSD_LAnalytic_Anchor_CLOSED
+- `BSD_L143a1_Anchor_Analytic` (theorem) in BSD.BSD_LAnalytic_Anchor_CLOSED
+- `BSD_linFunc_sentinel` (theorem) in BSD.BSD_LAnalytic_Anchor_CLOSED
+- `Towers.BSD.BSD_disc_from_deg_847` (lemma) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.i847_p6217` (instance) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.i847_p6221` (instance) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.i847_p6229` (instance) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.i847_p6247` (instance) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.i847_p6257` (instance) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.i847_p6263` (instance) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.i847_p6269` (instance) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.i847_p6271` (instance) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.i847_p6277` (instance) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.i847_p6287` (instance) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_E143_card_p6217` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_E143_card_p6221` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_E143_card_p6229` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_E143_card_p6247` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_E143_card_p6257` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_E143_card_p6263` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_E143_card_p6269` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_E143_card_p6271` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_E143_card_p6277` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_E143_card_p6287` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_ap_p6217` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_ap_p6221` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_ap_p6229` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_ap_p6247` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_ap_p6257` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_ap_p6263` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_ap_p6269` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_ap_p6271` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_ap_p6277` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_ap_p6287` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_DegreeNonneg_p6217` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_DegreeNonneg_p6221` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_DegreeNonneg_p6229` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_DegreeNonneg_p6247` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_DegreeNonneg_p6257` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_DegreeNonneg_p6263` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_DegreeNonneg_p6269` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_DegreeNonneg_p6271` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_DegreeNonneg_p6277` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_DegreeNonneg_p6287` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_Hasse_OPEN_p6217` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_Hasse_OPEN_p6221` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_Hasse_OPEN_p6229` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_Hasse_OPEN_p6247` (theorem) in BSD.BSD_Genesis847_CLOSED
+- `Towers.BSD.BSD_Hasse_OPEN_p6257` (theorem) in BSD.BSD_Genesis847_CLOSED
+- ... and 8942 more
 
 ### class-group-and-mordell-equation (+391)
 
@@ -783,7 +837,7 @@
 - `LogCapacity.cap_congr` (theorem) in Main
 - `LogCapacity.capacity_eq` (theorem) in Main
 
-### mathlib4 (+12608)
+### mathlib4 (+12694)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -835,7 +889,61 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12558 more
+- ... and 12644 more
+
+### mock-theta-rank2 (+229)
+
+- `exteriorPower.contractionAux` (def) in lean.MathlibPR.ExteriorPowerContraction
+- `exteriorPower.contraction` (def) in lean.MathlibPR.ExteriorPowerContraction
+- `exteriorPower.contraction_apply_ιMulti` (theorem) in lean.MathlibPR.ExteriorPowerContraction
+- `exteriorPower.contraction_add` (theorem) in lean.MathlibPR.ExteriorPowerContraction
+- `exteriorPower.contraction_smul` (theorem) in lean.MathlibPR.ExteriorPowerContraction
+- `exteriorPower.contraction_zero` (theorem) in lean.MathlibPR.ExteriorPowerContraction
+- `exteriorPower.contraction_apply_of_eq_zero` (theorem) in lean.MathlibPR.ExteriorPowerContraction
+- `RankTwo.BFInstance` (structure) in lean.RankTwo.BFClass
+- `RankTwo.normCheck` (def) in lean.RankTwo.BFClass
+- `RankTwo.bf14a1_layer3` (def) in lean.RankTwo.BFClass
+- `RankTwo.bf14a1_layer9` (def) in lean.RankTwo.BFClass
+- `RankTwo.bf14a1_norm3` (theorem) in lean.RankTwo.BFClass
+- `RankTwo.bf14a1_norm9` (theorem) in lean.RankTwo.BFClass
+- `RankTwo.bf14a1_layer27` (def) in lean.RankTwo.BFClass
+- `RankTwo.bf14a1_norm27` (theorem) in lean.RankTwo.BFClass
+- `RankTwo.bf14a1_layer27_v3` (theorem) in lean.RankTwo.BFClass
+- `RankTwo.bf14a1_v3_layers` (theorem) in lean.RankTwo.BFClass
+- `RankTwo.bf14a1_norm_9_to_3` (theorem) in lean.RankTwo.BFClass
+- `RankTwo.GaugeBundleModel` (structure) in lean.RankTwo.GaugeModel
+- `RankTwo.Connection` (structure) in lean.RankTwo.GaugeModel
+- `RankTwo.curvatureWedge` (def) in lean.RankTwo.GaugeModel
+- `RankTwo.curvatureWedge_scales` (theorem) in lean.RankTwo.GaugeModel
+- `RankTwo.su2_cannot_be_pointwedge` (theorem) in lean.RankTwo.GaugeModel
+- `RankTwo.GaugeBFBridge` (structure) in lean.RankTwo.GaugeModel
+- `RankTwo.gaugeLayer3` (def) in lean.RankTwo.GaugeModel
+- `RankTwo.gaugeLayer3_simil_eq_bf3_detC` (theorem) in lean.RankTwo.GaugeModel
+- `RankTwo.gaugeLayer3_curvature_scales` (theorem) in lean.RankTwo.GaugeModel
+- `RankTwo.eulerFactor` (def) in lean.RankTwo.GaugeModel
+- `RankTwo.eulerFactor_eq_charpoly` (theorem) in lean.RankTwo.GaugeModel
+- `RankTwo.curvatureWedge_trace_blind` (theorem) in lean.RankTwo.GaugeModel
+- `RankTwo.eulerFactor_one_eq_iff_trace` (theorem) in lean.RankTwo.GaugeModel
+- `RankTwo.wedge_determines_det_not_eulerFactor` (theorem) in lean.RankTwo.GaugeModel
+- `RankTwo.frobInertLike` (def) in lean.RankTwo.GaugeModel
+- `RankTwo.frobSplitLike` (def) in lean.RankTwo.GaugeModel
+- `RankTwo.frob_same_det` (theorem) in lean.RankTwo.GaugeModel
+- `RankTwo.frob_diff_eulerFactor` (theorem) in lean.RankTwo.GaugeModel
+- `RankTwo.chi23` (def) in lean.RankTwo.HMCV
+- `RankTwo.hmcv_weighted_sum` (theorem) in lean.RankTwo.HMCV
+- `RankTwo.hmcv_harmonic_sum_eq_class_number` (theorem) in lean.RankTwo.HMCV
+- `RankTwo.eisenstein_const_term_infty` (theorem) in lean.RankTwo.HMCV
+- `RankTwo.wedge` (def) in lean.RankTwo.ExteriorNorm
+- `RankTwo.wedge_mulVec` (theorem) in lean.RankTwo.ExteriorNorm
+- `RankTwo.wedge_mulVec_diagonal` (theorem) in lean.RankTwo.ExteriorNorm
+- `RankTwo.exterior_norm_relation` (theorem) in lean.RankTwo.ExteriorNorm
+- `RankTwo.wedge_scalar` (theorem) in lean.RankTwo.ExteriorNorm
+- `RankTwo.order_signed_det` (theorem) in lean.RankTwo.ExteriorNorm
+- `RankTwo.signed_det_ne_zero` (theorem) in lean.RankTwo.ExteriorNorm
+- `RankTwo.padic_bsd_leading` (theorem) in lean.RankTwo.ExteriorNorm
+- `RankTwo.wedge_mixed_prime_factor` (theorem) in lean.RankTwo.ExteriorNorm
+- `RankTwo.wedge_mixed_prime` (theorem) in lean.RankTwo.ExteriorNorm
+- ... and 179 more
 
 ### padic-L-functions4 (+382)
 
@@ -1285,4 +1393,4 @@
 
 ## Update History (1 runs)
 
-- **2026-07-06T09:54:44.258666+00:00**: Checked 37 repos, updated 38, +15628 -0 declarations
+- **2026-07-13T09:25:31.575304+00:00**: Checked 39 repos, updated 40, +25046 -0 declarations
