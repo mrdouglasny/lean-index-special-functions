@@ -1,6 +1,6 @@
-# Changelog (since 2026-07-27)
+# Changelog (since 2026-08-03)
 
-## New Declarations (32771)
+## New Declarations (32849)
 
 ### EisensteinSeries (+718)
 
@@ -366,7 +366,7 @@
 - `iter_deriv_comp_bound2` (theorem) in Modformsported.ForMathlib.ExpSummableLemmas
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+8340)
+### PrimeNumberTheoremAnd (+8381)
 
 - `laplaceTransformBilateral` (def) in PrimeNumberTheoremAnd.LaplaceInversion
 - `laplaceIntegral` (def) in PrimeNumberTheoremAnd.LaplaceInversion
@@ -418,7 +418,7 @@
 - `intervalIntegrable_scaled_sin_div_kernel` (theorem) in PrimeNumberTheoremAnd.LaplaceInversion
 - `intervalIntegrable_sin_div_kernel_smul_const` (theorem) in PrimeNumberTheoremAnd.LaplaceInversion
 - `norm_fourierInvTrunc_le_of_windowed_sin_div_bounds` (theorem) in PrimeNumberTheoremAnd.LaplaceInversion
-- ... and 8290 more
+- ... and 8331 more
 
 ### Riemann_zeta (+42)
 
@@ -1054,15 +1054,20 @@
 - `dim_S2_Gamma0_2_eq_zero` (theorem) in lean.ch02_frey_curve
 - ... and 246 more
 
-### four-squares-modular-forms (+7)
+### four-squares-modular-forms (+12)
 
+- `piFinset` (def) in src.theta_series
+- `S'` (def) in src.theta_series
+- `S` (def) in src.theta_series
+- `S_aux` (def) in src.theta_series
 - `S_is_union` (lemma) in src.theta_series
 - `det_2x2` (lemma) in src.congruence_groups
-- `inverse₀₀` (lemma) in src.congruence_groups
-- `inverse₀₁` (lemma) in src.congruence_groups
-- `inverse₁₀` (lemma) in src.congruence_groups
-- `special_linear_group.mem_principal_subgroup` (structure) in src.congruence_groups
-- `special_linear_group.principal_condition₁₁` (lemma) in src.congruence_groups
+- `Matrix.SpecialLinearGroup.inverse₀₀` (lemma) in src.congruence_groups
+- `Matrix.SpecialLinearGroup.inverse₀₁` (lemma) in src.congruence_groups
+- `Matrix.SpecialLinearGroup.inverse₁₀` (lemma) in src.congruence_groups
+- `Matrix.SpecialLinearGroup.mem_principal_subgroup` (structure) in src.congruence_groups
+- `Matrix.SpecialLinearGroup.principal_condition₁₁` (lemma) in src.congruence_groups
+- `Matrix.SpecialLinearGroup.principal_congurence_subgroup` (def) in src.congruence_groups
 
 ### heights (+464)
 
@@ -1443,7 +1448,7 @@
 - `LogarithmicMorrisFull.circleLog` (def) in logarithmicmorris.LogarithmicMorrisLogDefinitions
 - ... and 620 more
 
-### mathlib4 (+12764)
+### mathlib4 (+12789)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -1495,7 +1500,7 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12714 more
+- ... and 12739 more
 
 ### numerical-methods-trigonometric-approximation-interpolation-theorem-canonical-lane-mathlib (+7)
 
@@ -1989,26 +1994,6 @@
 - `HautevilleHouse.trigonometric_interpolation_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in trigonometric_interpolation_theorem_canonical_lane_mathlib.FinalTheorem
 - `HautevilleHouse.trigonometric_interpolation_theorem_canonical_lane_mathlib.canonical` (theorem) in trigonometric_interpolation_theorem_canonical_lane_mathlib.FinalTheorem
 
-### trigonometric-moment-problems-one-variable-lemma-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.bridgeClosed` (def) in trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.gateClosed` (def) in trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.canonical` (theorem) in trigonometric_moment_problems_one_variable_lemma_canonical_lane_mathlib.FinalTheorem
-
-### trigonometric-polynomials-inequalities-extremal-problems-lemma-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.bridgeClosed` (def) in trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.gateClosed` (def) in trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.canonical` (theorem) in trigonometric_polynomials_inequalities_extremal_problems_lemma_canonical_lane_mathlib.FinalTheorem
-
 ### trigonometric-series-special-types-positive-foundation-canonical-lane-mathlib (+7)
 
 - `HautevilleHouse.trigonometric_series_special_types_positive_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in trigonometric_series_special_types_positive_foundation_canonical_lane_mathlib.GateLemmas
@@ -2038,6 +2023,36 @@
 - `HautevilleHouse.trigonometric_solutions_pdes_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in trigonometric_solutions_pdes_theorem_canonical_lane_mathlib.GateLemmas
 - `HautevilleHouse.trigonometric_solutions_pdes_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in trigonometric_solutions_pdes_theorem_canonical_lane_mathlib.FinalTheorem
 - `HautevilleHouse.trigonometric_solutions_pdes_theorem_canonical_lane_mathlib.canonical` (theorem) in trigonometric_solutions_pdes_theorem_canonical_lane_mathlib.FinalTheorem
+
+### uniqueness-localization-orthogonal-series-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.bridgeClosed` (def) in uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.gateClosed` (def) in uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.canonical` (theorem) in uniqueness_localization_orthogonal_series_lemma_canonical_lane_mathlib.FinalTheorem
+
+### uniqueness-trigonometric-expansions-uniqueness-fourier-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.bridgeClosed` (def) in uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.gateClosed` (def) in uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.canonical` (theorem) in uniqueness_trigonometric_expansions_uniqueness_fourier_foundation_canonical_lane_mathlib.FinalTheorem
+
+### uniqueness-trigonometric-expansions-uniqueness-fourier-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.bridgeClosed` (def) in uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.gateClosed` (def) in uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.canonical` (theorem) in uniqueness_trigonometric_expansions_uniqueness_fourier_theorem_canonical_lane_mathlib.FinalTheorem
 
 ### valenceformula (+116)
 
@@ -2095,4 +2110,4 @@
 
 ## Update History (1 runs)
 
-- **2026-08-03T09:33:13.581548+00:00**: Checked 72 repos, updated 73, +20007 -0 declarations
+- **2026-08-10T09:06:30.673083+00:00**: Checked 74 repos, updated 75, +20060 -0 declarations

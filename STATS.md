@@ -1,15 +1,15 @@
 # Lean Index Statistics
 
-**17,304 topic-matched declarations** across **33 repositories**
-(32,771 total declarations scanned from 72 repos)
+**17,374 topic-matched declarations** across **35 repositories**
+(32,849 total declarations scanned from 74 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| power-series                   |      3,551 |
-| exponential-logarithmic        |      3,178 |
-| zeta-and-l-functions           |      2,733 |
+| power-series                   |      3,572 |
+| exponential-logarithmic        |      3,182 |
+| zeta-and-l-functions           |      2,778 |
 | trigonometric                  |      2,410 |
 | elliptic-curves                |      2,290 |
 | modular-forms                  |      1,836 |
@@ -19,22 +19,22 @@
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     12,316 |
-| def             |      1,714 |
-| lemma           |      1,628 |
-| instance        |        440 |
-| structure       |        157 |
+| theorem         |     12,340 |
+| def             |      1,729 |
+| lemma           |      1,652 |
+| instance        |        442 |
+| structure       |        159 |
 | ctor            |         76 |
-| class           |         33 |
-| abbrev          |         32 |
+| abbrev          |         34 |
+| class           |         34 |
 | inductive       |          3 |
 
 ## Top Repositories (by topic matches)
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     12,764 |     12,764 |
-| PrimeNumberTheoremAnd               |      1,080 |      8,340 |
+| mathlib4                            |     12,789 |     12,789 |
+| PrimeNumberTheoremAnd               |      1,111 |      8,381 |
 | EllipticCurves                      |        814 |      1,439 |
 | ModularForms_Lean4                  |        258 |        727 |
 | EisensteinSeries                    |        176 |        359 |
@@ -59,17 +59,17 @@
 | EllipticCurveSafety                 |         15 |         15 |
 | Lean-RH                             |         15 |        210 |
 | ModularFormDimensions               |         11 |         30 |
+| uniqueness-trigonometric-expansions |          7 |          7 |
+| uniqueness-trigonometric-expansions |          7 |          7 |
 | summability-absolute-summability-fo |          7 |          7 |
 | EllipticCurve                       |          5 |        583 |
-| leanproject                         |          3 |         28 |
-| Riemann_zeta                        |          3 |         42 |
-| ... and 3 more |  |  |
+| ... and 5 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-08-03T09:33:13.581548+00:00
-- **Repos checked**: 72
-- **Repos updated**: 73
-- **New declarations**: 20007
+- **When**: 2026-08-10T09:06:30.673083+00:00
+- **Repos checked**: 74
+- **Repos updated**: 75
+- **New declarations**: 20060
 - **Removed declarations**: 0
-- **Summary**: Checked 72 repos, updated 73, +20007 -0 declarations
+- **Summary**: Checked 74 repos, updated 75, +20060 -0 declarations

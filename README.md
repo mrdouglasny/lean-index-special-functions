@@ -3,12 +3,12 @@
 Topical index for special functions formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
 <!-- STATS_START -->
-**16,399 topic-matched declarations** across **33 repositories** (scanned 72 repos, 32,771 declarations).
+**16,469 topic-matched declarations** across **35 repositories** (scanned 74 repos, 32,849 declarations).
 
 Tracks Lean declarations related to:
-- **Power series** (3,551 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
-- **Exponential and logarithmic** (3,178 matches): exp, log, rpow, sqrt, complex powers
-- **Zeta and L-functions** (2,733 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
+- **Power series** (3,572 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
+- **Exponential and logarithmic** (3,182 matches): exp, log, rpow, sqrt, complex powers
+- **Zeta and L-functions** (2,778 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
 - **Trigonometric** (2,410 matches): sin, cos, tan, arctan, hyperbolic functions, Chebyshev polynomials
 - **Elliptic curves** (2,290 matches): Weierstrass curves, division polynomials, j-invariant
 - **Modular forms** (1,836 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
@@ -22,15 +22,15 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 <!-- REPOS_TABLE_START -->
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 12,764 | The math library for Lean 4 (indexed via cache, not cloned) |
-| [AlexKontorovich/PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 1,080 | Prime Number Theorem, L-series, Mellin transforms |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 12,789 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [AlexKontorovich/PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 1,111 | Prime Number Theorem, L-series, Mellin transforms |
 | [MichaelStollBayreuth/EllipticCurves](https://github.com/MichaelStollBayreuth/EllipticCurves) | 814 | Formalization in Lean of basic results from the theory of elliptic curves |
 | [CBirkbeck/ModularForms_Lean4](https://github.com/CBirkbeck/ModularForms_Lean4) | 258 | Modular forms in Lean 4 |
 | [ULSO-Webmaster/EisensteinSeries](https://github.com/ULSO-Webmaster/EisensteinSeries) | 176 |  |
 | [jrskiln/EisensteinSeries](https://github.com/jrskiln/EisensteinSeries) | 176 |  |
 | [attila-ac/hyperlocal](https://github.com/attila-ac/hyperlocal) | 167 | Off-Critical Riemann Zeta Zeros Cannot Seed Symmetric Entire Functions: A... |
-| [HautevilleHouse/dirichlet-series-exponential-series-series-foundation-canonical-lane-mathlib](https://github.com/HautevilleHouse/dirichlet-series-exponential-series-series-foundation-canonical-lane-mathlib) | 106 |  |
 | [HautevilleHouse/dirichlet-series-exponential-series-series-theorem-canonical-lane-mathlib](https://github.com/HautevilleHouse/dirichlet-series-exponential-series-series-theorem-canonical-lane-mathlib) | 106 |  |
+| [HautevilleHouse/dirichlet-series-exponential-series-series-foundation-canonical-lane-mathlib](https://github.com/HautevilleHouse/dirichlet-series-exponential-series-series-foundation-canonical-lane-mathlib) | 106 |  |
 | [HautevilleHouse/dirichlet-series-exponential-series-series-canonical-lane-mathlib](https://github.com/HautevilleHouse/dirichlet-series-exponential-series-series-canonical-lane-mathlib) | 95 |  |
 | [HautevilleHouse/dirichlet-series-exponential-series-series-lemma-canonical-lane-mathlib](https://github.com/HautevilleHouse/dirichlet-series-exponential-series-series-lemma-canonical-lane-mathlib) | 79 |  |
 | [laughinggas/padic-L-functions4](https://github.com/laughinggas/padic-L-functions4) | 78 | p-adic L-functions |
@@ -48,6 +48,8 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [tomdif/EllipticCurveSafety](https://github.com/tomdif/EllipticCurveSafety) | 15 | Lean 4 kernel-checkable ECDLP curve-safety verifier (non-singular /... |
 | [AlexKontorovich/Lean-RH](https://github.com/AlexKontorovich/Lean-RH) | 15 | Riemann hypothesis formalization |
 | [loefflerd/ModularFormDimensions](https://github.com/loefflerd/ModularFormDimensions) | 11 | Finite-dimensionality of modular forms spaces |
+| [HautevilleHouse/uniqueness-trigonometric-expansions-uniqueness-fourier-foundation-canonical-lane-mathlib](https://github.com/HautevilleHouse/uniqueness-trigonometric-expansions-uniqueness-fourier-foundation-canonical-lane-mathlib) | 7 |  |
+| [HautevilleHouse/uniqueness-trigonometric-expansions-uniqueness-fourier-theorem-canonical-lane-mathlib](https://github.com/HautevilleHouse/uniqueness-trigonometric-expansions-uniqueness-fourier-theorem-canonical-lane-mathlib) | 7 |  |
 | [HautevilleHouse/summability-absolute-summability-fourier-trigonometric-lemma-canonical-lane-mathlib](https://github.com/HautevilleHouse/summability-absolute-summability-fourier-trigonometric-lemma-canonical-lane-mathlib) | 7 |  |
 | [kckennylau/EllipticCurve](https://github.com/kckennylau/EllipticCurve) | 5 | Towards a general definition of elliptic curve over schemes |
 | [daniele-bolla/leanproject](https://github.com/daniele-bolla/leanproject) | 3 | Topological Sine Curve: Connected but Not Path-Connected (Lean 4 Formalization) |
