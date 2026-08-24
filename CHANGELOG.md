@@ -1,6 +1,6 @@
-# Changelog (since 2026-08-10)
+# Changelog (since 2026-08-17)
 
-## New Declarations (41733)
+## New Declarations (41758)
 
 ### EisensteinSeries (+718)
 
@@ -420,7 +420,7 @@
 - `EllipticCurve.ap` (def) in Modformsported.ModForms.ModularityConjecture
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+8678)
+### PrimeNumberTheoremAnd (+8680)
 
 - `zeroTendstoDiff` (lemma) in PrimeNumberTheoremAnd.PerronFormula
 - `RectangleIntegral_tendsTo_VerticalIntegral` (lemma) in PrimeNumberTheoremAnd.PerronFormula
@@ -472,7 +472,7 @@
 - `Rectangle.symm_re` (lemma) in PrimeNumberTheoremAnd.Rectangle
 - `RectangleBorder` (def) in PrimeNumberTheoremAnd.Rectangle
 - `Square` (def) in PrimeNumberTheoremAnd.Rectangle
-- ... and 8628 more
+- ... and 8630 more
 
 ### Riemann_zeta (+42)
 
@@ -1112,7 +1112,7 @@
 - `LogarithmicMorrisFull.sum_orderedPairs` (theorem) in logarithmicmorris.ScratchKernelEval
 - ... and 620 more
 
-### mathlib4 (+12777)
+### mathlib4 (+12800)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -1164,7 +1164,7 @@
 - `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12727 more
+- ... and 12750 more
 
 ### mock-theta-rank2 (+229)
 
@@ -1668,4 +1668,4 @@
 
 ## Update History (1 runs)
 
-- **2026-08-17T08:47:46.668119+00:00**: Checked 46 repos, updated 47, +28956 -0 declarations
+- **2026-08-24T08:41:46.677416+00:00**: Checked 46 repos, updated 47, +28958 -0 declarations
