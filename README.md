@@ -3,16 +3,16 @@
 Topical index for special functions formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
 <!-- STATS_START -->
-**16,086 topic-matched declarations** across **30 repositories** (scanned 46 repos, 41,758 declarations).
+**19,361 topic-matched declarations** across **31 repositories** (scanned 48 repos, 46,423 declarations).
 
 Tracks Lean declarations related to:
-- **Power series** (3,484 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
-- **Exponential and logarithmic** (3,218 matches): exp, log, rpow, sqrt, complex powers
-- **Zeta and L-functions** (2,415 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
-- **Trigonometric** (2,411 matches): sin, cos, tan, arctan, hyperbolic functions, Chebyshev polynomials
-- **Elliptic curves** (2,307 matches): Weierstrass curves, division polynomials, j-invariant
-- **Modular forms** (1,836 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
-- **Classical special functions** (1,314 matches): Gamma, Beta, digamma, Pochhammer, hypergeometric, Gaussian, Stirling, Hermite, elliptic functions
+- **Zeta and L-functions** (5,540 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
+- **Power series** (3,510 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
+- **Exponential and logarithmic** (3,314 matches): exp, log, rpow, sqrt, complex powers
+- **Trigonometric** (2,509 matches): sin, cos, tan, arctan, hyperbolic functions, Chebyshev polynomials
+- **Elliptic curves** (2,312 matches): Weierstrass curves, division polynomials, j-invariant
+- **Modular forms** (1,858 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
+- **Classical special functions** (1,323 matches): Gamma, Beta, digamma, Pochhammer, hypergeometric, Gaussian, Stirling, Hermite, elliptic functions
 <!-- STATS_END -->
 
 See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](REPOS.md) for all indexed repositories.
@@ -22,9 +22,10 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 <!-- REPOS_TABLE_START -->
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 12,800 | The math library for Lean 4 (indexed via cache, not cloned) |
-| [AlexKontorovich/PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 1,115 | Prime Number Theorem, L-series, Mellin transforms |
-| [MichaelStollBayreuth/EllipticCurves](https://github.com/MichaelStollBayreuth/EllipticCurves) | 814 | Formalization in Lean of basic results from the theory of elliptic curves |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 12,856 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [teal-sea/zeta-lab](https://github.com/teal-sea/zeta-lab) | 3,223 | A computational and formal workbench around the Riemann zeta function:... |
+| [AlexKontorovich/PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 1,116 | Prime Number Theorem, L-series, Mellin transforms |
+| [MichaelStollBayreuth/EllipticCurves](https://github.com/MichaelStollBayreuth/EllipticCurves) | 809 | Formalization in Lean of basic results from the theory of elliptic curves |
 | [CBirkbeck/ModularForms_Lean4](https://github.com/CBirkbeck/ModularForms_Lean4) | 258 | Modular forms in Lean 4 |
 | [ULSO-Webmaster/EisensteinSeries](https://github.com/ULSO-Webmaster/EisensteinSeries) | 176 |  |
 | [jrskiln/EisensteinSeries](https://github.com/jrskiln/EisensteinSeries) | 176 |  |

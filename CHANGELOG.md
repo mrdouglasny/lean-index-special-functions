@@ -1,6 +1,6 @@
-# Changelog (since 2026-08-17)
+# Changelog (since 2026-08-24)
 
-## New Declarations (41758)
+## New Declarations (46423)
 
 ### EisensteinSeries (+718)
 
@@ -128,7 +128,7 @@
 - `EllipticCurveSafety.Secp256k1.hasse` (theorem) in EllipticCurveSafety.Secp256k1
 - `EllipticCurveSafety.Secp256k1.high_embedding` (theorem) in EllipticCurveSafety.Secp256k1
 
-### EllipticCurves (+1439)
+### EllipticCurves (+1435)
 
 - `challengeCurve` (def) in comparator.Solution
 - `challenge_fg_point_of_numberField` (theorem) in comparator.Solution
@@ -166,6 +166,7 @@
 - `WeierstrassCurve.Affine.baseChange_fCofactor` (lemma) in EllipticCurves.SelmerGroup
 - `WeierstrassCurve.Affine.baseChange_f` (lemma) in EllipticCurves.SelmerGroup
 - `WeierstrassCurve.Affine.baseChange_discr_f` (lemma) in EllipticCurves.SelmerGroup
+- `WeierstrassCurve.Affine.nonsingular_baseChange` (lemma) in EllipticCurves.SelmerGroup
 - `WeierstrassCurve.Affine.mapA` (def) in EllipticCurves.SelmerGroup
 - `WeierstrassCurve.Affine.mapA_mk` (lemma) in EllipticCurves.SelmerGroup
 - `WeierstrassCurve.Affine.localRes` (def) in EllipticCurves.SelmerGroup
@@ -179,8 +180,7 @@
 - `WeierstrassCurve.Affine.Point.congr_zero` (lemma) in EllipticCurves.SelmerGroup
 - `WeierstrassCurve.Affine.Point.congr_some` (lemma) in EllipticCurves.SelmerGroup
 - `WeierstrassCurve.Affine.pointMap` (def) in EllipticCurves.SelmerGroup
-- `WeierstrassCurve.Affine.pointMap_zero` (lemma) in EllipticCurves.SelmerGroup
-- ... and 1389 more
+- ... and 1385 more
 
 ### EulerProducts (+36)
 
@@ -420,7 +420,7 @@
 - `EllipticCurve.ap` (def) in Modformsported.ModForms.ModularityConjecture
 - ... and 677 more
 
-### PrimeNumberTheoremAnd (+8680)
+### PrimeNumberTheoremAnd (+8689)
 
 - `zeroTendstoDiff` (lemma) in PrimeNumberTheoremAnd.PerronFormula
 - `RectangleIntegral_tendsTo_VerticalIntegral` (lemma) in PrimeNumberTheoremAnd.PerronFormula
@@ -472,7 +472,7 @@
 - `Rectangle.symm_re` (lemma) in PrimeNumberTheoremAnd.Rectangle
 - `RectangleBorder` (def) in PrimeNumberTheoremAnd.Rectangle
 - `Square` (def) in PrimeNumberTheoremAnd.Rectangle
-- ... and 8630 more
+- ... and 8639 more
 
 ### Riemann_zeta (+42)
 
@@ -1112,7 +1112,7 @@
 - `LogarithmicMorrisFull.sum_orderedPairs` (theorem) in logarithmicmorris.ScratchKernelEval
 - ... and 620 more
 
-### mathlib4 (+12800)
+### mathlib4 (+12856)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -1130,6 +1130,13 @@
 - `AbsoluteValue.IsEquiv.log_div_log_eq_log_div_log` (theorem) in Mathlib.Analysis.AbsoluteValue.Equivalence
 - `AbsoluteValue.IsEquiv.log_div_log_pos` (theorem) in Mathlib.Analysis.AbsoluteValue.Equivalence
 - `AbsoluteValue.isEquiv_iff_exists_rpow_eq` (theorem) in Mathlib.Analysis.AbsoluteValue.Equivalence
+- `AbstractMeasure.amiceTransform` (def) in Mathlib.NumberTheory.Padics.Measure.AmiceTransform
+- `AbstractMeasure.amiceTransformEquiv` (def) in Mathlib.NumberTheory.Padics.Measure.AmiceTransform
+- `AbstractMeasure.amiceTransform_invTransform` (theorem) in Mathlib.NumberTheory.Padics.Measure.AmiceTransform
+- `AbstractMeasure.coeff_amiceTransform` (theorem) in Mathlib.NumberTheory.Padics.Measure.AmiceTransform
+- `AbstractMeasure.coeff_amiceTransformEquiv` (theorem) in Mathlib.NumberTheory.Padics.Measure.AmiceTransform
+- `AbstractMeasure.invTransform` (def) in Mathlib.NumberTheory.Padics.Measure.AmiceTransform
+- `AbstractMeasure.invTransform_apply` (theorem) in Mathlib.NumberTheory.Padics.Measure.AmiceTransform
 - `AbstractSimplicialComplex.singleton_mem` (theorem) in Mathlib.AlgebraicTopology.SimplicialComplex.Basic
 - `AddChar.card_addChar_le` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.card_eq` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
@@ -1157,14 +1164,7 @@
 - `AddChar.instFintype` (instance) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.linearIndependent` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.sum_apply_eq_ite` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- `AddChar.sum_apply_eq_zero_iff_ne_zero` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- `AddChar.sum_apply_ne_zero_iff_eq_zero` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- `AddChar.wInner_cWeight_eq_boole` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
-- `AddChar.wInner_cWeight_eq_one_iff_eq` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
-- `AddChar.wInner_cWeight_eq_zero_iff_ne` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
-- `AddChar.wInner_cWeight_self` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
-- `AddChar.zmod` (def) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12750 more
+- ... and 12806 more
 
 ### mock-theta-rank2 (+229)
 
@@ -1666,6 +1666,60 @@
 - `G` (def) in src.valence_formula
 - ... and 66 more
 
+### zeta-lab (+4604)
+
+- `ZetaLean.Palomar.aCoef` (def) in lean.Solution
+- `ZetaLean.Palomar.F1` (def) in lean.Solution
+- `ZetaLean.Palomar.clampI` (def) in lean.Solution
+- `ZetaLean.Palomar.clampedKernel` (def) in lean.Solution
+- `ZetaLean.Palomar.massI` (def) in lean.Solution
+- `ZetaLean.Palomar.normSqI` (def) in lean.Solution
+- `ZetaLean.Palomar.kerForm` (def) in lean.Solution
+- `ZetaLean.Palomar.energyA` (def) in lean.Solution
+- `ZetaLean.Palomar.IsProfile` (def) in lean.Solution
+- `ZetaLean.Palomar.cStar` (def) in lean.Solution
+- `ZetaLean.Palomar.quot` (def) in lean.Solution
+- `ZetaLean.Palomar.recipQuot` (def) in lean.Solution
+- `ZetaLean.Palomar.SourceWindow` (structure) in lean.Solution
+- `ZetaLean.Palomar.InducedProfile` (def) in lean.Solution
+- `ZetaLean.Palomar.sourceAdmissible` (def) in lean.Solution
+- `ZetaLean.PalomarDH.dh_kappa` (def) in lean.DHSolution
+- `ZetaLean.PalomarDH.dh_coeff` (def) in lean.DHSolution
+- `ZetaLean.PalomarDH.dh_completed` (def) in lean.DHSolution
+- `ZetaLean.PalomarDH.dh_series_rep` (def) in lean.DHSolution
+- `ZetaLean.PalomarDH.dh_functional_eq` (def) in lean.DHSolution
+- `ZetaLean.PalomarDH.dh_kappa_eq` (theorem) in lean.DHSolution
+- `ZetaLean.PalomarDH.dh_coeff_eq` (theorem) in lean.DHSolution
+- `ZetaLean.PalomarDH.dh_completed_eq` (theorem) in lean.DHSolution
+- `ZetaLean.PalomarDH.dh_series_rep_eq` (theorem) in lean.DHSolution
+- `ZetaLean.PalomarDH.dh_functional_eq_eq` (theorem) in lean.DHSolution
+- `ZetaLean.PalomarDH.dh_analytic_half` (theorem) in lean.DHSolution
+- `ZetaLean.Palomar.aCoef_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.F1_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.clampI_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.clampedKernel_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.massI_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.normSqI_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.kerForm_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.energyA_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.isProfile_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.cStar_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.quot_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.recipQuot_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.inducedProfile_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.sourceWindow_iff` (theorem) in lean.Solution
+- `ZetaLean.Palomar.sourceAdmissible_eq` (theorem) in lean.Solution
+- `ZetaLean.Palomar.pub1_strong_closure` (theorem) in lean.Solution
+- `ZetaLean.Palomar.pub1_strong_closure_reciprocal` (theorem) in lean.Solution
+- `ZetaLean.Palomar.pub1_strong_closure_exists` (theorem) in lean.Solution
+- `Zeta23Ext.Palomar.IsNontrivialZero` (def) in lean.bridge.BridgeSolution
+- `Zeta23Ext.Palomar.zeroMult` (def) in lean.bridge.BridgeSolution
+- `Zeta23Ext.Palomar.zerosIn` (def) in lean.bridge.BridgeSolution
+- `Zeta23Ext.Palomar.Ncount` (def) in lean.bridge.BridgeSolution
+- `Zeta23Ext.Palomar.N0simple` (def) in lean.bridge.BridgeSolution
+- `Zeta23Ext.Palomar.Kfun` (def) in lean.bridge.BridgeSolution
+- ... and 4554 more
+
 ## Update History (1 runs)
 
-- **2026-08-24T08:41:46.677416+00:00**: Checked 46 repos, updated 47, +28958 -0 declarations
+- **2026-08-31T08:43:35.585655+00:00**: Checked 48 repos, updated 49, +33567 -0 declarations

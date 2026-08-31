@@ -1,31 +1,31 @@
 # Lean Index Statistics
 
-**16,985 topic-matched declarations** across **30 repositories**
-(41,758 total declarations scanned from 46 repos)
+**20,366 topic-matched declarations** across **31 repositories**
+(46,423 total declarations scanned from 48 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| power-series                   |      3,484 |
-| exponential-logarithmic        |      3,218 |
-| zeta-and-l-functions           |      2,415 |
-| trigonometric                  |      2,411 |
-| elliptic-curves                |      2,307 |
-| modular-forms                  |      1,836 |
-| classical-special-functions    |      1,314 |
+| zeta-and-l-functions           |      5,540 |
+| power-series                   |      3,510 |
+| exponential-logarithmic        |      3,314 |
+| trigonometric                  |      2,509 |
+| elliptic-curves                |      2,312 |
+| modular-forms                  |      1,858 |
+| classical-special-functions    |      1,323 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     12,290 |
-| lemma           |      1,655 |
-| def             |      1,524 |
-| instance        |        442 |
+| theorem         |     14,744 |
+| lemma           |      2,112 |
+| def             |      1,880 |
+| instance        |        443 |
 | ctor            |         74 |
+| structure       |         39 |
 | class           |         34 |
-| structure       |         32 |
 | abbrev          |         31 |
 | inductive       |          2 |
 | opaque          |          2 |
@@ -34,9 +34,10 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     12,800 |     12,800 |
-| PrimeNumberTheoremAnd               |      1,115 |      8,680 |
-| EllipticCurves                      |        814 |      1,439 |
+| mathlib4                            |     12,856 |     12,856 |
+| zeta-lab                            |      3,223 |      4,604 |
+| PrimeNumberTheoremAnd               |      1,116 |      8,689 |
+| EllipticCurves                      |        809 |      1,435 |
 | ModularForms_Lean4                  |        258 |        727 |
 | EisensteinSeries                    |        176 |        359 |
 | EisensteinSeries                    |        176 |        359 |
@@ -63,13 +64,13 @@
 | countable-sums-of-sines             |          2 |         31 |
 | Iterated-logarithms-trees           |          2 |         88 |
 | bernoulli                           |          1 |          8 |
-| special-functions                   |          1 |         17 |
+| ... and 1 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-08-24T08:41:46.677416+00:00
-- **Repos checked**: 46
-- **Repos updated**: 47
-- **New declarations**: 28958
+- **When**: 2026-08-31T08:43:35.585655+00:00
+- **Repos checked**: 48
+- **Repos updated**: 49
+- **New declarations**: 33567
 - **Removed declarations**: 0
-- **Summary**: Checked 46 repos, updated 47, +28958 -0 declarations
+- **Summary**: Checked 48 repos, updated 49, +33567 -0 declarations
