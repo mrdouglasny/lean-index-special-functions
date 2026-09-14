@@ -3,16 +3,16 @@
 Topical index for special functions formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
 <!-- STATS_START -->
-**19,451 topic-matched declarations** across **31 repositories** (scanned 48 repos, 46,651 declarations).
+**21,014 topic-matched declarations** across **35 repositories** (scanned 53 repos, 50,653 declarations).
 
 Tracks Lean declarations related to:
-- **Zeta and L-functions** (5,554 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
-- **Power series** (3,512 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
-- **Exponential and logarithmic** (3,318 matches): exp, log, rpow, sqrt, complex powers
-- **Trigonometric** (2,518 matches): sin, cos, tan, arctan, hyperbolic functions, Chebyshev polynomials
-- **Elliptic curves** (2,318 matches): Weierstrass curves, division polynomials, j-invariant
-- **Modular forms** (1,853 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
-- **Classical special functions** (1,385 matches): Gamma, Beta, digamma, Pochhammer, hypergeometric, Gaussian, Stirling, Hermite, elliptic functions
+- **Zeta and L-functions** (5,632 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
+- **Power series** (4,969 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
+- **Exponential and logarithmic** (3,336 matches): exp, log, rpow, sqrt, complex powers
+- **Trigonometric** (2,525 matches): sin, cos, tan, arctan, hyperbolic functions, Chebyshev polynomials
+- **Elliptic curves** (2,328 matches): Weierstrass curves, division polynomials, j-invariant
+- **Modular forms** (1,861 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
+- **Classical special functions** (1,387 matches): Gamma, Beta, digamma, Pochhammer, hypergeometric, Gaussian, Stirling, Hermite, elliptic functions
 <!-- STATS_END -->
 
 See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](REPOS.md) for all indexed repositories.
@@ -22,14 +22,16 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 <!-- REPOS_TABLE_START -->
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 12,948 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 12,987 | The math library for Lean 4 (indexed via cache, not cloned) |
 | [teal-sea/zeta-lab](https://github.com/teal-sea/zeta-lab) | 3,236 | A computational and formal workbench around the Riemann zeta function:... |
+| [abhisaha-git/fourier-jacobi-core-evaluation](https://github.com/abhisaha-git/fourier-jacobi-core-evaluation) | 1,434 | This Lean publication formalizes a substantial chunk of the local calculations... |
 | [AlexKontorovich/PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 1,114 | Prime Number Theorem, L-series, Mellin transforms |
 | [MichaelStollBayreuth/EllipticCurves](https://github.com/MichaelStollBayreuth/EllipticCurves) | 795 | Formalization in Lean of basic results from the theory of elliptic curves |
 | [CBirkbeck/ModularForms_Lean4](https://github.com/CBirkbeck/ModularForms_Lean4) | 258 | Modular forms in Lean 4 |
 | [ULSO-Webmaster/EisensteinSeries](https://github.com/ULSO-Webmaster/EisensteinSeries) | 176 |  |
 | [jrskiln/EisensteinSeries](https://github.com/jrskiln/EisensteinSeries) | 176 |  |
 | [attila-ac/hyperlocal](https://github.com/attila-ac/hyperlocal) | 167 | Off-Critical Riemann Zeta Zeros Cannot Seed Symmetric Entire Functions: A... |
+| [DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms](https://github.com/DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms) | 82 | Lean formalization of two-round Walsh SRHT embedding bounds, addressing Problem... |
 | [laughinggas/padic-L-functions4](https://github.com/laughinggas/padic-L-functions4) | 78 | p-adic L-functions |
 | [lana-agents/heights](https://github.com/lana-agents/heights) | 61 | Formalization of height comparisons for elliptic curves |
 | [BryceT233/power-series-ring-is-noetherian-](https://github.com/BryceT233/power-series-ring-is-noetherian-) | 60 | This file formalized that if $R$ is noetherian, then its power series ring... |
@@ -45,12 +47,14 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [tomdif/EllipticCurveSafety](https://github.com/tomdif/EllipticCurveSafety) | 15 | Lean 4 kernel-checkable ECDLP curve-safety verifier (non-singular /... |
 | [AlexKontorovich/Lean-RH](https://github.com/AlexKontorovich/Lean-RH) | 15 | Riemann hypothesis formalization |
 | [loefflerd/ModularFormDimensions](https://github.com/loefflerd/ModularFormDimensions) | 11 | Finite-dimensionality of modular forms spaces |
+| [BarinderBanwait/rank2sha](https://github.com/BarinderBanwait/rank2sha) | 7 | Computations and Lean formalisation for: Second derivatives of p-adic... |
 | [kckennylau/EllipticCurve](https://github.com/kckennylau/EllipticCurve) | 5 | Towards a general definition of elliptic curve over schemes |
 | [Ghostintheshell-iuseArchbtw/mock-theta-rank2](https://github.com/Ghostintheshell-iuseArchbtw/mock-theta-rank2) | 3 | mock-theta-rank2 Verified prototype of a rank-2 Euler system for 14a1⊗χ_{−23} A... |
 | [daniele-bolla/leanproject](https://github.com/daniele-bolla/leanproject) | 3 | Topological Sine Curve: Connected but Not Path-Connected (Lean 4 Formalization) |
 | [mmew-2022/Riemann_zeta](https://github.com/mmew-2022/Riemann_zeta) | 3 | Riemann zeta function |
 | [hbghlyj/countable-sums-of-sines](https://github.com/hbghlyj/countable-sums-of-sines) | 2 |  |
 | [DavidVFeldman/Iterated-logarithms-trees](https://github.com/DavidVFeldman/Iterated-logarithms-trees) | 2 | v1.0 |
+| [Chen-chy/semidirect-qltc-improved-bounds](https://github.com/Chen-chy/semidirect-qltc-improved-bounds) | 1 | Proposed improved qLTCs via semidirect products: one-logarithm gains over DLV... |
 | [laughinggas/bernoulli](https://github.com/laughinggas/bernoulli) | 1 | Bernoulli numbers |
 | [jamesa9283/special-functions](https://github.com/jamesa9283/special-functions) | 1 | Special functions in Lean |
 <!-- REPOS_TABLE_END -->

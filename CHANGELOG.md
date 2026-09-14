@@ -1,6 +1,6 @@
-# Changelog (since 2026-08-31)
+# Changelog (since 2026-09-07)
 
-## New Declarations (46651)
+## New Declarations (50653)
 
 ### EisensteinSeries (+718)
 
@@ -474,6 +474,60 @@
 - `DeltaSpikeSupport'` (lemma) in PrimeNumberTheoremAnd.MellinCalculus
 - ... and 8639 more
 
+### Rerandomized-Subsampled-Trigonometric-Transforms (+2158)
+
+- `RerandomizedSTT.Index` (abbrev) in Challenge
+- `RerandomizedSTT.indexFintype` (instance) in Challenge
+- `RerandomizedSTT.Signs` (abbrev) in Challenge
+- `RerandomizedSTT.sign` (def) in Challenge
+- `RerandomizedSTT.hadamard` (def) in Challenge
+- `RerandomizedSTT.rerandomized` (def) in Challenge
+- `RerandomizedSTT.Rows` (def) in Challenge
+- `RerandomizedSTT.selectedFrame` (def) in Challenge
+- `RerandomizedSTT.Embeds` (def) in Challenge
+- `RerandomizedSTT.successProbability` (def) in Challenge
+- `RerandomizedSTT.sampleSize` (def) in Challenge
+- `RerandomizedSTT.problem_5_6` (theorem) in Solution
+- `SRHT.SmallRows.rowGradeProjection_norm_le_one` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.rowGradeProjection_compression_norm_le` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.gramKernel_compressed_norm_le` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.rectangular_grade_projection` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.collectedDouble_card` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.collectedDouble_grade` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.matrix_norm_sq_eq_rowGram` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.collectedDouble_compressed_norm_sq_le` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.collectedDouble_isometry_norm_sq_le` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.collectedDouble_zero_firstgrade` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.collectedDouble_zero_secondgrade` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.collectedDouble_isometry_norm_sq_le_all` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.SmallRows.small_row_cost_le` (theorem) in SRHT.SmallRowsNormalBound
+- `SRHT.BinaryBasis.bitValue` (def) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.mass` (def) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.deviation` (def) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.basisFun` (def) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.bit_cases` (theorem) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.deviation_pos` (theorem) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.deviation_sq` (theorem) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.mass_nonneg` (theorem) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.law` (def) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.basis_orthonormal` (theorem) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.basis_kernel` (theorem) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.basis_reconstruction` (theorem) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.bernoulli` (def) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.signBasisFun` (def) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.signs` (def) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.bernoulli_jacobi` (theorem) in SRHT.BinaryBasis
+- `SRHT.BinaryBasis.amplitude_eq` (theorem) in SRHT.BinaryBasis
+- `SRHT.TwoSignRepresentation.prod_mulOp_factor` (theorem) in SRHT.TwoSignRepresentation
+- `SRHT.TwoSignRepresentation.G` (abbrev) in SRHT.TwoSignRepresentation
+- `SRHT.TwoSignRepresentation.basis` (def) in SRHT.TwoSignRepresentation
+- `SRHT.TwoSignRepresentation.basis_law` (theorem) in SRHT.TwoSignRepresentation
+- `SRHT.TwoSignRepresentation.flip` (def) in SRHT.TwoSignRepresentation
+- `SRHT.TwoSignRepresentation.signs_product` (theorem) in SRHT.TwoSignRepresentation
+- `SRHT.TwoSignRepresentation.liftedFrame` (def) in SRHT.TwoSignRepresentation
+- `SRHT.TwoSignRepresentation.liftedFrame_apply` (theorem) in SRHT.TwoSignRepresentation
+- ... and 2108 more
+
 ### Riemann_zeta (+42)
 
 - `inj_posℤ` (def) in theta_function
@@ -837,6 +891,60 @@
 - `Matrix.SpecialLinearGroup.principal_condition₁₁` (lemma) in src.congruence_groups
 - `Matrix.SpecialLinearGroup.principal_congurence_subgroup` (def) in src.congruence_groups
 
+### fourier-jacobi-core-evaluation (+1435)
+
+- `FourierJacobiPalomar.t` (def) in Challenge
+- `FourierJacobiPalomar.C` (def) in Challenge
+- `FourierJacobiPalomar.roots` (def) in Challenge
+- `FourierJacobiPalomar.A` (def) in Challenge
+- `FourierJacobiPalomar.U` (def) in Challenge
+- `FourierJacobiPalomar.V` (def) in Challenge
+- `FourierJacobiPalomar.satake` (def) in Challenge
+- `FourierJacobiPalomar.N1` (def) in Challenge
+- `FourierJacobiPalomar.N2` (def) in Challenge
+- `FourierJacobiPalomar.D1` (def) in Challenge
+- `FourierJacobiPalomar.D2` (def) in Challenge
+- `FourierJacobiPalomar.E` (def) in Challenge
+- `FourierJacobiPalomar.matrix` (def) in Challenge
+- `FourierJacobiPalomar.pairs` (def) in Challenge
+- `FourierJacobiPalomar.minors` (def) in Challenge
+- `FourierJacobiPalomar.q` (def) in Challenge
+- `FourierJacobiPalomar.valuationInt` (def) in Challenge
+- `FourierJacobiPalomar.minimum` (def) in Challenge
+- `FourierJacobiPalomar.entry` (def) in Challenge
+- `FourierJacobiPalomar.minor` (def) in Challenge
+- `FourierJacobiPalomar.n` (def) in Challenge
+- `FourierJacobiPalomar.B` (def) in Challenge
+- `FourierJacobiPalomar.height` (def) in Challenge
+- `FourierJacobiPalomar.Phi` (def) in Challenge
+- `FourierJacobiPalomar.exponent` (def) in Challenge
+- `FourierJacobiPalomar.prefactor` (def) in Challenge
+- `FourierJacobiPalomar.central` (def) in Challenge
+- `FourierJacobiPalomar.f` (def) in Challenge
+- `FourierJacobiPalomar.integersCompact` (def) in Challenge
+- `FourierJacobiPalomar.unitsCompact` (def) in Challenge
+- `FourierJacobiPalomar.additive` (def) in Challenge
+- `FourierJacobiPalomar.multiplicative` (def) in Challenge
+- `FourierJacobiPalomar.coreMeasure` (def) in Challenge
+- `FourierJacobiPalomar.I` (def) in Challenge
+- `FourierJacobiPalomar.C_eq` (theorem) in Solution
+- `FourierJacobiPalomar.D1_eq` (theorem) in Solution
+- `FourierJacobiPalomar.D2_eq` (theorem) in Solution
+- `FourierJacobiPalomar.E_eq` (theorem) in Solution
+- `FourierJacobiPalomar.q_eq` (theorem) in Solution
+- `FourierJacobiPalomar.t_eq` (theorem) in Solution
+- `FourierJacobiPalomar.entry_eq` (theorem) in Solution
+- `FourierJacobiPalomar.minor_eq` (theorem) in Solution
+- `FourierJacobiPalomar.n_eq` (theorem) in Solution
+- `FourierJacobiPalomar.B_eq` (theorem) in Solution
+- `FourierJacobiPalomar.height_eq` (theorem) in Solution
+- `FourierJacobiPalomar.Phi_eq` (theorem) in Solution
+- `FourierJacobiPalomar.exponent_eq` (theorem) in Solution
+- `FourierJacobiPalomar.coreMeasure_eq` (theorem) in Solution
+- `FourierJacobiPalomar.f_eq` (theorem) in Solution
+- `FourierJacobiPalomar.I_eq` (theorem) in Solution
+- ... and 1385 more
+
 ### heights (+464)
 
 - `supplies` (theorem) in Heights
@@ -1112,7 +1220,7 @@
 - `LogarithmicMorrisFull.radialRadius` (def) in logarithmicmorris.ScratchCircleLogFourier
 - ... and 620 more
 
-### mathlib4 (+12948)
+### mathlib4 (+12987)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -1164,7 +1272,61 @@
 - `AddChar.instFintype` (instance) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.linearIndependent` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.sum_apply_eq_ite` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12898 more
+- ... and 12937 more
+
+### matrix_category (+78)
+
+- `MatrixCategory.MObj` (structure) in MatrixCategory.Cat
+- `MatrixCategory.MObj.Hom` (structure) in MatrixCategory.Cat
+- `MatrixCategory.MObj.id_mat` (theorem) in MatrixCategory.Cat
+- `MatrixCategory.MObj.comp_mat` (theorem) in MatrixCategory.Cat
+- `MatrixCategory.MObj.companion` (def) in MatrixCategory.Cat
+- `MatrixCategory.MObj.alphaEnd` (def) in MatrixCategory.Cat
+- `MatrixCategory.MObj.conj` (def) in MatrixCategory.Cat
+- `MatrixCategory.MObj.conj_one` (theorem) in MatrixCategory.Cat
+- `MatrixCategory.MObj.conj_mul` (theorem) in MatrixCategory.Cat
+- `MatrixCategory.MObj.smul_mat` (theorem) in MatrixCategory.Cat
+- `MatrixCategory.MObj.sq_eq` (theorem) in MatrixCategory.Cat
+- `MatrixCategory.content` (def) in MatrixCategory.Content
+- `MatrixCategory.dvd_content_iff` (theorem) in MatrixCategory.Content
+- `MatrixCategory.map_zmod_eq_zero_iff_dvd_content` (theorem) in MatrixCategory.Content
+- `MatrixCategory.IsPrimitive` (def) in MatrixCategory.Content
+- `MatrixCategory.isPrimitive_iff_forall_prime` (theorem) in MatrixCategory.Content
+- `MatrixCategory.smithOne` (def) in MatrixCategory.Smith
+- `MatrixCategory.smithTwo` (def) in MatrixCategory.Smith
+- `MatrixCategory.content_sq_dvd_det` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.smithOne_sq_dvd` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.smithOne_dvd_natAbs_det` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.smithOne_dvd_smithTwo` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.content_nonneg` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.content_eq_zero_iff` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.content_dvd_mul_left` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.content_dvd_mul_right` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.content_unit_mul` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.content_smul` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.content_diagonal` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.eq_smith_of_diagonalization` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.exists_unit_mulVec_gcd` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.exists_unit_vecMul_gcd` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.det_eq_zero_aux` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.exists_chained_diagonalization_of_det_eq_zero` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.exists_good_t` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.det_ne_zero_content_one` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.exists_chained_diagonalization_of_det_ne_zero` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.exists_chained_diagonalization` (theorem) in MatrixCategory.Smith
+- `MatrixCategory.exists_smith_diagonalization` (theorem) in MatrixCategory.Smith
+- `hello` (def) in MatrixCategory.Basic
+- `MatrixCategory.ker_mulVecLin_of_unit_mul` (theorem) in MatrixCategory.KernelStructure
+- `MatrixCategory.ker_mulVecLin_diagonal` (theorem) in MatrixCategory.KernelStructure
+- `MatrixCategory.ker_lsmul_zmod` (theorem) in MatrixCategory.KernelStructure
+- `MatrixCategory.ker_structure` (theorem) in MatrixCategory.KernelStructure
+- `MatrixCategory.kerCard` (def) in MatrixCategory.KernelStructure
+- `MatrixCategory.kerTorsionCard` (def) in MatrixCategory.KernelStructure
+- `MatrixCategory.predictedCard` (def) in MatrixCategory.KernelStructure
+- `MatrixCategory.BQF` (structure) in MatrixCategory.QF
+- `MatrixCategory.BQF.eval` (def) in MatrixCategory.QF
+- `MatrixCategory.BQF.two_dvd_sub` (theorem) in MatrixCategory.QF
+- ... and 28 more
 
 ### mock-theta-rank2 (+229)
 
@@ -1328,6 +1490,60 @@
 - `MvPowerSeries.rename_comp_rename` (lemma) in rename
 - ... and 53 more
 
+### rank2sha (+162)
+
+- `FinShaRank2.AxiomAudit.allowedAxioms` (def) in formalisation.FinShaRank2.AxiomAudit
+- `FinShaRank2.AxiomAudit.auditedDecls` (def) in formalisation.FinShaRank2.AxiomAudit
+- `FinShaRank2.AxiomAudit.runAudit` (def) in formalisation.FinShaRank2.AxiomAudit
+- `FinShaRank2.Λ` (abbrev) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.σ` (def) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.constantCoeff_σ` (theorem) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.coeff_one_σ` (theorem) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.hasSubst_σ` (theorem) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.oneAddX_mul_σ` (theorem) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.IsPUnit` (def) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.isPUnit_coe_iff` (theorem) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.MuZero` (def) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.lambdaAn` (def) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.c2tilde` (def) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.corank` (abbrev) in formalisation.FinShaRank2.Defs
+- `FinShaRank2.PrimeData.c2tilde` (def) in formalisation.FinShaRank2.Statements
+- `FinShaRank2.Toy.toyPrimeData` (def) in formalisation.FinShaRank2.Toy.Trivial
+- `FinShaRank2.ToyTrivial` (def) in formalisation.FinShaRank2.Toy.Trivial
+- `FinShaRank2.Toy.ker_coeff_zero` (theorem) in formalisation.FinShaRank2.Toy.Iwasawa
+- `FinShaRank2.Toy.surjective_coeff_zero` (theorem) in formalisation.FinShaRank2.Toy.Iwasawa
+- `FinShaRank2.Toy.quotXEquiv` (def) in formalisation.FinShaRank2.Toy.Iwasawa
+- `FinShaRank2.Toy.ToyX` (abbrev) in formalisation.FinShaRank2.Toy.Iwasawa
+- `FinShaRank2.Toy.toyXEquiv` (def) in formalisation.FinShaRank2.Toy.Iwasawa
+- `FinShaRank2.Toy.smul_quotX_eq_zero` (theorem) in formalisation.FinShaRank2.Toy.Iwasawa
+- `FinShaRank2.Toy.span_X_smul_top_eq_bot` (theorem) in formalisation.FinShaRank2.Toy.Iwasawa
+- `FinShaRank2.Toy.toy_no_finite_submodule` (theorem) in formalisation.FinShaRank2.Toy.Iwasawa
+- `FinShaRank2.Toy.toySelmer` (def) in formalisation.FinShaRank2.Toy.Iwasawa
+- `FinShaRank2.Toy.toyIwasawa` (def) in formalisation.FinShaRank2.Toy.Iwasawa
+- `FinShaRank2.Toy.toyKatz` (def) in formalisation.FinShaRank2.Toy.Katz
+- `FinShaRank2.Toy.not_isPUnit_p` (theorem) in formalisation.FinShaRank2.Toy.ShaHeights
+- `FinShaRank2.Toy.norm_sha_c2norm` (theorem) in formalisation.FinShaRank2.Toy.ShaHeights
+- `FinShaRank2.Toy.shaHeight` (def) in formalisation.FinShaRank2.Toy.ShaHeights
+- `FinShaRank2.Toy.shaLp` (def) in formalisation.FinShaRank2.Toy.ShaAnalytic
+- `FinShaRank2.Toy.coeff_two_shaLp` (theorem) in formalisation.FinShaRank2.Toy.ShaAnalytic
+- `FinShaRank2.Toy.constantCoeff_shaLp` (theorem) in formalisation.FinShaRank2.Toy.ShaAnalytic
+- `FinShaRank2.Toy.functionalEquation_shaLp` (theorem) in formalisation.FinShaRank2.Toy.ShaAnalytic
+- `FinShaRank2.Toy.shaAnalytic` (def) in formalisation.FinShaRank2.Toy.ShaAnalytic
+- `FinShaRank2.Toy.coe_alphaInv` (theorem) in formalisation.FinShaRank2.Toy.Heights
+- `FinShaRank2.Toy.isPUnit_one_sub_alphaInv` (theorem) in formalisation.FinShaRank2.Toy.Heights
+- `FinShaRank2.Toy.isPUnit_toy_c2norm` (theorem) in formalisation.FinShaRank2.Toy.Heights
+- `FinShaRank2.Toy.toyHeight` (def) in formalisation.FinShaRank2.Toy.Heights
+- `FinShaRank2.Toy.shaKatz` (def) in formalisation.FinShaRank2.Toy.ShaKatz
+- `FinShaRank2.Toy.shaF` (def) in formalisation.FinShaRank2.Toy.ShaIwasawa
+- `FinShaRank2.Toy.ShaX` (abbrev) in formalisation.FinShaRank2.Toy.ShaIwasawa
+- `FinShaRank2.Toy.ShaK` (abbrev) in formalisation.FinShaRank2.Toy.ShaIwasawa
+- `FinShaRank2.Toy.ShaSel` (abbrev) in formalisation.FinShaRank2.Toy.ShaIwasawa
+- `FinShaRank2.Toy.shaToK` (def) in formalisation.FinShaRank2.Toy.ShaIwasawa
+- `FinShaRank2.Toy.shaToK_mk` (theorem) in formalisation.FinShaRank2.Toy.ShaIwasawa
+- `FinShaRank2.Toy.shaMk` (def) in formalisation.FinShaRank2.Toy.ShaIwasawa
+- `FinShaRank2.Toy.shaMk_apply` (theorem) in formalisation.FinShaRank2.Toy.ShaIwasawa
+- ... and 112 more
+
 ### ray (+854)
 
 - `slow_prime_loop` (def) in Ray.Experimental.Primes
@@ -1435,6 +1651,60 @@
 - `true_Phi_LogDeriv_im_aestronglyMeasurable_eventually` (lemma) in CombinedProof_v3_rev9
 - `zero_poly_ne_zero_off_segment` (lemma) in CombinedProof_v3_rev9
 - ... and 30 more
+
+### semidirect-qltc-improved-bounds (+130)
+
+- `SemidirectQLTC.Geometry.act_one` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.act_mul` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.pointGroup` (instance) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.lambda` (def) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.coordinate` (def) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.coordinate_mul` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.coordinate_commute` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.conjugate_coordinate` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.coordinate_mem_lambda_iff` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.leftAction` (def) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.leftAction_mul` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.leftAction_commute` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.coordinate_action_free` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.pointEquiv` (def) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.lambdaEquiv` (def) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.card_lambda` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.Geometry.card_cosets` (theorem) in formalization.lean4.SemidirectQLTC.Geometry
+- `SemidirectQLTC.F2` (abbrev) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.BinaryChain` (structure) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.BinaryChain.hX` (def) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.BinaryChain.hZ` (def) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.BinaryChain.css_commutes` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.InCentralizer` (def) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.joint_filling_exists` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.centralizerDistance` (def) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.centralizerDistance_spec` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.centralizerDistance_le` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.centralizer_minimizer` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.centralizerDistance_le_iff` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.sector_filling_le_centralizer` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.centralizer_le_sector_sum` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.pureX_distance` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.pureZ_distance` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.centralizerDistance_zero_iff` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.centralizerDistance_le_length` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.two_sector_soundness` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.uniform_tester_bound` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.generic_pauli_bound` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.syndrome_expectation` (theorem) in formalization.lean4.SemidirectQLTC.CSS
+- `SemidirectQLTC.Syndrome` (abbrev) in formalization.lean4.SemidirectQLTC.Filling
+- `SemidirectQLTC.syndrome` (def) in formalization.lean4.SemidirectQLTC.Filling
+- `SemidirectQLTC.filling_exists` (theorem) in formalization.lean4.SemidirectQLTC.Filling
+- `SemidirectQLTC.filling` (def) in formalization.lean4.SemidirectQLTC.Filling
+- `SemidirectQLTC.filling_spec` (theorem) in formalization.lean4.SemidirectQLTC.Filling
+- `SemidirectQLTC.filling_le` (theorem) in formalization.lean4.SemidirectQLTC.Filling
+- `SemidirectQLTC.filling_le_weight` (theorem) in formalization.lean4.SemidirectQLTC.Filling
+- `SemidirectQLTC.filling_le_card` (theorem) in formalization.lean4.SemidirectQLTC.Filling
+- `SemidirectQLTC.filling_eq_zero_iff` (theorem) in formalization.lean4.SemidirectQLTC.Filling
+- `SemidirectQLTC.minimumFiller` (def) in formalization.lean4.SemidirectQLTC.Filling
+- `SemidirectQLTC.kernel_distance_exists` (theorem) in formalization.lean4.SemidirectQLTC.Filling
+- ... and 80 more
 
 ### series (+182)
 
@@ -1722,4 +1992,4 @@
 
 ## Update History (1 runs)
 
-- **2026-09-07T08:26:53.560364+00:00**: Checked 48 repos, updated 49, +33703 -0 declarations
+- **2026-09-14T08:36:41.870125+00:00**: Checked 53 repos, updated 54, +37666 -0 declarations
