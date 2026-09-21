@@ -3,16 +3,16 @@
 Topical index for special functions formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
 <!-- STATS_START -->
-**21,014 topic-matched declarations** across **35 repositories** (scanned 53 repos, 50,653 declarations).
+**21,198 topic-matched declarations** across **36 repositories** (scanned 55 repos, 52,100 declarations).
 
 Tracks Lean declarations related to:
-- **Zeta and L-functions** (5,632 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
-- **Power series** (4,969 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
+- **Zeta and L-functions** (5,664 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
+- **Power series** (5,090 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
 - **Exponential and logarithmic** (3,336 matches): exp, log, rpow, sqrt, complex powers
-- **Trigonometric** (2,525 matches): sin, cos, tan, arctan, hyperbolic functions, Chebyshev polynomials
-- **Elliptic curves** (2,328 matches): Weierstrass curves, division polynomials, j-invariant
-- **Modular forms** (1,861 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
-- **Classical special functions** (1,387 matches): Gamma, Beta, digamma, Pochhammer, hypergeometric, Gaussian, Stirling, Hermite, elliptic functions
+- **Trigonometric** (2,528 matches): sin, cos, tan, arctan, hyperbolic functions, Chebyshev polynomials
+- **Elliptic curves** (2,326 matches): Weierstrass curves, division polynomials, j-invariant
+- **Modular forms** (1,879 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
+- **Classical special functions** (1,400 matches): Gamma, Beta, digamma, Pochhammer, hypergeometric, Gaussian, Stirling, Hermite, elliptic functions
 <!-- STATS_END -->
 
 See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](REPOS.md) for all indexed repositories.
@@ -22,15 +22,16 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 <!-- REPOS_TABLE_START -->
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 12,987 | The math library for Lean 4 (indexed via cache, not cloned) |
-| [teal-sea/zeta-lab](https://github.com/teal-sea/zeta-lab) | 3,236 | A computational and formal workbench around the Riemann zeta function:... |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 13,005 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [teal-sea/zeta-lab](https://github.com/teal-sea/zeta-lab) | 3,265 | A computational and formal workbench around the Riemann zeta function:... |
 | [abhisaha-git/fourier-jacobi-core-evaluation](https://github.com/abhisaha-git/fourier-jacobi-core-evaluation) | 1,434 | This Lean publication formalizes a substantial chunk of the local calculations... |
 | [AlexKontorovich/PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 1,114 | Prime Number Theorem, L-series, Mellin transforms |
-| [MichaelStollBayreuth/EllipticCurves](https://github.com/MichaelStollBayreuth/EllipticCurves) | 795 | Formalization in Lean of basic results from the theory of elliptic curves |
+| [MichaelStollBayreuth/EllipticCurves](https://github.com/MichaelStollBayreuth/EllipticCurves) | 793 | Formalization in Lean of basic results from the theory of elliptic curves |
 | [CBirkbeck/ModularForms_Lean4](https://github.com/CBirkbeck/ModularForms_Lean4) | 258 | Modular forms in Lean 4 |
 | [ULSO-Webmaster/EisensteinSeries](https://github.com/ULSO-Webmaster/EisensteinSeries) | 176 |  |
 | [jrskiln/EisensteinSeries](https://github.com/jrskiln/EisensteinSeries) | 176 |  |
 | [attila-ac/hyperlocal](https://github.com/attila-ac/hyperlocal) | 167 | Off-Critical Riemann Zeta Zeros Cannot Seed Symmetric Entire Functions: A... |
+| [rafaelgrenier/KM_ANT_leanai](https://github.com/rafaelgrenier/KM_ANT_leanai) | 139 | This is an ai-generated Lean proof of a problem in mod 3 modular forms. The... |
 | [DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms](https://github.com/DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms) | 82 | Lean formalization of two-round Walsh SRHT embedding bounds, addressing Problem... |
 | [laughinggas/padic-L-functions4](https://github.com/laughinggas/padic-L-functions4) | 78 | p-adic L-functions |
 | [lana-agents/heights](https://github.com/lana-agents/heights) | 61 | Formalization of height comparisons for elliptic curves |

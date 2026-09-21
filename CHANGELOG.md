@@ -1,6 +1,6 @@
-# Changelog (since 2026-09-07)
+# Changelog (since 2026-09-14)
 
-## New Declarations (50653)
+## New Declarations (52100)
 
 ### EisensteinSeries (+718)
 
@@ -128,7 +128,7 @@
 - `EllipticCurveSafety.supersingular_rejected` (theorem) in EllipticCurveSafety.Safety
 - `EllipticCurveSafety.supersingular_low_embedding` (theorem) in EllipticCurveSafety.Safety
 
-### EllipticCurves (+1421)
+### EllipticCurves (+1425)
 
 - `eq_zero_of_nsmul_eq_zero_of_coprime` (theorem) in EllipticCurves.InfiniteOrder
 - `WeierstrassCurve.Affine.not_isOfFinAddOrder_of_coprime_red` (theorem) in EllipticCurves.InfiniteOrder
@@ -180,7 +180,7 @@
 - `WeierstrassCurve.Affine.variableChange_negY` (lemma) in EllipticCurves.VariableChange
 - `WeierstrassCurve.Affine.variableChange_negY_ne` (lemma) in EllipticCurves.VariableChange
 - `WeierstrassCurve.Affine.variableChange_addX` (lemma) in EllipticCurves.VariableChange
-- ... and 1371 more
+- ... and 1375 more
 
 ### EulerProducts (+36)
 
@@ -278,6 +278,60 @@
 - `FeldmanHu.IteratedLog.Full.a_row_one` (theorem) in Full
 - `FeldmanHu.IteratedLog.Full.S_one_ge_log` (theorem) in Full
 - ... and 38 more
+
+### KM_ANT_leanai (+1140)
+
+- `ActualHecke.evalDeltaHom` (def) in ActualHecke.Evaluation
+- `ActualHecke.evalDelta_eq_zero_implies` (theorem) in ActualHecke.Evaluation
+- `ActualHecke.evalDelta_injective` (theorem) in ActualHecke.Evaluation
+- `ActualHecke.AgreeBelow` (def) in ActualHecke.Product
+- `ActualHecke.AgreeBelow.refl` (theorem) in ActualHecke.Product
+- `ActualHecke.AgreeBelow.symm` (theorem) in ActualHecke.Product
+- `ActualHecke.AgreeBelow.trans` (theorem) in ActualHecke.Product
+- `ActualHecke.AgreeBelow.mono` (theorem) in ActualHecke.Product
+- `ActualHecke.AgreeBelow.add` (theorem) in ActualHecke.Product
+- `ActualHecke.AgreeBelow.sub` (theorem) in ActualHecke.Product
+- `ActualHecke.AgreeBelow.mul` (theorem) in ActualHecke.Product
+- `ActualHecke.AgreeBelow.pow` (theorem) in ActualHecke.Product
+- `ActualHecke.AgreeBelow.map` (theorem) in ActualHecke.Product
+- `ActualHecke.product_factor_agrees_one` (theorem) in ActualHecke.Product
+- `ActualHecke.partialProduct` (def) in ActualHecke.Product
+- `ActualHecke.partialProduct_succ` (theorem) in ActualHecke.Product
+- `ActualHecke.partialProduct_coeff_stable` (theorem) in ActualHecke.Product
+- `ActualHecke.productSeries` (def) in ActualHecke.Product
+- `ActualHecke.productSeries_coeff` (theorem) in ActualHecke.Product
+- `ActualHecke.map_partialProduct` (theorem) in ActualHecke.Product
+- `ActualHecke.map_productSeries` (theorem) in ActualHecke.Product
+- `ActualHecke.deltaTruncZ_coe` (theorem) in ActualHecke.Product
+- `ActualHecke.deltaZ_eq_productSeries` (theorem) in ActualHecke.Product
+- `ActualHecke.delta_eq_productSeries` (theorem) in ActualHecke.Product
+- `ActualHecke.deltaTruncZ_coeff_stable` (theorem) in ActualHecke.Product
+- `ActualHecke.deltaZ_coeff_eq_trunc` (theorem) in ActualHecke.Product
+- `ActualHecke.delta_ne_zero` (theorem) in ActualHecke.Product
+- `ActualHecke.T2SymmetricIdentities.of_integral` (theorem) in ActualHecke.T2IntegralReduction
+- `ActualHecke.geometric_telescope` (theorem) in ActualHecke.RootFilter
+- `ActualHecke.root_filter_scalar` (theorem) in ActualHecke.RootFilter
+- `ActualHecke.root_filter_series` (theorem) in ActualHecke.RootFilter
+- `ActualHecke.liftedOrbitTrace` (def) in ActualHecke.RootFilter
+- `ActualHecke.liftedOrbitTrace_eq` (theorem) in ActualHecke.RootFilter
+- `ActualHecke.V_eq_expand` (theorem) in ActualHecke.Operators
+- `ActualHecke.V_injective` (theorem) in ActualHecke.Operators
+- `ActualHecke.V_comp` (theorem) in ActualHecke.Operators
+- `ActualHecke.map_orbitTrace` (theorem) in ActualHecke.Operators
+- `ActualHecke.orbitTrace_two_mod3` (theorem) in ActualHecke.Operators
+- `ActualHecke.orbitTrace_seven_mod3` (theorem) in ActualHecke.Operators
+- `ActualHecke.integralTrace_two_reduction` (theorem) in ActualHecke.Operators
+- `ActualHecke.integralTrace_seven_reduction` (theorem) in ActualHecke.Operators
+- `ActualHecke.TwoBranches.D` (abbrev) in ActualHecke.T2Branches
+- `ActualHecke.TwoBranches.mInf` (def) in ActualHecke.T2Branches
+- `ActualHecke.TwoBranches.mZero` (def) in ActualHecke.T2Branches
+- `ActualHecke.TwoBranches.mOne` (def) in ActualHecke.T2Branches
+- `ActualHecke.TwoBranches.gamma` (def) in ActualHecke.T2Branches
+- `ActualHecke.TwoBranches.a` (def) in ActualHecke.T2Branches
+- `ActualHecke.TwoBranches.b` (def) in ActualHecke.T2Branches
+- `ActualHecke.TwoBranches.c` (def) in ActualHecke.T2Branches
+- `ActualHecke.TwoBranches.inf_S` (lemma) in ActualHecke.T2Branches
+- ... and 1090 more
 
 ### Lean-RH (+210)
 
@@ -891,7 +945,7 @@
 - `Matrix.SpecialLinearGroup.principal_condition₁₁` (lemma) in src.congruence_groups
 - `Matrix.SpecialLinearGroup.principal_congurence_subgroup` (def) in src.congruence_groups
 
-### fourier-jacobi-core-evaluation (+1435)
+### fourier-jacobi-core-evaluation (+1438)
 
 - `FourierJacobiPalomar.t` (def) in Challenge
 - `FourierJacobiPalomar.C` (def) in Challenge
@@ -943,7 +997,7 @@
 - `FourierJacobiPalomar.coreMeasure_eq` (theorem) in Solution
 - `FourierJacobiPalomar.f_eq` (theorem) in Solution
 - `FourierJacobiPalomar.I_eq` (theorem) in Solution
-- ... and 1385 more
+- ... and 1388 more
 
 ### heights (+464)
 
@@ -1107,6 +1161,60 @@
 - `Fixed.toNat_shiftLeftSaturate_of_ne_nan` (lemma) in Interval.Fixed
 - ... and 794 more
 
+### jsp-000076-ramsey (+253)
+
+- `BurrErdos.ramsey_completeness_growth` (theorem) in Proofs
+- `BurrErdos.le_sum_of_mem_subsetSum` (theorem) in Proofs.SeedExtension
+- `BurrErdos.fixed_interval_subsetSum_of_short_seed` (theorem) in Proofs.SeedExtension
+- `BurrErdos.cfp_interval_subsetSum_of_short_seed` (theorem) in Proofs.SeedExtension
+- `BurrErdos.mem_add_of_group_card_lt_card_add_card` (theorem) in Proofs.FullResidues
+- `BurrErdos.add_mem_subsetSum_union_of_disjoint` (theorem) in Proofs.FullResidues
+- `BurrErdos.card_image_mod_eq_card_image_zmod` (theorem) in Proofs.FullResidues
+- `BurrErdos.full_residue_card_of_disjoint_half_dense` (theorem) in Proofs.FullResidues
+- `BurrErdos.not_prime_dvd_of_coprime_factorial` (theorem) in Proofs.RoughModulus
+- `BurrErdos.cutoff_mul_card_addSubgroup_lt_modulus` (theorem) in Proofs.RoughModulus
+- `BurrErdos.card_addSubgroup_le_div_of_no_small_prime` (theorem) in Proofs.RoughModulus
+- `BurrErdos.card_addSubgroup_le_div_of_coprime_factorial` (theorem) in Proofs.RoughModulus
+- `BurrErdos.upperAmplification` (def) in Proofs.FiniteBlockConstruction
+- `BurrErdos.upperAmplification_pos` (theorem) in Proofs.FiniteBlockConstruction
+- `BurrErdos.injectiveModularFailure` (def) in Proofs.FiniteBlockConstruction
+- `BurrErdos.card_restricted_modular_failure_le` (theorem) in Proofs.FiniteBlockConstruction
+- `BurrErdos.card_roughAlphabet_le` (theorem) in Proofs.FiniteBlockConstruction
+- `BurrErdos.exists_uniformHalfResidue_block_of_large_alphabet` (theorem) in Proofs.FiniteBlockConstruction
+- `BurrErdos.eventual_uniformHalfResidue_blocks` (theorem) in Proofs.FiniteBlockConstruction
+- `BurrErdos.sparse_existence` (theorem) in Proofs.FiniteBlockConstruction
+- `BurrErdos.weighted_dyadic_intervals_overlap` (theorem) in Proofs.DyadicBlockAssembly
+- `BurrErdos.intervals_cover_tail_of_overlap` (theorem) in Proofs.DyadicBlockAssembly
+- `BurrErdos.sparseExistence_of_eventual_uniformHalfResidue_blocks` (theorem) in Proofs.DyadicBlockAssembly
+- `BurrErdos.assignmentWord` (def) in Proofs.AssignmentWords
+- `BurrErdos.assignmentWord_injective` (theorem) in Proofs.AssignmentWords
+- `BurrErdos.assignmentWord_mem_sampleWords` (theorem) in Proofs.AssignmentWords
+- `BurrErdos.assignmentWord_nodup` (theorem) in Proofs.AssignmentWords
+- `BurrErdos.assignmentWord_toFinset` (theorem) in Proofs.AssignmentWords
+- `BurrErdos.card_assignments_le_of_word_event` (theorem) in Proofs.AssignmentWords
+- `BurrErdos.residueInterval` (def) in Proofs.PeriodicSampling
+- `BurrErdos.image_residueInterval_period` (theorem) in Proofs.PeriodicSampling
+- `BurrErdos.card_residueInterval_period` (theorem) in Proofs.PeriodicSampling
+- `BurrErdos.residueInterval_add` (theorem) in Proofs.PeriodicSampling
+- `BurrErdos.residueInterval_disjoint` (theorem) in Proofs.PeriodicSampling
+- `BurrErdos.card_residueInterval_mul` (theorem) in Proofs.PeriodicSampling
+- `BurrErdos.div_mul_card_le_card_residueInterval` (theorem) in Proofs.PeriodicSampling
+- `BurrErdos.coprimeResidues` (def) in Proofs.PeriodicSampling
+- `BurrErdos.card_coprimeResidues` (theorem) in Proofs.PeriodicSampling
+- `BurrErdos.div_mul_totient_le_card_coprime_interval` (theorem) in Proofs.PeriodicSampling
+- `BurrErdos.length_mul_totient_le_twice_modulus_mul_card_coprime_interval` (theorem) in Proofs.PeriodicSampling
+- `BurrErdos.ModularState` (def) in Proofs.ModularProcess
+- `BurrErdos.modularTransition` (def) in Proofs.ModularProcess
+- `BurrErdos.modularStateSize` (def) in Proofs.ModularProcess
+- `BurrErdos.initialModularState` (def) in Proofs.ModularProcess
+- `BurrErdos.modularBad` (def) in Proofs.ModularProcess
+- `BurrErdos.modularStateSize_mono` (theorem) in Proofs.ModularProcess
+- `BurrErdos.modularStateSize_difference` (theorem) in Proofs.ModularProcess
+- `BurrErdos.modular_good_growth` (theorem) in Proofs.ModularProcess
+- `BurrErdos.card_modular_bad_letters_le` (theorem) in Proofs.ModularProcess
+- `BurrErdos.card_small_modular_words_le` (theorem) in Proofs.ModularProcess
+- ... and 203 more
+
 ### leanproject (+28)
 
 - `pos_real` (def) in keeptrack
@@ -1220,7 +1328,7 @@
 - `LogarithmicMorrisFull.radialRadius` (def) in logarithmicmorris.ScratchCircleLogFourier
 - ... and 620 more
 
-### mathlib4 (+12987)
+### mathlib4 (+13005)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -1272,7 +1380,7 @@
 - `AddChar.instFintype` (instance) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.linearIndependent` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.sum_apply_eq_ite` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12937 more
+- ... and 12955 more
 
 ### matrix_category (+78)
 
@@ -1936,7 +2044,7 @@
 - `hcoe` (lemma) in src.upper_half_plane_manifold
 - ... and 66 more
 
-### zeta-lab (+4754)
+### zeta-lab (+4783)
 
 - `ZetaLean.PalomarDH.dh_kappa` (def) in lean.DHChallenge
 - `ZetaLean.PalomarDH.dh_coeff` (def) in lean.DHChallenge
@@ -1988,8 +2096,8 @@
 - `ZetaLean.HigherXi.rootedMatchingSum` (def) in lean.ZetaLean.SupportSizeMajorant
 - `ZetaLean.HigherXi.exactSupportSizeCoefficient` (def) in lean.ZetaLean.SupportSizeMajorant
 - `ZetaLean.HigherXi.rootedMatchingSummand_nonneg` (theorem) in lean.ZetaLean.SupportSizeMajorant
-- ... and 4704 more
+- ... and 4733 more
 
 ## Update History (1 runs)
 
-- **2026-09-14T08:36:41.870125+00:00**: Checked 53 repos, updated 54, +37666 -0 declarations
+- **2026-09-21T08:30:11.444203+00:00**: Checked 55 repos, updated 56, +39095 -0 declarations

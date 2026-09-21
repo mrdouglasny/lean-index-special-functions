@@ -1,32 +1,32 @@
 # Lean Index Statistics
 
-**22,038 topic-matched declarations** across **35 repositories**
-(50,653 total declarations scanned from 53 repos)
+**22,223 topic-matched declarations** across **36 repositories**
+(52,100 total declarations scanned from 55 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| zeta-and-l-functions           |      5,632 |
-| power-series                   |      4,969 |
+| zeta-and-l-functions           |      5,664 |
+| power-series                   |      5,090 |
 | exponential-logarithmic        |      3,336 |
-| trigonometric                  |      2,525 |
-| elliptic-curves                |      2,328 |
-| modular-forms                  |      1,861 |
-| classical-special-functions    |      1,387 |
+| trigonometric                  |      2,528 |
+| elliptic-curves                |      2,326 |
+| modular-forms                  |      1,879 |
+| classical-special-functions    |      1,400 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     15,819 |
-| def             |      2,416 |
-| lemma           |      2,098 |
+| theorem         |     15,913 |
+| def             |      2,473 |
+| lemma           |      2,126 |
 | instance        |        466 |
 | ctor            |         75 |
-| abbrev          |         58 |
-| structure       |         44 |
-| class           |         34 |
+| abbrev          |         61 |
+| structure       |         45 |
+| class           |         35 |
 | inductive       |          2 |
 | opaque          |          2 |
 
@@ -34,15 +34,16 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     12,987 |     12,987 |
-| zeta-lab                            |      3,236 |      4,754 |
-| fourier-jacobi-core-evaluation      |      1,434 |      1,435 |
+| mathlib4                            |     13,005 |     13,005 |
+| zeta-lab                            |      3,265 |      4,783 |
+| fourier-jacobi-core-evaluation      |      1,434 |      1,438 |
 | PrimeNumberTheoremAnd               |      1,114 |      8,689 |
-| EllipticCurves                      |        795 |      1,421 |
+| EllipticCurves                      |        793 |      1,425 |
 | ModularForms_Lean4                  |        258 |        727 |
 | EisensteinSeries                    |        176 |        359 |
 | EisensteinSeries                    |        176 |        359 |
 | hyperlocal                          |        167 |      2,029 |
+| KM_ANT_leanai                       |        139 |      1,140 |
 | Rerandomized-Subsampled-Trigonometr |         82 |      2,158 |
 | padic-L-functions4                  |         78 |        382 |
 | heights                             |         61 |        464 |
@@ -63,14 +64,13 @@
 | EllipticCurve                       |          5 |        583 |
 | mock-theta-rank2                    |          3 |        229 |
 | leanproject                         |          3 |         28 |
-| Riemann_zeta                        |          3 |         42 |
-| ... and 5 more |  |  |
+| ... and 6 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-09-14T08:36:41.870125+00:00
-- **Repos checked**: 53
-- **Repos updated**: 54
-- **New declarations**: 37666
+- **When**: 2026-09-21T08:30:11.444203+00:00
+- **Repos checked**: 55
+- **Repos updated**: 56
+- **New declarations**: 39095
 - **Removed declarations**: 0
-- **Summary**: Checked 53 repos, updated 54, +37666 -0 declarations
+- **Summary**: Checked 55 repos, updated 56, +39095 -0 declarations
