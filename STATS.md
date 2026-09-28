@@ -1,31 +1,31 @@
 # Lean Index Statistics
 
-**22,223 topic-matched declarations** across **36 repositories**
-(52,100 total declarations scanned from 55 repos)
+**22,275 topic-matched declarations** across **36 repositories**
+(52,152 total declarations scanned from 55 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| zeta-and-l-functions           |      5,664 |
+| zeta-and-l-functions           |      5,678 |
 | power-series                   |      5,090 |
-| exponential-logarithmic        |      3,336 |
+| exponential-logarithmic        |      3,347 |
 | trigonometric                  |      2,528 |
-| elliptic-curves                |      2,326 |
-| modular-forms                  |      1,879 |
-| classical-special-functions    |      1,400 |
+| elliptic-curves                |      2,325 |
+| modular-forms                  |      1,901 |
+| classical-special-functions    |      1,406 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     15,913 |
-| def             |      2,473 |
-| lemma           |      2,126 |
+| theorem         |     15,951 |
+| def             |      2,481 |
+| lemma           |      2,130 |
 | instance        |        466 |
 | ctor            |         75 |
 | abbrev          |         61 |
-| structure       |         45 |
+| structure       |         44 |
 | class           |         35 |
 | inductive       |          2 |
 | opaque          |          2 |
@@ -34,10 +34,10 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     13,005 |     13,005 |
+| mathlib4                            |     13,045 |     13,045 |
 | zeta-lab                            |      3,265 |      4,783 |
 | fourier-jacobi-core-evaluation      |      1,434 |      1,438 |
-| PrimeNumberTheoremAnd               |      1,114 |      8,689 |
+| PrimeNumberTheoremAnd               |      1,124 |      8,701 |
 | EllipticCurves                      |        793 |      1,425 |
 | ModularForms_Lean4                  |        258 |        727 |
 | EisensteinSeries                    |        176 |        359 |
@@ -51,7 +51,7 @@
 | logarithmic-morris-lean             |         54 |        670 |
 | birch-swinnerton-dyer-143           |         51 |      8,992 |
 | stirling                            |         45 |         45 |
-| flt-from-scratch                    |         41 |        296 |
+| flt-from-scratch                    |         40 |        296 |
 | a-lean4-formalisation-of-Hilbert-ba |         39 |         39 |
 | interval                            |         34 |        844 |
 | ray                                 |         24 |        854 |
@@ -68,9 +68,9 @@
 
 ## Last Update
 
-- **When**: 2026-09-21T08:30:11.444203+00:00
+- **When**: 2026-09-28T08:49:31.210824+00:00
 - **Repos checked**: 55
 - **Repos updated**: 56
-- **New declarations**: 39095
+- **New declarations**: 39107
 - **Removed declarations**: 0
-- **Summary**: Checked 55 repos, updated 56, +39095 -0 declarations
+- **Summary**: Checked 55 repos, updated 56, +39107 -0 declarations
