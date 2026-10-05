@@ -1,6 +1,6 @@
-# Changelog (since 2026-09-21)
+# Changelog (since 2026-09-28)
 
-## New Declarations (52152)
+## New Declarations (90086)
 
 ### EisensteinSeries (+718)
 
@@ -128,7 +128,7 @@
 - `EllipticCurveSafety.supersingular_rejected` (theorem) in EllipticCurveSafety.Safety
 - `EllipticCurveSafety.supersingular_low_embedding` (theorem) in EllipticCurveSafety.Safety
 
-### EllipticCurves (+1425)
+### EllipticCurves (+1412)
 
 - `challenge_fg_point_of_numberField` (theorem) in comparator.Solution
 - `challengeCurve` (def) in comparator.Challenge
@@ -180,7 +180,7 @@
 - `WeierstrassCurve.Affine.nonsingular_baseChange` (lemma) in EllipticCurves.SelmerGroup
 - `WeierstrassCurve.Affine.mapA` (def) in EllipticCurves.SelmerGroup
 - `WeierstrassCurve.Affine.mapA_mk` (lemma) in EllipticCurves.SelmerGroup
-- ... and 1375 more
+- ... and 1362 more
 
 ### EulerProducts (+36)
 
@@ -386,6 +386,60 @@
 - `riemann_hypothesis.ExpLog.pow_neg_exponent_inverts` (def) in src.exponential
 - `riemann_hypothesis.ExpLog.pow_homomorphism_inv_from_neg` (def) in src.exponential
 - ... and 160 more
+
+### LeanPolyLog (+318)
+
+- `LeanPolyLog.A001` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A002` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A003` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A004` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A005` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A006_cos` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A006_sin` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A007` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A008` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A009` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A010` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A011` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A012` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A013` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A014` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A015` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.A016` (theorem) in LeanPolyLog.Statements
+- `LeanPolyLog.Li` (def) in LeanPolyLog.Defs
+- `LeanPolyLog.Lir` (def) in LeanPolyLog.Defs
+- `LeanPolyLog.G` (def) in LeanPolyLog.Defs
+- `LeanPolyLog.zeta3` (def) in LeanPolyLog.Defs
+- `LeanPolyLog.LogTrig.powMulNegLogPrimitive` (def) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.hasDerivAt_powMulNegLogPrimitive` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.continuous_pow_succ_mul_log` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.continuous_powMulNegLogPrimitive` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.integrableOn_pow_mul_neg_log` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.integral_pow_mul_neg_log` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.hasSum_neg_one_pow_mul_pow_mul_neg_log` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.summable_one_div_two_mul_add_one_sq` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.integral_neg_log_div_one_add_sq` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.integral_log_cos_sub_log_sin` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.integral_log_cos_eq_integral_log_sin` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.integral_log_sin_add_integral_log_cos` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.LogTrig.integral_log_cos_sub_integral_log_sin` (theorem) in LeanPolyLog.Lemmas.LogTrig
+- `LeanPolyLog.Arctan.hasSum_integral_div_one_sub` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.hasSum_integral_mul_div_one_add_mul` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.hasSum_integral_div_one_add_sq` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.intervalIntegrable_pow_mul_log` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.integral_pow_mul_log` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.integral_norm_pow_mul_log` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.integral_mul_log_div_one_add_mul` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.continuous_inv_one_add_sq` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.integral_kernel` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.integral_integral_swap_kernel` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.integral_log_div_one_add_sq` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.integral_mul_log_div_one_add_sq` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.continuous_log_mul_log_one_add` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.continuousOn_Lir_neg` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Arctan.hasDerivAt_Lir_two_neg_add` (theorem) in LeanPolyLog.Lemmas.Arctan
+- `LeanPolyLog.Trilog.Li_conj` (theorem) in LeanPolyLog.Lemmas.TrilogValues
+- ... and 268 more
 
 ### ModularFormDimensions (+30)
 
@@ -1328,7 +1382,7 @@
 - `LogarithmicMorrisFull.pairOriented_of_blockSurvivor` (lemma) in logarithmicmorris.LogarithmicMorrisKOne
 - ... and 620 more
 
-### mathlib4 (+13045)
+### mathlib4 (+13126)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -1380,7 +1434,7 @@
 - `AddChar.instFintype` (instance) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.linearIndependent` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.sum_apply_eq_ite` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 12995 more
+- ... and 13076 more
 
 ### matrix_category (+78)
 
@@ -1652,7 +1706,7 @@
 - `FinShaRank2.lambdaAn_eq_two_of_coeffs` (theorem) in formalisation.FinShaRank2.Kernel.TsqUnit
 - ... and 112 more
 
-### ray (+854)
+### ray (+889)
 
 - `ChartedSpace.regularSpace` (theorem) in Ray.Misc.ChartedSpace
 - `Real.convexOn_rpow_of_neg` (lemma) in Ray.Misc.Pow
@@ -1668,7 +1722,7 @@
 - `IsPreconnected.sUnion_of_pairwise_exists_isPreconnected` (lemma) in Ray.Misc.Topology
 - `IsPreconnected.iUnion_of_pairwise_exists_isPreconnected` (lemma) in Ray.Misc.Topology
 - `local_connected_nhdsSet` (theorem) in Ray.Misc.Topology
-- `nhdsWithin_eq_iff_eventuallyEq'` (lemma) in Ray.Misc.Topology
+- `nhdsWithin_eq_iff_eventuallyEqSet'` (lemma) in Ray.Misc.Topology
 - `ContinuousWithinAt.congr_set''` (lemma) in Ray.Misc.Topology
 - `eventuallyEq_inter` (lemma) in Ray.Misc.Topology
 - `eventually_nhdsGT_zero_ball_iff_nhds` (lemma) in Ray.Misc.Topology
@@ -1704,7 +1758,61 @@
 - `Circle.neg_def` (lemma) in Ray.Misc.Circle
 - `Circle.arg_neg_one` (lemma) in Ray.Misc.Circle
 - `AddCircle.isConnected_compl_singleton` (lemma) in Ray.Misc.Circle
-- ... and 804 more
+- ... and 839 more
+
+### riemann (+31633)
+
+- `AMW.cAMn` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.cAM` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.ωAM` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAM` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.MAM` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.phiW` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.fW` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.phiW_eq_mul` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.localFunW` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.MAM_pos` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.cAM_zero` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.ωAM_zero` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.ωAM_succ` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.pAM` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAM_eq` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.sum_abs_cAM_succ` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.abs_pAM_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAM_even` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAM_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.cos_sqrt2_ge` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAM_ge_core` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAM_pos_wide` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAM_zero` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAM_continuous` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAM_contDiff` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAMd` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.vAMdd` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.hasDerivAt_vAM` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.hasDerivAt_vAMd` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.deriv_vAM` (theorem) in submissions.six-point-optimised-window.proof.Solution
+- `AMW.deriv_vAMd` (theorem) in submissions.six-point-optimised-window.proof.Solution
+- `AMW.ωAM_nonneg` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.ωAM_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.abs_vAMd_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.ωAM_sq_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.abs_vAMdd_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.deriv2_mul_eq_on` (theorem) in submissions.six-point-optimised-window.proof.Solution
+- `AMW.deriv_mul_eq_on` (theorem) in submissions.six-point-optimised-window.proof.Solution
+- `AMW.hW` (def) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.fW_eq_sqrt` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.fW_even` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.fW_nonneg` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.hW_le_one` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.fW_le_one` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.abs_div_le_half` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.hW_core_ge` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.fW_core_ge` (theorem) in submissions.six-point-optimised-window.proof.Solution
+- `AMW.hW_pos_of_mem` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.hW_contDiff` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- `AMW.fW_contDiffOn` (theorem) in submissions.seven-point-optimised-window.proof.Solution
+- ... and 31583 more
 
 ### riemann-von-mangoldt-formalized (+80)
 
@@ -2044,7 +2152,7 @@
 - `pseries_neq_zero_function_neq_zero` (lemma) in src.holh
 - ... and 66 more
 
-### zeta-lab (+4783)
+### zeta-lab (+10663)
 
 - `ZetaLean.Palomar.aCoef` (def) in lean.Challenge
 - `ZetaLean.Palomar.F1` (def) in lean.Challenge
@@ -2096,8 +2204,8 @@
 - `Zeta23Ext.PalomarV2.zeroMult` (def) in lean.bridge.V2Challenge
 - `Zeta23Ext.PalomarV2.zerosIn` (def) in lean.bridge.V2Challenge
 - `Zeta23Ext.PalomarV2.Ncount` (def) in lean.bridge.V2Challenge
-- ... and 4733 more
+- ... and 10613 more
 
 ## Update History (1 runs)
 
-- **2026-09-28T08:49:31.210824+00:00**: Checked 55 repos, updated 56, +39107 -0 declarations
+- **2026-10-05T08:51:59.381411+00:00**: Checked 60 repos, updated 61, +76960 -0 declarations
