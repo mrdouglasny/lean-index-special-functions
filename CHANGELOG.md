@@ -1,6 +1,6 @@
-# Changelog (since 2026-09-28)
+# Changelog (since 2026-10-05)
 
-## New Declarations (90086)
+## New Declarations (127427)
 
 ### EisensteinSeries (+718)
 
@@ -528,6 +528,14 @@
 - `upper_bnd_summable` (theorem) in Modformsported.ForMathlib.AuxpLemmas
 - ... and 677 more
 
+### Partial-FLT-solution (+5)
+
+- `RootCollapse.sine_ratio_pos_lt_one` (lemma) in RootCollapse
+- `RootCollapse.roots_tend_to_zero` (theorem) in RootCollapse
+- `RootCollapse.sine_ratio_pos_lt_one_of_acute` (lemma) in RootCollapse
+- `RootCollapse.roots_tend_to_zero_of_acute_branch` (theorem) in RootCollapse
+- `RootCollapse.accumulation_point_on_level_set` (theorem) in RootCollapse
+
 ### PrimeNumberTheoremAnd (+8701)
 
 - `B1` (def) in PrimeNumberTheoremAnd.EulerMaclaurin
@@ -842,6 +850,60 @@
 - `tactic.times_table.tactic.norm_num.finset.insert_eq_coe_list_of_mem` (lemma) in src.tactic.times_table
 - ... and 341 more
 
+### contract-sinew-align (+57)
+
+- `main` (def) in lean.Sinew.AlignTest
+- `kernels` (def) in lean.Sinew.EmitShaders
+- `maxErr` (def) in lean.Sinew.AlignTest
+- `Sinew.Anthro.Bone` (inductive) in lean.Sinew.Sinew.Anthropometry
+- `Sinew.Anthro.Bone.idx` (def) in lean.Sinew.Sinew.Anthropometry
+- `Sinew.Anthro.Bone.name` (def) in lean.Sinew.Sinew.Anthropometry
+- `Sinew.Anthro.numBones` (def) in lean.Sinew.Sinew.Anthropometry
+- `Sinew.Anthro.allBones` (def) in lean.Sinew.Sinew.Anthropometry
+- `Sinew.Anthro.chainRow` (def) in lean.Sinew.Sinew.Anthropometry
+- `Sinew.Align.EPS` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.det9` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.mul9` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.transpose9` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.rodrigues` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.ns30` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.regularize` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.valid9` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.jacobi9` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.kabsch` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.finishAlign` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.align` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Align.apply9` (def) in lean.Sinew.Sinew.Align
+- `Sinew.Math.V3` (structure) in lean.Sinew.Sinew.Math
+- `Sinew.Math.V3.angle` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.M3` (structure) in lean.Sinew.Sinew.Math
+- `Sinew.Math.M3.c0` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.M3.c1` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.M3.c2` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.M3.transpose` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.M3.mulM` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.M3.rotAngle` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.M3.orthonormalize` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.M3.blend` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.quatToMat` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.matToQuat` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.normalEq` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.solveDense` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.solveLS` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.rad2deg` (def) in lean.Sinew.Sinew.Math
+- `Sinew.Math.roundTo` (def) in lean.Sinew.Sinew.Math
+- `Sinew.RigRest.restWorld` (def) in lean.Sinew.Sinew.RigRest
+- `Sinew.RigRest.restAxis` (def) in lean.Sinew.Sinew.RigRest
+- `Sinew.RigRest.parentNode` (def) in lean.Sinew.Sinew.RigRest
+- `Sinew.RigRest.restOffset` (def) in lean.Sinew.Sinew.RigRest
+- `Sinew.SlangCodegen.Pheno.Config` (structure) in lean.Sinew.Sinew.SlangCodegen.Pheno
+- `Sinew.SlangCodegen.Pheno.header` (def) in lean.Sinew.Sinew.SlangCodegen.Pheno
+- `Sinew.SlangCodegen.Pheno.attr` (def) in lean.Sinew.Sinew.SlangCodegen.Pheno
+- `Sinew.SlangCodegen.Pheno.blendshape` (def) in lean.Sinew.Sinew.SlangCodegen.Pheno
+- `Sinew.SlangCodegen.Pheno.baryTet` (def) in lean.Sinew.Sinew.SlangCodegen.Pheno
+- `Sinew.SlangCodegen.Pheno.baryGather` (def) in lean.Sinew.Sinew.SlangCodegen.Pheno
+- ... and 7 more
+
 ### countable-sums-of-sines (+31)
 
 - `KeyVanish.exists_max_modulus` (lemma) in RequestProject.Key
@@ -1053,7 +1115,7 @@
 - `FourierJacobiPalomar.I_eq` (theorem) in Solution
 - ... and 1388 more
 
-### heights (+464)
+### heights (+884)
 
 - `supplies` (theorem) in Heights
 - `auditedRoots` (def) in scripts.AuditAxioms
@@ -1105,7 +1167,61 @@
 - `Heights.complexWeierstrassImplicitXChart` (def) in Heights.WeierstrassFiniteAnalytic
 - `Heights.complexWeierstrassImplicitXChart_mem_source` (theorem) in Heights.WeierstrassFiniteAnalytic
 - `Heights.complexWeierstrassImplicitXChart_symm_coe_of_mem` (theorem) in Heights.WeierstrassFiniteAnalytic
-- ... and 414 more
+- ... and 834 more
+
+### hex-truncated-series (+327)
+
+- `Hex.TSeries.UnitOps` (class) in HexTruncatedSeries.Classes
+- `Hex.TSeries.LawfulUnitOps` (class) in HexTruncatedSeries.Classes
+- `Hex.TSeries.NatInverses` (class) in HexTruncatedSeries.Classes
+- `Hex.TSeries.NatInverses.mono` (def) in HexTruncatedSeries.Classes
+- `Hex.TSeries.NatInverses.invNat_unique` (theorem) in HexTruncatedSeries.Classes
+- `Hex.TSeries.sqrtStep` (def) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtUpTo` (def) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtOfRoot` (def) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrt?` (def) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtError` (def) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.C_three` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.half_series` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtInit_correct` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtStep_agree` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtError_step` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtStep_correct` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtNewton_correct` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtStep_stable` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtNewton_stable` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtNewton_const` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtOfRoot_eq` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtUpTo_agree` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtOfRoot_sq` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrtOfRoot_coeff_zero` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrt_unique` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.sqrt?_isSome_iff` (theorem) in HexTruncatedSeries.Sqrt
+- `Hex.TSeries.truncate` (def) in HexTruncatedSeries.Precision
+- `Hex.TSeries.extend` (def) in HexTruncatedSeries.Precision
+- `Hex.TSeries.mulXPow` (def) in HexTruncatedSeries.Precision
+- `Hex.TSeries.allZeroBelow` (def) in HexTruncatedSeries.Precision
+- `Hex.TSeries.divXPow?` (def) in HexTruncatedSeries.Precision
+- `Hex.TSeries.valuation?` (def) in HexTruncatedSeries.Precision
+- `Hex.TSeries.deriv` (def) in HexTruncatedSeries.Precision
+- `Hex.TSeries.derivPad` (def) in HexTruncatedSeries.Precision
+- `Hex.TSeries.integrate` (def) in HexTruncatedSeries.Precision
+- `Hex.TSeries.coeff_truncate` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.coeff_extend` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.truncate_extend` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.truncate_zero` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.truncate_one` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.truncate_add` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.truncate_neg` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.truncate_sub` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.coeff_mulXPow` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.allZeroBelow_eq_true` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.allZeroBelow_eq_false` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.divXPow?_isSome_iff` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.divXPow?_eq_none_iff` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.coeff_divXPow?_eq_some` (theorem) in HexTruncatedSeries.Precision
+- `Hex.TSeries.divXPow?_eq_some_iff` (theorem) in HexTruncatedSeries.Precision
+- ... and 277 more
 
 ### hyperlocal (+2029)
 
@@ -1300,6 +1416,60 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
+### logarithm-measure (+7241)
+
+- `algebraicLogRoots` (def) in sources.anc.lean.VerifyAlgebraicLog
+- `main` (def) in sources.anc.lean.VerifyLogThree
+- `generalLogRoots` (def) in sources.anc.lean.VerifyGeneralLog
+- `rationalLogRoots` (def) in sources.anc.lean.VerifyRationalLog
+- `logThreeRoots` (def) in sources.anc.lean.VerifyLogThree
+- `LogarithmExtension.LogThree.exists_successive_approximations` (theorem) in sources.anc.lean.LogarithmExtension.LogThreeSuccessiveApproximations
+- `LogarithmExtension.LogThree.logarithmic_weight_bounds` (theorem) in sources.anc.lean.LogarithmExtension.LogThreeSuccessiveApproximations
+- `LogarithmExtension.LogThree.approximation_error_at_logarithmic_weight` (theorem) in sources.anc.lean.LogarithmExtension.LogThreeSuccessiveApproximations
+- `LogarithmExtension.LogThree.normalizedLogWeights` (def) in sources.anc.lean.LogarithmExtension.LogThreeSuccessiveApproximations
+- `LogarithmExtension.LogThree.reverse_logWeights_prod` (theorem) in sources.anc.lean.LogarithmExtension.LogThreeSuccessiveApproximations
+- `LogarithmExtension.LogThree.exists_normalized_selection_of_selector` (theorem) in sources.anc.lean.LogarithmExtension.LogThreeSuccessiveApproximations
+- `LogarithmExtension.LogThree.exists_normalized_successive_approximations` (theorem) in sources.anc.lean.LogarithmExtension.LogThreeSuccessiveApproximations
+- `LogarithmExtension.eventualLowerBound_two_iff_no_liouvilleWith` (theorem) in sources.anc.lean.LogarithmExtension.RationalAffine
+- `LogarithmExtension.EventualLowerBound.rat_mul` (theorem) in sources.anc.lean.LogarithmExtension.RationalAffine
+- `LogarithmExtension.EventualLowerBound.add_rat` (theorem) in sources.anc.lean.LogarithmExtension.RationalAffine
+- `LogarithmExtension.RationalLog.Geometry.geometry` (def) in sources.anc.lean.LogarithmExtension.RationalLogGeometry
+- `LogarithmExtension.RationalLog.Geometry.degreeWeights_eq_matrix` (theorem) in sources.anc.lean.LogarithmExtension.RationalLogGeometry
+- `LogarithmExtension.RationalLog.Geometry.jetWeights_eq_matrix` (theorem) in sources.anc.lean.LogarithmExtension.RationalLogGeometry
+- `LogarithmExtension.RationalLog.Geometry.actual_truncation_weight_bound` (theorem) in sources.anc.lean.LogarithmExtension.RationalLogGeometry
+- `LogarithmExtension.RationalLog.Geometry.actualMatrix_surjective_of_geometry` (theorem) in sources.anc.lean.LogarithmExtension.RationalLogGeometry
+- `LogarithmExtension.RationalLog.Geometry.cofinal_actualMatrix` (theorem) in sources.anc.lean.LogarithmExtension.RationalLogGeometry
+- `LogarithmExtension.RationalLog.Geometry.globalInterpolation` (theorem) in sources.anc.lean.LogarithmExtension.RationalLogGeometry
+- `LogarithmExtension.CompatibleLog.LiteralAnalytic.actual_minor_expansion` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAnalyticAggregate
+- `LogarithmExtension.CompatibleLog.LiteralAnalytic.card_choiceFamily_le` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAnalyticAggregate
+- `LogarithmExtension.CompatibleLog.LiteralAnalytic.analyticRemainder` (def) in sources.anc.lean.LogarithmExtension.CompatibleLogAnalyticAggregate
+- `LogarithmExtension.CompatibleLog.LiteralAnalytic.actual_minor_analytic_bound` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAnalyticAggregate
+- `LogarithmExtension.CompatibleLog.LiteralAnalytic.tendsto_analyticRemainder` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAnalyticAggregate
+- `LogarithmExtension.CompatibleLog.LiteralAnalytic.compatibleAnalytic` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAnalyticAggregate
+- `LogarithmExtension.finite_goodRationalApproximations_of_bound` (theorem) in sources.anc.lean.LogarithmExtension.GeneralExponent
+- `LogarithmExtension.irrationalityExponent_le_of_eventualLowerBound` (theorem) in sources.anc.lean.LogarithmExtension.GeneralExponent
+- `LogarithmExtension.two_le_irrationalityExponent_of_eventualLowerBound` (theorem) in sources.anc.lean.LogarithmExtension.GeneralExponent
+- `LogarithmExtension.NumberFieldArithmetic.prod_embedding_norm` (theorem) in sources.anc.lean.LogarithmExtension.NumberFieldNorm
+- `LogarithmExtension.NumberFieldArithmetic.one_le_prod_embedding_norm` (theorem) in sources.anc.lean.LogarithmExtension.NumberFieldNorm
+- `LogarithmExtension.NumberFieldArithmetic.sum_log_embedding_norm_nonneg` (theorem) in sources.anc.lean.LogarithmExtension.NumberFieldNorm
+- `LogarithmExtension.NumberFieldArithmetic.cleared_element_log_bound` (theorem) in sources.anc.lean.LogarithmExtension.NumberFieldNorm
+- `LogarithmExtension.NumberFieldArithmetic.exists_positive_integral_denominator` (theorem) in sources.anc.lean.LogarithmExtension.NumberFieldNorm
+- `LogarithmExtension.NumberFieldArithmetic.cleared_matrix_log_bound` (theorem) in sources.anc.lean.LogarithmExtension.NumberFieldNorm
+- `LogarithmExtension.NumberFieldArithmetic.cleared_matrix_log_bound_with_denominator` (theorem) in sources.anc.lean.LogarithmExtension.NumberFieldNorm
+- `LogarithmExtension.NumberFieldArithmetic.normalized_arithmetic_bound` (theorem) in sources.anc.lean.LogarithmExtension.NumberFieldNorm
+- `LogarithmExtension.CompatibleLog.exists_large_log_approximation` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogApproximationSelection
+- `LogarithmExtension.CompatibleLog.AllEmbeddings.directError` (def) in sources.anc.lean.LogarithmExtension.CompatibleLogAllEmbeddings
+- `LogarithmExtension.CompatibleLog.AllEmbeddings.directError_nonneg` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAllEmbeddings
+- `LogarithmExtension.CompatibleLog.AllEmbeddings.scaledCenter_norm_le` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAllEmbeddings
+- `LogarithmExtension.CompatibleLog.AllEmbeddings.conjugateError_le_directError` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAllEmbeddings
+- `LogarithmExtension.CompatibleLog.AllEmbeddings.norm_conjugate_entry_le` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAllEmbeddings
+- `LogarithmExtension.CompatibleLog.AllEmbeddings.conjugate_normalized_log_bound` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAllEmbeddings
+- `LogarithmExtension.CompatibleLog.AllEmbeddings.allEmbeddingRemainder` (def) in sources.anc.lean.LogarithmExtension.CompatibleLogAllEmbeddings
+- `LogarithmExtension.CompatibleLog.AllEmbeddings.actual_norm_analytic_bound` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAllEmbeddings
+- `LogarithmExtension.CompatibleLog.AllEmbeddings.tendsto_allEmbeddingRemainder` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAllEmbeddings
+- `LogarithmExtension.CompatibleLog.AllEmbeddings.analyticAggregate` (theorem) in sources.anc.lean.LogarithmExtension.CompatibleLogAllEmbeddings
+- ... and 7191 more
+
 ### logarithmic-capacity (+25)
 
 - `LogCapacity.logKernelPos` (def) in Main
@@ -1382,7 +1552,7 @@
 - `LogarithmicMorrisFull.pairOriented_of_blockSurvivor` (lemma) in logarithmicmorris.LogarithmicMorrisKOne
 - ... and 620 more
 
-### mathlib4 (+13126)
+### mathlib4 (+13128)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -1434,7 +1604,7 @@
 - `AddChar.instFintype` (instance) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.linearIndependent` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.sum_apply_eq_ite` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 13076 more
+- ... and 13078 more
 
 ### matrix_category (+78)
 
@@ -1543,6 +1713,60 @@
 - `RankTwo.RamificationCriterion.residueSum_eq` (theorem) in lean.RankTwo.RamificationCriterion
 - `RankTwo.RamificationCriterion.residueSum_eq_zero_iff` (theorem) in lean.RankTwo.RamificationCriterion
 - ... and 179 more
+
+### orbicurve-cores (+1823)
+
+- `OrbicurveCores.scaledSL` (def) in OrbicurveCores.FourGroups
+- `OrbicurveCores.tr_scaledSL` (lemma) in OrbicurveCores.FourGroups
+- `OrbicurveCores.tr_scaledSL_mul` (lemma) in OrbicurveCores.FourGroups
+- `OrbicurveCores.pairIA` (def) in OrbicurveCores.FourGroups
+- `OrbicurveCores.pairIB` (def) in OrbicurveCores.FourGroups
+- `OrbicurveCores.pairIIA` (def) in OrbicurveCores.FourGroups
+- `OrbicurveCores.pairIIB` (def) in OrbicurveCores.FourGroups
+- `OrbicurveCores.pairIIIA` (def) in OrbicurveCores.FourGroups
+- `OrbicurveCores.pairIIIB` (def) in OrbicurveCores.FourGroups
+- `OrbicurveCores.pairIVA` (def) in OrbicurveCores.FourGroups
+- `OrbicurveCores.pairIVB` (def) in OrbicurveCores.FourGroups
+- `OrbicurveCores.takeuchiPair` (def) in OrbicurveCores.FourGroups
+- `OrbicurveCores.div_sqrt_eq_sqrt` (lemma) in OrbicurveCores.FourGroups
+- `OrbicurveCores.div_sqrt_mul_sqrt_eq_sqrt` (lemma) in OrbicurveCores.FourGroups
+- `OrbicurveCores.takeuchiPair_traces` (lemma) in OrbicurveCores.FourGroups
+- `OrbicurveCores.tr_neg` (lemma) in OrbicurveCores.FourGroups
+- `OrbicurveCores.exists_sign_normalize` (lemma) in OrbicurveCores.FourGroups
+- `OrbicurveCores.exists_conj_of_takeuchiSq` (theorem) in OrbicurveCores.FourGroups
+- `OrbicurveCores.takeuchi_one_infty_conj` (theorem) in OrbicurveCores.FourGroups
+- `OrbicurveCores.canLift27_group_conj` (theorem) in OrbicurveCores.FourGroups
+- `OrbicurveCores.exceptionalJ_eq_excJ` (lemma) in OrbicurveCores.Reconcile
+- `OrbicurveCores.CanLift27Genuine` (def) in OrbicurveCores.Reconcile
+- `OrbicurveCores.canLift27Genuine_of_canLift27` (theorem) in OrbicurveCores.Reconcile
+- `OrbicurveCores.Realizes` (def) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.TakeuchiSq` (def) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.Realizes.mem` (lemma) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.Realizes.swap` (lemma) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.Realizes.cycle` (lemma) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.Realizes.flip` (lemma) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.Realizes.sq_int` (lemma) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.takeuchiSq_of_sorted` (lemma) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.exists_takeuchiSq` (theorem) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.sq_eq_neg_one_of_tr_eq_zero` (lemma) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.pow_four_eq_one_of_tr_zero` (lemma) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.IsArithmeticSL.exists_pow_four_ne_one` (lemma) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.takeuchi_one_infty_of_int` (theorem) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.takeuchi_one_infty` (theorem) in OrbicurveCores.Takeuchi
+- `OrbicurveCores.Sharp.coverI` (def) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.transI` (def) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.coverI_ok` (lemma) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.transI_ok` (lemma) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.coverII` (def) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.transII` (def) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.coverII_ok` (lemma) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.transII_ok` (lemma) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.coverIII` (def) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.transIII` (def) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.coverIII_ok` (lemma) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.transIII_ok` (lemma) in OrbicurveCores.SharpnessData
+- `OrbicurveCores.Sharp.coverIV` (def) in OrbicurveCores.SharpnessData
+- ... and 1773 more
 
 ### padic-L-functions4 (+382)
 
@@ -1706,7 +1930,61 @@
 - `FinShaRank2.lambdaAn_eq_two_of_coeffs` (theorem) in formalisation.FinShaRank2.Kernel.TsqUnit
 - ... and 112 more
 
-### ray (+889)
+### rational-log-irrationality (+6649)
+
+- `RationalLogReview.ArbitrarilyGoodApproximations` (def) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.StrictArbitrarilyGoodApproximations` (def) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.StrictArbitrarilyGoodApproximations.to_weak` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.EventualApproximationLowerBound` (def) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.not_arbitrarilyGoodApproximations_iff` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.rational_has_arbitrarily_large_exact_representations` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.irrational_of_eventual_positive_lower_bound` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.irrational_of_eventualApproximationLowerBound` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.ApproximationExponentAtMostTwo` (def) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.approximationExponentAtMostTwo_iff_eventual` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.irrational_of_approximationExponentAtMostTwo` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.infinite_dirichlet_approximants_of_upper_bound` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.finite_bounded_denominator_near` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.strictArbitrarilyGoodApproximations_two_of_irrational` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.arbitrarilyGoodApproximations_two_of_irrational` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.ApproximationExponentExactlyTwo` (def) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.approximationExponentExactlyTwo_of_upper` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.ArbitrarilyGoodApproximations.of_exponent_le` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.arbitrarilyGoodApproximations_iff_exponent_le_two` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.irrationalityExponent` (def) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.irrationalityExponent_eq_two_of_exact` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.irrationalityExponent_eq_two_of_eventual_bounds` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.conditional_logarithm_endpoint` (theorem) in lean-local.portable_project.ApproximationBridge
+- `RationalLogReview.nonzero_integer_abs_ge_one` (theorem) in lean-local.portable_project.IntegerDeterminant
+- `RationalLogReview.integer_matrix_det_abs_ge_one` (theorem) in lean-local.portable_project.IntegerDeterminant
+- `RationalLogReview.cleared_integer_lower_bound` (theorem) in lean-local.portable_project.IntegerDeterminant
+- `LogarithmAudit.distinct_nat_degrees_bound` (theorem) in lean-local.portable_project.Collision
+- `LogarithmAudit.injective_degrees_bound` (theorem) in lean-local.portable_project.Collision
+- `LogarithmAudit.grouped_degrees_bound` (theorem) in lean-local.portable_project.Collision
+- `LogarithmAudit.nat_square_eq_collision_add` (theorem) in lean-local.portable_project.Collision
+- `LogarithmAudit.grouped_squares_bound` (theorem) in lean-local.portable_project.Collision
+- `LogarithmAudit.grouped_squares_bound_real` (theorem) in lean-local.portable_project.Collision
+- `LogarithmAudit.collision_bound_of_pair_injective` (theorem) in lean-local.portable_project.Collision
+- `LogarithmAudit.finite_occupancy_cauchy_schwarz` (theorem) in lean-local.portable_project.Collision
+- `LogarithmAudit.occupancy_threshold_bound` (theorem) in lean-local.portable_project.Collision
+- `LogarithmAudit.subset_occupancy_threshold_bound` (theorem) in lean-local.portable_project.Collision
+- `IrrationalityReview.residue` (def) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.residue_derivative_zero` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.derivative_ne_of_residue_ne_zero` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.derivative_ne_simple_pole` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.no_primitive_simple_pole` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.constant_div_X_eq_simple_pole` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.no_primitive_positive_degree` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.logarithmic_derivative_monomial` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.derivative_ne_logarithmic_monomial` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.primitive` (def) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.derivative_primitive` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.exists_primitive_iff_residue_zero` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.derivative_constant_zero` (theorem) in lean-local.portable_project.LaurentResidue
+- `IrrationalityReview.eq_constant_of_derivative_zero` (theorem) in lean-local.portable_project.LaurentResidue
+- ... and 6599 more
+
+### ray (+907)
 
 - `ChartedSpace.regularSpace` (theorem) in Ray.Misc.ChartedSpace
 - `Real.convexOn_rpow_of_neg` (lemma) in Ray.Misc.Pow
@@ -1758,61 +2036,61 @@
 - `Circle.neg_def` (lemma) in Ray.Misc.Circle
 - `Circle.arg_neg_one` (lemma) in Ray.Misc.Circle
 - `AddCircle.isConnected_compl_singleton` (lemma) in Ray.Misc.Circle
-- ... and 839 more
+- ... and 857 more
 
-### riemann (+31633)
+### riemann (+38764)
 
-- `AMW.cAMn` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.cAM` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.ωAM` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAM` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.MAM` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.phiW` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.fW` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.phiW_eq_mul` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.localFunW` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.MAM_pos` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.cAM_zero` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.ωAM_zero` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.ωAM_succ` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.pAM` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAM_eq` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.sum_abs_cAM_succ` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.abs_pAM_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAM_even` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAM_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.cos_sqrt2_ge` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAM_ge_core` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAM_pos_wide` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAM_zero` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAM_continuous` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAM_contDiff` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAMd` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.vAMdd` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.hasDerivAt_vAM` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.hasDerivAt_vAMd` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.deriv_vAM` (theorem) in submissions.six-point-optimised-window.proof.Solution
-- `AMW.deriv_vAMd` (theorem) in submissions.six-point-optimised-window.proof.Solution
-- `AMW.ωAM_nonneg` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.ωAM_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.abs_vAMd_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.ωAM_sq_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.abs_vAMdd_le` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.deriv2_mul_eq_on` (theorem) in submissions.six-point-optimised-window.proof.Solution
-- `AMW.deriv_mul_eq_on` (theorem) in submissions.six-point-optimised-window.proof.Solution
-- `AMW.hW` (def) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.fW_eq_sqrt` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.fW_even` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.fW_nonneg` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.hW_le_one` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.fW_le_one` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.abs_div_le_half` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.hW_core_ge` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.fW_core_ge` (theorem) in submissions.six-point-optimised-window.proof.Solution
-- `AMW.hW_pos_of_mem` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.hW_contDiff` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- `AMW.fW_contDiffOn` (theorem) in submissions.seven-point-optimised-window.proof.Solution
-- ... and 31583 more
+- `AMW.cAMn` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.cAM` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.ωAM` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAM` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.MAM` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.phiW` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.fW` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.phiW_eq_mul` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.localFunW` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.MAM_pos` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.cAM_zero` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.ωAM_zero` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.ωAM_succ` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.pAM` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAM_eq` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.sum_abs_cAM_succ` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.abs_pAM_le` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAM_even` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAM_le` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.cos_sqrt2_ge` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAM_ge_core` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAM_pos_wide` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAM_zero` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAM_continuous` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAM_contDiff` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAMd` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.vAMdd` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.hasDerivAt_vAM` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.hasDerivAt_vAMd` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.ωAM_nonneg` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.ωAM_le` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.abs_vAMd_le` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.ωAM_sq_le` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.abs_vAMdd_le` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.hW` (def) in submissions.master-of-puppets.proof.Solution
+- `AMW.fW_eq_sqrt` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.fW_even` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.fW_nonneg` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.hW_le_one` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.fW_le_one` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.abs_div_le_half` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.hW_core_ge` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.hW_pos_of_mem` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.hW_contDiff` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.fW_contDiffOn` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.phiW_even` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.phiW_nonneg` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.phiW_le_one` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.phiW_eq_zero` (theorem) in submissions.master-of-puppets.proof.Solution
+- `AMW.phiW_contDiff` (theorem) in submissions.master-of-puppets.proof.Solution
+- ... and 38714 more
 
 ### riemann-von-mangoldt-formalized (+80)
 
@@ -1867,6 +2145,114 @@
 - `true_Phi_LogDeriv_im_aestronglyMeasurable_eventually` (lemma) in CombinedProof_v3_rev9
 - `zero_poly_ne_zero_off_segment` (lemma) in CombinedProof_v3_rev9
 - ... and 30 more
+
+### riemann-zeros (+4912)
+
+- `AMW.cAMn` (def) in r_arun_chandru_proof
+- `AMW.cAM` (def) in r_arun_chandru_proof
+- `AMW.ωAM` (def) in r_arun_chandru_proof
+- `AMW.vAM` (def) in r_arun_chandru_proof
+- `AMW.MAM` (def) in r_arun_chandru_proof
+- `AMW.phiW` (def) in r_arun_chandru_proof
+- `AMW.fW` (def) in r_arun_chandru_proof
+- `AMW.phiW_eq_mul` (theorem) in r_arun_chandru_proof
+- `AMW.localFunW` (def) in r_arun_chandru_proof
+- `AMW.MAM_pos` (theorem) in r_arun_chandru_proof
+- `AMW.cAM_zero` (theorem) in r_arun_chandru_proof
+- `AMW.ωAM_zero` (theorem) in r_arun_chandru_proof
+- `AMW.ωAM_succ` (theorem) in r_arun_chandru_proof
+- `AMW.pAM` (def) in r_arun_chandru_proof
+- `AMW.vAM_eq` (theorem) in r_arun_chandru_proof
+- `AMW.sum_abs_cAM_succ` (theorem) in r_arun_chandru_proof
+- `AMW.abs_pAM_le` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_even` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_le` (theorem) in r_arun_chandru_proof
+- `AMW.cos_sqrt2_ge` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_ge_core` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_pos_wide` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_zero` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_continuous` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_contDiff` (theorem) in r_arun_chandru_proof
+- `AMW.vAMd` (def) in r_arun_chandru_proof
+- `AMW.vAMdd` (def) in r_arun_chandru_proof
+- `AMW.hasDerivAt_vAM` (theorem) in r_arun_chandru_proof
+- `AMW.hasDerivAt_vAMd` (theorem) in r_arun_chandru_proof
+- `AMW.ωAM_nonneg` (theorem) in r_arun_chandru_proof
+- `AMW.ωAM_le` (theorem) in r_arun_chandru_proof
+- `AMW.abs_vAMd_le` (theorem) in r_arun_chandru_proof
+- `AMW.ωAM_sq_le` (theorem) in r_arun_chandru_proof
+- `AMW.abs_vAMdd_le` (theorem) in r_arun_chandru_proof
+- `AMW.hW` (def) in r_arun_chandru_proof
+- `AMW.fW_eq_sqrt` (theorem) in r_arun_chandru_proof
+- `AMW.fW_even` (theorem) in r_arun_chandru_proof
+- `AMW.fW_nonneg` (theorem) in r_arun_chandru_proof
+- `AMW.hW_le_one` (theorem) in r_arun_chandru_proof
+- `AMW.fW_le_one` (theorem) in r_arun_chandru_proof
+- `AMW.abs_div_le_half` (theorem) in r_arun_chandru_proof
+- `AMW.hW_core_ge` (theorem) in r_arun_chandru_proof
+- `AMW.hW_pos_of_mem` (theorem) in r_arun_chandru_proof
+- `AMW.hW_contDiff` (theorem) in r_arun_chandru_proof
+- `AMW.fW_contDiffOn` (theorem) in r_arun_chandru_proof
+- `AMW.phiW_even` (theorem) in r_arun_chandru_proof
+- `AMW.phiW_nonneg` (theorem) in r_arun_chandru_proof
+- `AMW.phiW_le_one` (theorem) in r_arun_chandru_proof
+- `AMW.phiW_eq_zero` (theorem) in r_arun_chandru_proof
+- `AMW.phiW_contDiff` (theorem) in r_arun_chandru_proof
+- ... and 4862 more
+
+### riemann_zeros (+4910)
+
+- `AMW.cAMn` (def) in r_arun_chandru_proof
+- `AMW.cAM` (def) in r_arun_chandru_proof
+- `AMW.ωAM` (def) in r_arun_chandru_proof
+- `AMW.vAM` (def) in r_arun_chandru_proof
+- `AMW.MAM` (def) in r_arun_chandru_proof
+- `AMW.phiW` (def) in r_arun_chandru_proof
+- `AMW.fW` (def) in r_arun_chandru_proof
+- `AMW.phiW_eq_mul` (theorem) in r_arun_chandru_proof
+- `AMW.localFunW` (def) in r_arun_chandru_proof
+- `AMW.MAM_pos` (theorem) in r_arun_chandru_proof
+- `AMW.cAM_zero` (theorem) in r_arun_chandru_proof
+- `AMW.ωAM_zero` (theorem) in r_arun_chandru_proof
+- `AMW.ωAM_succ` (theorem) in r_arun_chandru_proof
+- `AMW.pAM` (def) in r_arun_chandru_proof
+- `AMW.vAM_eq` (theorem) in r_arun_chandru_proof
+- `AMW.sum_abs_cAM_succ` (theorem) in r_arun_chandru_proof
+- `AMW.abs_pAM_le` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_even` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_le` (theorem) in r_arun_chandru_proof
+- `AMW.cos_sqrt2_ge` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_ge_core` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_pos_wide` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_zero` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_continuous` (theorem) in r_arun_chandru_proof
+- `AMW.vAM_contDiff` (theorem) in r_arun_chandru_proof
+- `AMW.vAMd` (def) in r_arun_chandru_proof
+- `AMW.vAMdd` (def) in r_arun_chandru_proof
+- `AMW.hasDerivAt_vAM` (theorem) in r_arun_chandru_proof
+- `AMW.hasDerivAt_vAMd` (theorem) in r_arun_chandru_proof
+- `AMW.ωAM_nonneg` (theorem) in r_arun_chandru_proof
+- `AMW.ωAM_le` (theorem) in r_arun_chandru_proof
+- `AMW.abs_vAMd_le` (theorem) in r_arun_chandru_proof
+- `AMW.ωAM_sq_le` (theorem) in r_arun_chandru_proof
+- `AMW.abs_vAMdd_le` (theorem) in r_arun_chandru_proof
+- `AMW.hW` (def) in r_arun_chandru_proof
+- `AMW.fW_eq_sqrt` (theorem) in r_arun_chandru_proof
+- `AMW.fW_even` (theorem) in r_arun_chandru_proof
+- `AMW.fW_nonneg` (theorem) in r_arun_chandru_proof
+- `AMW.hW_le_one` (theorem) in r_arun_chandru_proof
+- `AMW.fW_le_one` (theorem) in r_arun_chandru_proof
+- `AMW.abs_div_le_half` (theorem) in r_arun_chandru_proof
+- `AMW.hW_core_ge` (theorem) in r_arun_chandru_proof
+- `AMW.hW_pos_of_mem` (theorem) in r_arun_chandru_proof
+- `AMW.hW_contDiff` (theorem) in r_arun_chandru_proof
+- `AMW.fW_contDiffOn` (theorem) in r_arun_chandru_proof
+- `AMW.phiW_even` (theorem) in r_arun_chandru_proof
+- `AMW.phiW_nonneg` (theorem) in r_arun_chandru_proof
+- `AMW.phiW_le_one` (theorem) in r_arun_chandru_proof
+- `AMW.phiW_eq_zero` (theorem) in r_arun_chandru_proof
+- `AMW.phiW_contDiff` (theorem) in r_arun_chandru_proof
+- ... and 4860 more
 
 ### semidirect-qltc-improved-bounds (+130)
 
@@ -2152,7 +2538,61 @@
 - `pseries_neq_zero_function_neq_zero` (lemma) in src.holh
 - ... and 66 more
 
-### zeta-lab (+10663)
+### zeta-density-three-over-two-sigma-lean (+3562)
+
+- `DensityStronger.exact_membership` (theorem) in lean.Solution
+- `DensityStronger.exact_multiplicity` (theorem) in lean.Solution
+- `DensityStronger.density_bound` (theorem) in lean.Solution
+- `DensityStronger.actual_moment_integrable` (theorem) in lean.Solution
+- `DensityStronger.twelfth_moment` (theorem) in lean.Solution
+- `DensityStronger.empty_region` (theorem) in lean.Solution
+- `MathCollab.add_zero_smoke` (theorem) in lean.MathCollab.Smoke
+- `MathCollab.identity_smoke` (theorem) in lean.MathCollab.Smoke
+- `MathCollab.real_add_zero_smoke` (theorem) in lean.MathCollab.MathlibSmoke
+- `MathCollab.square_nonnegative_smoke` (theorem) in lean.MathCollab.MathlibSmoke
+- `WeylPort.criticalPoint` (def) in lean.WeylPort.Reflection
+- `WeylPort.one_sub_criticalPoint` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.criticalPoint_neg` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.criticalTerm_neg` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.norm_critical_sum_neg` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.norm_dual_critical_sum` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.norm_critical_sum_le_log_abs` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.gammaReal_conj` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.criticalGammaRatio` (def) in lean.WeylPort.Reflection
+- `WeylPort.norm_criticalGammaRatio` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.riemannZeta_critical_functional_equation` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.critical_chi_product_eq_ratio` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.norm_critical_chi_product` (theorem) in lean.WeylPort.Reflection
+- `WeylPort.norm_criticalLine_cpow_block_le` (theorem) in lean.WeylPort.Block
+- `WeylPort.norm_sharpZetaSum_critical` (theorem) in lean.WeylPort.ActualZeta
+- `WeylPort.norm_sharpZetaSum_dual` (theorem) in lean.WeylPort.ActualZeta
+- `WeylPort.eventually_norm_riemannZeta_critical_lt_rpow` (theorem) in lean.WeylPort.ActualZeta
+- `WeylPort.exists_riemannZeta_critical_lt_sixth_power` (theorem) in lean.WeylPort.ActualZeta
+- `WeylPort.norm_riemannZeta_critical_neg` (theorem) in lean.WeylPort.ActualZeta
+- `WeylPort.continuous_riemannZeta_critical` (theorem) in lean.WeylPort.ActualZeta
+- `WeylPort.exists_riemannZeta_critical_weyl_all_heights` (theorem) in lean.WeylPort.ActualZeta
+- `WeylPort.exists_riemannZeta_critical_weyl` (theorem) in lean.WeylPort.ActualZeta
+- `WeylPort.exists_riemannZeta_critical_dyadic_weyl` (theorem) in lean.WeylPort.ActualZeta
+- `WeylPort.exists_balanced_half_cutoff` (theorem) in lean.WeylPort.CutoffSelection
+- `WeylPort.exists_afe_cutoffs_all_heights` (theorem) in lean.WeylPort.CutoffSelection
+- `TaoTrudgianYang2025.eventually_const_log_pow_le_rpow` (theorem) in lean.WeylPort.GrowthAlgebra
+- `TaoTrudgianYang2025.eventually_const_height_log_pow_mul_rpow_le_rpow` (theorem) in lean.WeylPort.GrowthAlgebra
+- `TaoTrudgianYang2025.pointValue_sixth_power_count_identity` (theorem) in lean.WeylPort.GrowthAlgebra
+- `TaoTrudgianYang2025.eventually_pointValue_sixth_power_count_lt_one` (theorem) in lean.WeylPort.GrowthAlgebra
+- `TaoTrudgianYang2025.eventually_pointValue_sixth_power_source_range` (theorem) in lean.WeylPort.GrowthAlgebra
+- `WeylPort.quadratic_gap_sum_le` (theorem) in lean.WeylPort.GapSum
+- `WeylPort.criticalTerm` (def) in lean.WeylPort.ShortSum
+- `WeylPort.norm_criticalTerm` (theorem) in lean.WeylPort.ShortSum
+- `WeylPort.norm_critical_block_small` (theorem) in lean.WeylPort.ShortSum
+- `WeylPort.norm_critical_block_le` (theorem) in lean.WeylPort.ShortSum
+- `WeylPort.norm_critical_sum_le_dyadic` (theorem) in lean.WeylPort.ShortSum
+- `WeylPort.norm_critical_sum_le_log` (theorem) in lean.WeylPort.ShortSum
+- `WeylPort.eventually_mul_norm_critical_sum_le_rpow` (theorem) in lean.WeylPort.ShortSum
+- `WeylPort.exists_critical_sum_le_sixth_power` (theorem) in lean.WeylPort.ShortSum
+- `RiemannZeta.GuthMaynard.vdc_product_bound` (theorem) in lean.GuthMaynard.WeylExplicit
+- ... and 3512 more
+
+### zeta-lab (+10947)
 
 - `ZetaLean.Palomar.aCoef` (def) in lean.Challenge
 - `ZetaLean.Palomar.F1` (def) in lean.Challenge
@@ -2204,8 +2644,8 @@
 - `Zeta23Ext.PalomarV2.zeroMult` (def) in lean.bridge.V2Challenge
 - `Zeta23Ext.PalomarV2.zerosIn` (def) in lean.bridge.V2Challenge
 - `Zeta23Ext.PalomarV2.Ncount` (def) in lean.bridge.V2Challenge
-- ... and 10613 more
+- ... and 10897 more
 
 ## Update History (1 runs)
 
-- **2026-10-05T08:51:59.381411+00:00**: Checked 60 repos, updated 61, +76960 -0 declarations
+- **2026-10-12T08:44:22.598388+00:00**: Checked 68 repos, updated 69, +114299 -0 declarations
