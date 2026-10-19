@@ -1,46 +1,48 @@
 # Lean Index Statistics
 
-**37,723 topic-matched declarations** across **44 repositories**
-(127,427 total declarations scanned from 68 repos)
+**55,547 topic-matched declarations** across **47 repositories**
+(220,686 total declarations scanned from 71 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| zeta-and-l-functions           |     19,712 |
-| power-series                   |      5,509 |
-| exponential-logarithmic        |      3,636 |
-| trigonometric                  |      2,669 |
-| elliptic-curves                |      2,350 |
-| classical-special-functions    |      1,936 |
-| modular-forms                  |      1,911 |
+| zeta-and-l-functions           |     20,103 |
+| modular-forms                  |     15,664 |
+| power-series                   |      5,913 |
+| classical-special-functions    |      5,107 |
+| exponential-logarithmic        |      3,705 |
+| trigonometric                  |      2,696 |
+| elliptic-curves                |      2,359 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     23,080 |
-| def             |      7,851 |
-| lemma           |      4,418 |
-| instance        |        469 |
-| structure       |        129 |
-| abbrev          |         78 |
+| theorem         |     36,365 |
+| def             |     11,251 |
+| lemma           |      4,474 |
+| instance        |        720 |
+| abbrev          |        315 |
+| structure       |        194 |
 | ctor            |         75 |
-| class           |         35 |
-| inductive       |          5 |
+| class           |         37 |
+| inductive       |          7 |
 | opaque          |          2 |
 
 ## Top Repositories (by topic matches)
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     13,128 |     13,128 |
-| zeta-lab                            |      8,702 |     10,947 |
-| riemann                             |      7,442 |     38,764 |
+| TernaryPoly                         |     16,615 |     78,429 |
+| mathlib4                            |     13,168 |     13,168 |
+| zeta-lab                            |      8,705 |     12,376 |
+| riemann                             |      7,447 |     50,625 |
 | fourier-jacobi-core-evaluation      |      1,434 |      1,438 |
 | zeta-density-three-over-two-sigma-l |      1,279 |      3,562 |
 | PrimeNumberTheoremAnd               |      1,124 |      8,701 |
 | EllipticCurves                      |        791 |      1,412 |
+| ModularFormsMod                     |        576 |        668 |
 | ModularForms_Lean4                  |        258 |        727 |
 | riemann_zeros                       |        195 |      4,910 |
 | riemann-zeros                       |        195 |      4,912 |
@@ -54,6 +56,7 @@
 | padic-L-functions4                  |         78 |        382 |
 | heights                             |         69 |        884 |
 | power-series-ring-is-noetherian-    |         60 |        103 |
+| interval                            |         55 |        878 |
 | logarithmic-morris-lean             |         54 |        670 |
 | birch-swinnerton-dyer-143           |         51 |      8,992 |
 | LeanPolyLog                         |         45 |        318 |
@@ -61,16 +64,13 @@
 | flt-from-scratch                    |         40 |        296 |
 | a-lean4-formalisation-of-Hilbert-ba |         39 |         39 |
 | orbicurve-cores                     |         36 |      1,823 |
-| interval                            |         34 |        844 |
-| ray                                 |         29 |        907 |
-| riemann-von-mangoldt-formalized     |         17 |         80 |
-| ... and 14 more |  |  |
+| ... and 17 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-10-12T08:44:22.598388+00:00
-- **Repos checked**: 68
-- **Repos updated**: 69
-- **New declarations**: 114299
+- **When**: 2026-10-19T08:46:08.338141+00:00
+- **Repos checked**: 71
+- **Repos updated**: 72
+- **New declarations**: 207518
 - **Removed declarations**: 0
-- **Summary**: Checked 68 repos, updated 69, +114299 -0 declarations
+- **Summary**: Checked 71 repos, updated 72, +207518 -0 declarations

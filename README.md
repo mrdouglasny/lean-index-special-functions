@@ -3,16 +3,16 @@
 Topical index for special functions formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
 <!-- STATS_START -->
-**36,142 topic-matched declarations** across **44 repositories** (scanned 68 repos, 127,427 declarations).
+**53,440 topic-matched declarations** across **47 repositories** (scanned 71 repos, 220,686 declarations).
 
 Tracks Lean declarations related to:
-- **Zeta and L-functions** (19,712 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
-- **Power series** (5,509 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
-- **Exponential and logarithmic** (3,636 matches): exp, log, rpow, sqrt, complex powers
-- **Trigonometric** (2,669 matches): sin, cos, tan, arctan, hyperbolic functions, Chebyshev polynomials
-- **Elliptic curves** (2,350 matches): Weierstrass curves, division polynomials, j-invariant
-- **Classical special functions** (1,936 matches): Gamma, Beta, digamma, Pochhammer, hypergeometric, Gaussian, Stirling, Hermite, elliptic functions
-- **Modular forms** (1,911 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
+- **Zeta and L-functions** (20,103 matches): Riemann/Hurwitz zeta, Dirichlet L-series, Euler products, Bernoulli numbers, arithmetic functions
+- **Modular forms** (15,664 matches): modular/cusp forms, Eisenstein series, Jacobi theta, Dedekind eta, upper half plane
+- **Power series** (5,913 matches): formal/multivariate power series, Hahn series, Fourier/Mellin transforms
+- **Classical special functions** (5,107 matches): Gamma, Beta, digamma, Pochhammer, hypergeometric, Gaussian, Stirling, Hermite, elliptic functions
+- **Exponential and logarithmic** (3,705 matches): exp, log, rpow, sqrt, complex powers
+- **Trigonometric** (2,696 matches): sin, cos, tan, arctan, hyperbolic functions, Chebyshev polynomials
+- **Elliptic curves** (2,359 matches): Weierstrass curves, division polynomials, j-invariant
 <!-- STATS_END -->
 
 See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](REPOS.md) for all indexed repositories.
@@ -22,13 +22,15 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 <!-- REPOS_TABLE_START -->
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 13,128 | The math library for Lean 4 (indexed via cache, not cloned) |
-| [teal-sea/zeta-lab](https://github.com/teal-sea/zeta-lab) | 8,702 | A computational and formal workbench around the Riemann zeta function:... |
-| [josusanmartin/riemann](https://github.com/josusanmartin/riemann) | 7,442 | Riemann.fail — a reproducible formal-proof arena for bounds on zeros of the... |
+| [AxiomMath/TernaryPoly](https://github.com/AxiomMath/TernaryPoly) | 16,615 | Lean formalization of ternary polynomial relations and periods of cusp forms |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 13,168 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [teal-sea/zeta-lab](https://github.com/teal-sea/zeta-lab) | 8,705 | Computational number theory and Lean 4 formalization: checked proofs, rigorous... |
+| [josusanmartin/riemann](https://github.com/josusanmartin/riemann) | 7,447 | Riemann.fail — a reproducible formal-proof arena for bounds on zeros of the... |
 | [abhisaha-git/fourier-jacobi-core-evaluation](https://github.com/abhisaha-git/fourier-jacobi-core-evaluation) | 1,434 | This Lean publication formalizes a substantial chunk of the local calculations... |
 | [mrklwk/zeta-density-three-over-two-sigma-lean](https://github.com/mrklwk/zeta-density-three-over-two-sigma-lean) | 1,279 | Lean 4 formalization of a zero-density estimate for the Riemann zeta function... |
 | [AlexKontorovich/PrimeNumberTheoremAnd](https://github.com/AlexKontorovich/PrimeNumberTheoremAnd) | 1,124 | Prime Number Theorem, L-series, Mellin transforms |
 | [MichaelStollBayreuth/EllipticCurves](https://github.com/MichaelStollBayreuth/EllipticCurves) | 791 | Formalization in Lean of basic results from the theory of elliptic curves |
+| [dozenalist/ModularFormsMod](https://github.com/dozenalist/ModularFormsMod) | 576 | A formalization of modular forms with coefficients over subrings of the complex... |
 | [CBirkbeck/ModularForms_Lean4](https://github.com/CBirkbeck/ModularForms_Lean4) | 258 | Modular forms in Lean 4 |
 | [arun-chandru/riemann_zeros](https://github.com/arun-chandru/riemann_zeros) | 195 | A formal lower bound for distinct critical-line zeros of the Riemann zeta... |
 | [arun-chandru/riemann-zeros](https://github.com/arun-chandru/riemann-zeros) | 195 | Clipped Gram energies and zero counts of the Riemann zeta function |
@@ -42,6 +44,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [laughinggas/padic-L-functions4](https://github.com/laughinggas/padic-L-functions4) | 78 | p-adic L-functions |
 | [lana-agents/heights](https://github.com/lana-agents/heights) | 69 | Formalization of height comparisons for elliptic curves |
 | [BryceT233/power-series-ring-is-noetherian-](https://github.com/BryceT233/power-series-ring-is-noetherian-) | 60 | This file formalized that if $R$ is noetherian, then its power series ring... |
+| [girving/interval](https://github.com/girving/interval) | 55 | Interval arithmetic, rigorous numerics |
 | [halfblood12312300-cell/logarithmic-morris-lean](https://github.com/halfblood12312300-cell/logarithmic-morris-lean) | 54 | Lean 4 formalization and an unconditional proof of the logarithmic Morris... |
 | [DavidFox998/birch-swinnerton-dyer-143](https://github.com/DavidFox998/birch-swinnerton-dyer-143) | 51 | Unconditional proof of Birch–Swinnerton-Dyer for elliptic curve 143a1. ... |
 | [rainrzk/LeanPolyLog](https://github.com/rainrzk/LeanPolyLog) | 45 | Polylogarithm Problem Set. |
@@ -49,8 +52,8 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [eluckydog/flt-from-scratch](https://github.com/eluckydog/flt-from-scratch) | 40 | A study project tracing Fermat’s Last Theorem from first principles — Frey... |
 | [chenlingccll/a-lean4-formalisation-of-Hilbert-basis-theorem-for-power-series-ring](https://github.com/chenlingccll/a-lean4-formalisation-of-Hilbert-basis-theorem-for-power-series-ring) | 39 | a lean4 formalization of Hilbert basis theorem for power series ring. Supposed... |
 | [lana-agents/orbicurve-cores](https://github.com/lana-agents/orbicurve-cores) | 36 | Once-punctured elliptic curves failing to admit a core. |
-| [girving/interval](https://github.com/girving/interval) | 34 | Interval arithmetic, rigorous numerics |
-| [girving/ray](https://github.com/girving/ray) | 29 | Analytic number theory, special functions |
+| [mjtb49/Bounds-on-linear-forms-in-logarithms](https://github.com/mjtb49/Bounds-on-linear-forms-in-logarithms) | 35 |  |
+| [girving/ray](https://github.com/girving/ray) | 32 | Analytic number theory, special functions |
 | [e-271828/riemann-von-mangoldt-formalized](https://github.com/e-271828/riemann-von-mangoldt-formalized) | 17 | Formal proof of the Riemann-von Mangoldt formula for the Riemann zeta function... |
 | [MichaelStollBayreuth/EulerProducts](https://github.com/MichaelStollBayreuth/EulerProducts) | 16 | Euler products for Dirichlet L-series |
 | [tomdif/EllipticCurveSafety](https://github.com/tomdif/EllipticCurveSafety) | 15 | Lean 4 kernel-checkable ECDLP curve-safety verifier (non-singular /... |

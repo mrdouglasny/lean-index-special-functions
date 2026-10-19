@@ -1,6 +1,60 @@
-# Changelog (since 2026-10-05)
+# Changelog (since 2026-10-12)
 
-## New Declarations (127427)
+## New Declarations (220686)
+
+### Bounds-on-linear-forms-in-logarithms (+687)
+
+- `rational_logarithmic_linear_forms` (theorem) in Solution
+- `GeneralizedLogarithms.Verification.exact_statement` (theorem) in Verification
+- `GeneralizedLogarithms.PersistentLongitudinal.exists_persistent_longitudinal_equations` (theorem) in GeneralizedLogarithms.PersistentLongitudinal
+- `GeneralizedLogarithms.MultivariateMixedSeries.leftIndex` (def) in GeneralizedLogarithms.MultivariateMixedSeries
+- `GeneralizedLogarithms.MultivariateMixedSeries.rightIndex` (def) in GeneralizedLogarithms.MultivariateMixedSeries
+- `GeneralizedLogarithms.MultivariateMixedSeries.sumElim_indices` (theorem) in GeneralizedLogarithms.MultivariateMixedSeries
+- `GeneralizedLogarithms.MultivariateMixedSeries.embedFun` (def) in GeneralizedLogarithms.MultivariateMixedSeries
+- `GeneralizedLogarithms.MultivariateMixedSeries.embedFun_mul` (theorem) in GeneralizedLogarithms.MultivariateMixedSeries
+- `GeneralizedLogarithms.MultivariateMixedSeries.embed` (def) in GeneralizedLogarithms.MultivariateMixedSeries
+- `GeneralizedLogarithms.MultivariateInfiniteCollision.finite_degree_saving_bound` (theorem) in GeneralizedLogarithms.MultivariateInfiniteCollision
+- `GeneralizedLogarithms.MultivariateInfiniteCollision.infinite_degree_saving_bound` (theorem) in GeneralizedLogarithms.MultivariateInfiniteCollision
+- `GeneralizedLogarithms.MultivariateInfiniteCollision.multiIndex_geometric_sum_le` (theorem) in GeneralizedLogarithms.MultivariateInfiniteCollision
+- `GeneralizedLogarithms.MultivariateInfiniteCollision.multivariate_capacity_bound` (theorem) in GeneralizedLogarithms.MultivariateInfiniteCollision
+- `GeneralizedLogarithms.MultivariateCurveConstancy.height_add_one_eq_of_quotient_dimension` (theorem) in GeneralizedLogarithms.MultivariateCurveConstancy
+- `GeneralizedLogarithms.MultivariateCurveConstancy.quotient_dimension_eq_one` (theorem) in GeneralizedLogarithms.MultivariateCurveConstancy
+- `GeneralizedLogarithms.MultivariateCurveConstancy.kernel_height_add_one_eq` (theorem) in GeneralizedLogarithms.MultivariateCurveConstancy
+- `GeneralizedLogarithms.MultivariateCurveConstancy.kernel_height_eq` (theorem) in GeneralizedLogarithms.MultivariateCurveConstancy
+- `GeneralizedLogarithms.MultivariateCurveConstancy.coordinateKernel` (def) in GeneralizedLogarithms.MultivariateCurveConstancy
+- `GeneralizedLogarithms.MultivariateCurveConstancy.coordinateKernel_isPrime` (instance) in GeneralizedLogarithms.MultivariateCurveConstancy
+- `GeneralizedLogarithms.MultivariateCurveConstancy.coordinateKernel_height_eq` (theorem) in GeneralizedLogarithms.MultivariateCurveConstancy
+- `GeneralizedLogarithms.MultivariateCurveConstancy.longitudinal_ne_zero_of_centered` (theorem) in GeneralizedLogarithms.MultivariateCurveConstancy
+- `GeneralizedLogarithms.MultivariateCurveConstancy.longitudinal_constants_of_vanishing` (theorem) in GeneralizedLogarithms.MultivariateCurveConstancy
+- `GeneralizedLogarithms.MultivariateFormalLogShift.shiftVars` (def) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.shiftVars_hasSubst` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.shiftMap` (def) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.shiftMap_apply` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.shiftMap_inverse` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.shiftEquiv` (def) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.shiftMap_mem_rationalWeightedIdeal` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.shiftEquiv_mem_iff` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.logTail_mem_rationalWeightedIdeal` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.logarithmicTails` (def) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.logarithmicTails_mem` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.truncatedFormalJet_Y` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.truncatedFormalJet_X` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.shiftMap_truncatedFormalJet` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.formalJet_mem_weighted_of_mem_pow` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.MultivariateFormalLogShift.formalLog_packets_surjective_iff_truncated` (theorem) in GeneralizedLogarithms.MultivariateFormalLogShift
+- `GeneralizedLogarithms.SmallRankExclusion.exists_large_constant_transverse_set` (theorem) in GeneralizedLogarithms.SmallRankExclusion
+- `GeneralizedLogarithms.SmallRankExclusion.longitudinal_equations_of_weighted_comparison` (theorem) in GeneralizedLogarithms.SmallRankExclusion
+- `GeneralizedLogarithms.MultivariateCauchyCoefficient.angleMeasure` (def) in GeneralizedLogarithms.MultivariateCauchyCoefficient
+- `GeneralizedLogarithms.MultivariateCauchyCoefficient.kernel` (def) in GeneralizedLogarithms.MultivariateCauchyCoefficient
+- `GeneralizedLogarithms.MultivariateCauchyCoefficient.normalizedTaylorCoeff_integral` (theorem) in GeneralizedLogarithms.MultivariateCauchyCoefficient
+- `GeneralizedLogarithms.MultivariateCauchyCoefficient.circle_ne_zero` (theorem) in GeneralizedLogarithms.MultivariateCauchyCoefficient
+- `GeneralizedLogarithms.MultivariateCauchyCoefficient.norm_kernel` (theorem) in GeneralizedLogarithms.MultivariateCauchyCoefficient
+- `GeneralizedLogarithms.MultivariateCauchyCoefficient.continuous_kernel` (theorem) in GeneralizedLogarithms.MultivariateCauchyCoefficient
+- `GeneralizedLogarithms.MultivariateCauchyCoefficient.integrable_kernel_mul` (theorem) in GeneralizedLogarithms.MultivariateCauchyCoefficient
+- `GeneralizedLogarithms.MultivariateCauchyCoefficient.coefficient` (def) in GeneralizedLogarithms.MultivariateCauchyCoefficient
+- `GeneralizedLogarithms.MultivariateCauchyCoefficient.coefficient_product` (theorem) in GeneralizedLogarithms.MultivariateCauchyCoefficient
+- `GeneralizedLogarithms.MultivariateCauchyCoefficient.mass_angleMeasure` (theorem) in GeneralizedLogarithms.MultivariateCauchyCoefficient
+- ... and 637 more
 
 ### EisensteinSeries (+718)
 
@@ -474,6 +528,60 @@
 - `mdifferentiableAt_meroNFQuotient` (lemma) in ModularFormDimensions.ModularCurve
 - `CompletedModularCurve` (def) in ModularFormDimensions.ModularCurve
 
+### ModularFormsMod (+668)
+
+- `primeIdeal_isPrime` (instance) in ModularFormsMod.PInteger
+- `PInteger` (abbrev) in ModularFormsMod.PInteger
+- `PInteger.toComplex` (def) in ModularFormsMod.PInteger
+- `PInteger.toRat` (def) in ModularFormsMod.PInteger
+- `PInteger.toRat_injective` (theorem) in ModularFormsMod.PInteger
+- `PInteger.toComplex_injective` (theorem) in ModularFormsMod.PInteger
+- `PInteger.intAlgebraScalarTower` (instance) in ModularFormsMod.PInteger
+- `PInteger.reduce` (def) in ModularFormsMod.PInteger
+- `PInteger.reduce_add` (theorem) in ModularFormsMod.PInteger
+- `PInteger.reduce_mul` (theorem) in ModularFormsMod.PInteger
+- `PInteger.reduce_surjective` (theorem) in ModularFormsMod.PInteger
+- `PInteger.mk` (def) in ModularFormsMod.PInteger
+- `PInteger.mk'` (def) in ModularFormsMod.PInteger
+- `PInteger.toRat_mk` (theorem) in ModularFormsMod.PInteger
+- `PInteger.toRat_mk'` (theorem) in ModularFormsMod.PInteger
+- `LocalℤAway` (abbrev) in ModularFormsMod.PInteger
+- `IsLocalization.Away.Intlift` (def) in ModularFormsMod.PInteger
+- `IsLocalization.Away.Intlift_injective` (theorem) in ModularFormsMod.PInteger
+- `IsLocalization.Away.intAlgebraScalarTower` (instance) in ModularFormsMod.PInteger
+- `isLargePrime` (class) in ModularFormsMod.PInteger
+- `isLargerPrime` (class) in ModularFormsMod.PInteger
+- `padicVal_bernoulli_sub_one_pos` (theorem) in ModularFormsMod.LdvdBernoulliNum
+- `ldvd_bernoulli_num` (theorem) in ModularFormsMod.LdvdBernoulliNum
+- `padicVal_bernoulli_sub_one` (theorem) in ModularFormsMod.LdvdBernoulliNum
+- `PowerSeries.eventuallyEq` (def) in ModularFormsMod.EventuallyEq
+- `PowerSeries.eventuallyEq.refl` (theorem) in ModularFormsMod.EventuallyEq
+- `PowerSeries.eventuallyEq.symm` (theorem) in ModularFormsMod.EventuallyEq
+- `PowerSeries.eventuallyEq.trans` (theorem) in ModularFormsMod.EventuallyEq
+- `PowerSeries.eventuallyEq_add` (theorem) in ModularFormsMod.EventuallyEq
+- `PowerSeries.eventuallyEq_mul` (theorem) in ModularFormsMod.EventuallyEq
+- `PowerSeries.eventuallyEq_pow` (theorem) in ModularFormsMod.EventuallyEq
+- `PowerSeries.lift` (def) in ModularFormsMod.EventuallyEq
+- `PowerSeries.eventuallyEq_zero_iff` (theorem) in ModularFormsMod.EventuallyEq
+- `discProduct` (def) in ModularFormsMod.discProduct
+- `discProduct_apply` (lemma) in ModularFormsMod.discProduct
+- `discProduct_coeff_le'` (lemma) in ModularFormsMod.discProduct
+- `discProduct_coeff_le` (theorem) in ModularFormsMod.discProduct
+- `coeff_sum_X_pow` (lemma) in ModularFormsMod.discProduct
+- `discProduct_eventually_sum` (theorem) in ModularFormsMod.discProduct
+- `Bernoulli.vonStaudtIndicator` (def) in ModularFormsMod.KummerCongruence
+- `Bernoulli.sum_pow_add_indicator_eq_zero` (lemma) in ModularFormsMod.KummerCongruence
+- `Bernoulli.pIntegral` (abbrev) in ModularFormsMod.KummerCongruence
+- `Bernoulli.pIntegral_iff_not_dvd_den` (lemma) in ModularFormsMod.KummerCongruence
+- `Bernoulli.Rat.padicValuation_natCast` (lemma) in ModularFormsMod.KummerCongruence
+- `Bernoulli.pIntegral_div_natCast` (lemma) in ModularFormsMod.KummerCongruence
+- `Bernoulli.pIntegral_pow_div` (lemma) in ModularFormsMod.KummerCongruence
+- `Bernoulli.factorization_succ_le_sub_one` (lemma) in ModularFormsMod.KummerCongruence
+- `Bernoulli.choose_two_mul_succ_mul_div_eq` (lemma) in ModularFormsMod.KummerCongruence
+- `Bernoulli.pIntegral_choose_mul_pow_div` (lemma) in ModularFormsMod.KummerCongruence
+- `Bernoulli.pIntegral_bernoulli_even_term` (lemma) in ModularFormsMod.KummerCongruence
+- ... and 618 more
+
 ### ModularForms_Lean4 (+727)
 
 - `exp_upperHalfPlane_lt_one` (theorem) in Modformsported.ForMathlib.ExpSummableLemmas
@@ -688,6 +796,60 @@
 - `fourier_exp_negsq_1` (lemma) in theta_function
 - `fourier_exp_negsq_2` (lemma) in theta_function
 - `fourier_exp_negsq` (lemma) in theta_function
+
+### TernaryPoly (+78429)
+
+- `TernaryPeriodPolynomials.Argument.Classification.symmetric_classification` (theorem) in TernaryPeriodPolynomials.SymmetricClassification
+- `TernaryPeriodPolynomials.Argument.Classification.symmetric_classification_literal` (theorem) in TernaryPeriodPolynomials.SymmetricClassification
+- `TernaryPeriodPolynomials.symmetric_solution_iff_eq_cyclicLift` (theorem) in TernaryPeriodPolynomials.SymmetricClassification
+- `TernaryPeriodPolynomials.Argument.Classification.solution_mixed_derivative_eq_zero` (theorem) in TernaryPeriodPolynomials.MainTheorem
+- `TernaryPeriodPolynomials.bachmann_van_ittersum` (theorem) in TernaryPeriodPolynomials.MainTheorem
+- `TernaryPoly.Paper.Ternary` (abbrev) in TernaryPeriodPolynomials.Polynomial.Definitions
+- `TernaryPoly.Paper.Binary` (abbrev) in TernaryPeriodPolynomials.Polynomial.Definitions
+- `TernaryPoly.Paper.binaryEval` (def) in TernaryPeriodPolynomials.Polynomial.PeriodSubstitution
+- `TernaryPoly.Paper.cyclicLift` (def) in TernaryPeriodPolynomials.Polynomial.Restriction
+- `problem` (instance) in TernaryPeriodPolynomials.Tactic.PolynomialLiteral
+- `TernaryPeriodPolynomials.Argument.PolynomialLiteral.ascribeLeaves` (def) in TernaryPeriodPolynomials.Tactic.PolynomialLiteral
+- `TernaryPeriodPolynomials.Argument.PolynomialLiteral.ascribe` (def) in TernaryPeriodPolynomials.Tactic.PolynomialLiteral
+- `TernaryPeriodPolynomials.Argument.Statements.FiberModel.lemma_3_2_homology` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Lemma32Homology
+- `TernaryPoly.BoundaryCochainNormalization.normalize` (def) in TernaryPeriodPolynomials.ArithmeticCohomology.BoundaryCochainNormalization
+- `TernaryPoly.BoundaryCochainNormalization.restrict` (def) in TernaryPeriodPolynomials.ArithmeticCohomology.BoundaryCochainNormalization
+- `TernaryPoly.BoundaryCochainNormalization.normalized_corner` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.BoundaryCochainNormalization
+- `TernaryPeriodPolynomials.Argument.Identities.support_mixing_example` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.SupportMixing
+- `TernaryPeriodPolynomials.Argument.Identities.threeTermNorm_support_mixing` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.SupportMixing
+- `TernaryPeriodPolynomials.cuspidal_finite_spectral_recovery` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.SpectralRecovery
+- `TernaryPeriodPolynomials.BoundaryHeckeDescent.boundary_hecke_descent` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.BoundaryHeckeDescent
+- `TernaryPeriodPolynomials.AwayThreeHeckeGoodCusps.away_three_hecke_good_cusps` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.HeckeGoodCusps
+- `TernaryPoly.axisX` (def) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.axisY` (def) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.axisZ` (def) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.axisZ_comp_A` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.axisZ_comp_A2` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.axisZ_comp_C` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.axisY_comp_C` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.axisZ_C` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.axisY_C` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.axisZ_eq_zero_of_norm` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.PeriodRelations.axisZ_eq_zero` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.PeriodRelations.axisY_eq_zero` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.PeriodRelations.axisX_eq_zero` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.PeriodRelations.axis_restrictions_eq_zero` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.PeriodRelations.eq_zero_of_isHomogeneous_zero` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.PeriodRelations.homogeneousComponent_zero_eq_zero` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPoly.PeriodRelations.coeff_zero_eq_zero` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.Boundary
+- `TernaryPeriodPolynomials.PolynomialBernoulliDetection.polynomial_bernoulli_detection` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.BernoulliDetection
+- `TernaryPeriodPolynomials.boundary_cuspidal_recognition` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.BoundaryCuspidalRecognition
+- `TernaryPeriodPolynomials.cuspidal_associate_projector` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.CuspidalAssociateProjector
+- `TernaryPeriodPolynomials.support_principle` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.SupportTheorem
+- `TernaryPeriodPolynomials.LevelOneCohomologicalParity.level_one_cohomological_parity` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.LevelOneParity
+- `TernaryPeriodPolynomials.boundary_projection_good_cusps` (theorem) in TernaryPeriodPolynomials.ArithmeticCohomology.BoundaryProjection
+- `TernaryPoly.bind_smul_monomial` (theorem) in TernaryPeriodPolynomials.Polynomial.Parity
+- `TernaryPoly.homogeneous_bind_smul` (theorem) in TernaryPeriodPolynomials.Polynomial.Parity
+- `TernaryPoly.homogeneous_bind_neg` (theorem) in TernaryPeriodPolynomials.Polynomial.Parity
+- `TernaryPoly.homogeneous_bind_neg_even` (theorem) in TernaryPeriodPolynomials.Polynomial.Parity
+- `TernaryPoly.homogeneous_bind_neg_odd` (theorem) in TernaryPeriodPolynomials.Polynomial.Parity
+- `TernaryPoly.Paper.bind_vec2` (theorem) in TernaryPeriodPolynomials.Polynomial.PeriodSubstitution
+- ... and 78379 more
 
 ### a-lean4-formalisation-of-Hilbert-basis-theorem-for-power-series-ring (+39)
 
@@ -1277,7 +1439,7 @@
 - `Hyperlocal.NoPolyG_DE.deriv_RG_minus_quad_is_zero` (lemma) in formalisation_v3.3.Hyperlocal.NoPolyG
 - ... and 1979 more
 
-### interval (+844)
+### interval (+878)
 
 - `UInt64.size_eq_pow` (lemma) in Interval.UInt64
 - `UInt64.max` (def) in Interval.UInt64
@@ -1329,7 +1491,7 @@
 - `Int64.eq_zero_iff_n_eq_zero` (lemma) in Interval.Int64
 - `Int64.ne_zero_iff_n_ne_zero` (lemma) in Interval.Int64
 - `Int64.coe_add` (lemma) in Interval.Int64
-- ... and 794 more
+- ... and 828 more
 
 ### jsp-000076-ramsey (+253)
 
@@ -1552,7 +1714,7 @@
 - `LogarithmicMorrisFull.pairOriented_of_blockSurvivor` (lemma) in logarithmicmorris.LogarithmicMorrisKOne
 - ... and 620 more
 
-### mathlib4 (+13128)
+### mathlib4 (+13168)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -1604,7 +1766,7 @@
 - `AddChar.instFintype` (instance) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.linearIndependent` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.sum_apply_eq_ite` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 13078 more
+- ... and 13118 more
 
 ### matrix_category (+78)
 
@@ -1984,17 +2146,13 @@
 - `IrrationalityReview.eq_constant_of_derivative_zero` (theorem) in lean-local.portable_project.LaurentResidue
 - ... and 6599 more
 
-### ray (+907)
+### ray (+1018)
 
 - `ChartedSpace.regularSpace` (theorem) in Ray.Misc.ChartedSpace
 - `Real.convexOn_rpow_of_neg` (lemma) in Ray.Misc.Pow
 - `Real.analyticAt_tanh` (lemma) in Ray.Misc.Real
-- `Real.tanh_lt_one` (lemma) in Ray.Misc.Tanh
-- `Real.neg_one_lt_tanh` (lemma) in Ray.Misc.Tanh
-- `Real.abs_tanh_lt_one` (lemma) in Ray.Misc.Tanh
 - `Real.hasDerivAt_tanh` (lemma) in Ray.Misc.Tanh
 - `Real.strictMono_tanh` (lemma) in Ray.Misc.Tanh
-- `Real.injective_tanh` (lemma) in Ray.Misc.Tanh
 - `tendsto_inv_iff_tendsto` (theorem) in Ray.Misc.Topology
 - `IsClosed.Icc_subset_of_forall_mem_nhds_within'` (theorem) in Ray.Misc.Topology
 - `IsPreconnected.sUnion_of_pairwise_exists_isPreconnected` (lemma) in Ray.Misc.Topology
@@ -2036,61 +2194,65 @@
 - `Circle.neg_def` (lemma) in Ray.Misc.Circle
 - `Circle.arg_neg_one` (lemma) in Ray.Misc.Circle
 - `AddCircle.isConnected_compl_singleton` (lemma) in Ray.Misc.Circle
-- ... and 857 more
+- `Circle.isConnected_compl_singleton` (lemma) in Ray.Misc.Circle
+- `Circle.not_continuous_or_not_injective` (lemma) in Ray.Misc.Circle
+- `Circle.surjective_of_injective` (lemma) in Ray.Misc.Circle
+- `HasDerivAt.circleMap_radius` (lemma) in Ray.Misc.Circle
+- ... and 968 more
 
-### riemann (+38764)
+### riemann (+50625)
 
-- `AMW.cAMn` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.cAM` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.ωAM` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAM` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.MAM` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.phiW` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.fW` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.phiW_eq_mul` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.localFunW` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.MAM_pos` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.cAM_zero` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.ωAM_zero` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.ωAM_succ` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.pAM` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAM_eq` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.sum_abs_cAM_succ` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.abs_pAM_le` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAM_even` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAM_le` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.cos_sqrt2_ge` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAM_ge_core` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAM_pos_wide` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAM_zero` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAM_continuous` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAM_contDiff` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAMd` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.vAMdd` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.hasDerivAt_vAM` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.hasDerivAt_vAMd` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.ωAM_nonneg` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.ωAM_le` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.abs_vAMd_le` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.ωAM_sq_le` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.abs_vAMdd_le` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.hW` (def) in submissions.master-of-puppets.proof.Solution
-- `AMW.fW_eq_sqrt` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.fW_even` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.fW_nonneg` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.hW_le_one` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.fW_le_one` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.abs_div_le_half` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.hW_core_ge` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.hW_pos_of_mem` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.hW_contDiff` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.fW_contDiffOn` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.phiW_even` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.phiW_nonneg` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.phiW_le_one` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.phiW_eq_zero` (theorem) in submissions.master-of-puppets.proof.Solution
-- `AMW.phiW_contDiff` (theorem) in submissions.master-of-puppets.proof.Solution
-- ... and 38714 more
+- `AMW.cAMn` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.cAM` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.ωAM` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAM` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.MAM` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.phiW` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.fW` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.phiW_eq_mul` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.localFunW` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.MAM_pos` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.cAM_zero` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.ωAM_zero` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.ωAM_succ` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.pAM` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAM_eq` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.sum_abs_cAM_succ` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.abs_pAM_le` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAM_even` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAM_le` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.cos_sqrt2_ge` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAM_ge_core` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAM_pos_wide` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAM_zero` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAM_continuous` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAM_contDiff` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAMd` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.vAMdd` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.hasDerivAt_vAM` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.hasDerivAt_vAMd` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.ωAM_nonneg` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.ωAM_le` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.abs_vAMd_le` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.ωAM_sq_le` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.abs_vAMdd_le` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.hW` (def) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.fW_eq_sqrt` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.fW_even` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.fW_nonneg` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.hW_le_one` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.fW_le_one` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.abs_div_le_half` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.hW_core_ge` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.hW_pos_of_mem` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.hW_contDiff` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.fW_contDiffOn` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.phiW_even` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.phiW_nonneg` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.phiW_le_one` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.phiW_eq_zero` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- `AMW.phiW_contDiff` (theorem) in submissions.lixiang90-single-exception-overlap-20261018.proof.Solution
+- ... and 50575 more
 
 ### riemann-von-mangoldt-formalized (+80)
 
@@ -2592,7 +2754,7 @@
 - `RiemannZeta.GuthMaynard.vdc_product_bound` (theorem) in lean.GuthMaynard.WeylExplicit
 - ... and 3512 more
 
-### zeta-lab (+10947)
+### zeta-lab (+12376)
 
 - `ZetaLean.Palomar.aCoef` (def) in lean.Challenge
 - `ZetaLean.Palomar.F1` (def) in lean.Challenge
@@ -2644,8 +2806,8 @@
 - `Zeta23Ext.PalomarV2.zeroMult` (def) in lean.bridge.V2Challenge
 - `Zeta23Ext.PalomarV2.zerosIn` (def) in lean.bridge.V2Challenge
 - `Zeta23Ext.PalomarV2.Ncount` (def) in lean.bridge.V2Challenge
-- ... and 10897 more
+- ... and 12326 more
 
 ## Update History (1 runs)
 
-- **2026-10-12T08:44:22.598388+00:00**: Checked 68 repos, updated 69, +114299 -0 declarations
+- **2026-10-19T08:46:08.338141+00:00**: Checked 71 repos, updated 72, +207518 -0 declarations
