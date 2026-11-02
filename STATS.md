@@ -1,30 +1,30 @@
 # Lean Index Statistics
 
-**55,754 topic-matched declarations** across **50 repositories**
-(236,128 total declarations scanned from 74 repos)
+**58,656 topic-matched declarations** across **54 repositories**
+(274,149 total declarations scanned from 77 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| zeta-and-l-functions           |     20,133 |
-| modular-forms                  |     15,685 |
-| power-series                   |      6,018 |
-| classical-special-functions    |      5,134 |
-| exponential-logarithmic        |      3,709 |
-| trigonometric                  |      2,703 |
-| elliptic-curves                |      2,372 |
+| zeta-and-l-functions           |     20,740 |
+| modular-forms                  |     15,747 |
+| power-series                   |      7,689 |
+| classical-special-functions    |      5,201 |
+| exponential-logarithmic        |      3,759 |
+| elliptic-curves                |      2,809 |
+| trigonometric                  |      2,711 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     36,530 |
-| def             |     11,285 |
-| lemma           |      4,476 |
-| instance        |        722 |
-| abbrev          |        317 |
-| structure       |        195 |
+| theorem         |     37,089 |
+| def             |     12,339 |
+| lemma           |      5,606 |
+| instance        |        748 |
+| abbrev          |        408 |
+| structure       |        208 |
 | ctor            |         75 |
 | class           |         37 |
 | inductive       |          7 |
@@ -35,15 +35,18 @@
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
 | TernaryPoly                         |     16,615 |     78,429 |
-| mathlib4                            |     13,200 |     13,200 |
-| zeta-lab                            |      8,757 |     19,524 |
-| riemann                             |      7,447 |     57,164 |
+| mathlib4                            |     13,289 |     13,289 |
+| zeta-lab                            |      9,020 |     19,820 |
+| riemann                             |      7,447 |     57,276 |
+| RamanujanLean                       |      1,916 |     20,850 |
 | fourier-jacobi-core-evaluation      |      1,434 |      1,438 |
 | zeta-density-three-over-two-sigma-l |      1,279 |      3,562 |
-| PrimeNumberTheoremAnd               |      1,118 |      8,696 |
+| PrimeNumberTheoremAnd               |      1,123 |      8,696 |
 | EllipticCurves                      |        791 |      1,412 |
 | ModularFormsMod                     |        574 |        666 |
+| z2z4-rank6-lean                     |        372 |     10,104 |
 | ModularForms_Lean4                  |        258 |        727 |
+| zeta-rigidity                       |        204 |        206 |
 | riemann_zeros                       |        195 |      4,910 |
 | riemann-zeros                       |        195 |      4,912 |
 | EisensteinSeries                    |        176 |        359 |
@@ -61,16 +64,13 @@
 | logarithmic-morris-lean             |         54 |        670 |
 | birch-swinnerton-dyer-143           |         51 |      8,992 |
 | LeanPolyLog                         |         45 |        318 |
-| stirling                            |         45 |         45 |
-| flt-from-scratch                    |         41 |        296 |
-| a-lean4-formalisation-of-Hilbert-ba |         39 |         39 |
-| ... and 20 more |  |  |
+| ... and 24 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-10-26T08:50:43.970425+00:00
-- **Repos checked**: 74
-- **Repos updated**: 75
-- **New declarations**: 222928
+- **When**: 2026-11-02T08:24:35.319956+00:00
+- **Repos checked**: 77
+- **Repos updated**: 78
+- **New declarations**: 260860
 - **Removed declarations**: 0
-- **Summary**: Checked 74 repos, updated 75, +222928 -0 declarations
+- **Summary**: Checked 77 repos, updated 78, +260860 -0 declarations
