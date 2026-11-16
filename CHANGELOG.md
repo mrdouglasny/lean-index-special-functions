@@ -1,6 +1,6 @@
-# Changelog (since 2026-11-02)
+# Changelog (since 2026-11-09)
 
-## New Declarations (279648)
+## New Declarations (319628)
 
 ### Bounds-on-linear-forms-in-logarithms (+687)
 
@@ -441,60 +441,6 @@
 - `riemann_hypothesis.algebra.has_inv_mul_right_cancel_self` (class) in src.basic
 - ... and 160 more
 
-### LeanPolyLog (+318)
-
-- `LeanPolyLog.Li` (def) in LeanPolyLog.Defs
-- `LeanPolyLog.Lir` (def) in LeanPolyLog.Defs
-- `LeanPolyLog.G` (def) in LeanPolyLog.Defs
-- `LeanPolyLog.zeta3` (def) in LeanPolyLog.Defs
-- `LeanPolyLog.A001` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A002` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A003` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A004` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A005` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A006_cos` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A006_sin` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A007` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A008` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A009` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A010` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A011` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A012` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A013` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A014` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A015` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.A016` (theorem) in LeanPolyLog.Statements
-- `LeanPolyLog.Proofs.A010` (theorem) in LeanPolyLog.Proofs.A010
-- `LeanPolyLog.Proofs.A011` (theorem) in LeanPolyLog.Proofs.A011
-- `LeanPolyLog.Proofs.A007` (theorem) in LeanPolyLog.Proofs.A007
-- `LeanPolyLog.Proofs.A003` (theorem) in LeanPolyLog.Proofs.A003
-- `LeanPolyLog.Proofs.sq_le_mul_sin` (theorem) in LeanPolyLog.Proofs.A009
-- `LeanPolyLog.Proofs.continuousOn_sq_mul_log_sin` (theorem) in LeanPolyLog.Proofs.A009
-- `LeanPolyLog.Proofs.intervalIntegrable_sq_mul_cot` (theorem) in LeanPolyLog.Proofs.A009
-- `LeanPolyLog.Proofs.integral_mul_log_sin` (theorem) in LeanPolyLog.Proofs.A009
-- `LeanPolyLog.Proofs.A009` (theorem) in LeanPolyLog.Proofs.A009
-- `LeanPolyLog.Proofs.antiderivA005` (def) in LeanPolyLog.Proofs.A005
-- `LeanPolyLog.Proofs.continuous_antiderivA005` (theorem) in LeanPolyLog.Proofs.A005
-- `LeanPolyLog.Proofs.hasDerivAt_antiderivA005` (theorem) in LeanPolyLog.Proofs.A005
-- `LeanPolyLog.Proofs.A005` (theorem) in LeanPolyLog.Proofs.A005
-- `LeanPolyLog.Proofs.intervalIntegrable_mul_log_cos_sq` (theorem) in LeanPolyLog.Proofs.A015
-- `LeanPolyLog.Proofs.integral_mul_log_cos_sq_eq` (theorem) in LeanPolyLog.Proofs.A015
-- `LeanPolyLog.Proofs.A015` (theorem) in LeanPolyLog.Proofs.A015
-- `LeanPolyLog.Proofs.A006_cos` (theorem) in LeanPolyLog.Proofs.A006
-- `LeanPolyLog.Proofs.A006_sin` (theorem) in LeanPolyLog.Proofs.A006
-- `LeanPolyLog.Proofs.A001` (theorem) in LeanPolyLog.Proofs.A001
-- `LeanPolyLog.Proofs.A013` (theorem) in LeanPolyLog.Proofs.A013
-- `LeanPolyLog.Proofs.A016` (theorem) in LeanPolyLog.Proofs.A016
-- `LeanPolyLog.Proofs.A012` (theorem) in LeanPolyLog.Proofs.A012
-- `LeanPolyLog.Proofs.A002` (theorem) in LeanPolyLog.Proofs.A002
-- `LeanPolyLog.Proofs.A008` (theorem) in LeanPolyLog.Proofs.A008
-- `LeanPolyLog.Proofs.A014` (theorem) in LeanPolyLog.Proofs.A014
-- `LeanPolyLog.Proofs.A004` (theorem) in LeanPolyLog.Proofs.A004
-- `LeanPolyLog.LogSinSq.continuousOn_mul_log_cube` (theorem) in LeanPolyLog.Lemmas.LogSinSqSeries
-- `LeanPolyLog.LogSinSq.powMulLogCubePrimitive` (def) in LeanPolyLog.Lemmas.LogSinSqSeries
-- `LeanPolyLog.LogSinSq.hasDerivAt_powMulLogCubePrimitive` (theorem) in LeanPolyLog.Lemmas.LogSinSqSeries
-- ... and 268 more
-
 ### ModularFormDimensions (+30)
 
 - `OpenModularCurve` (def) in ModularFormDimensions.ModularCurve
@@ -698,7 +644,7 @@
 - `integral_const_div_self_add_im` (lemma) in PrimeNumberTheoremAnd.ResidueCalcOnRectangles
 - ... and 8646 more
 
-### RamanujanLean (+20850)
+### RamanujanLean (+42706)
 
 - `MockTheta5.JTP.tri_ge'` (lemma) in RamanujanTau.MockTheta5TriangularTheta
 - `MockTheta5.JTP.triTerm` (def) in RamanujanTau.MockTheta5TriangularTheta
@@ -736,21 +682,21 @@
 - `MockTheta5.JTP.E2_C` (lemma) in RamanujanTau.MockTheta5QuintCollapse3
 - `MockTheta5.JTP.map_evm1_pentTermP_prodform` (lemma) in RamanujanTau.MockTheta5QuintCollapse3
 - `MockTheta5.JTP.per_term_zero_eq_pent` (lemma) in RamanujanTau.MockTheta5QuintCollapse3
-- `MockTheta5.Bailey.gaussBinom_eq_rfac'` (lemma) in RamanujanTau.MockTheta5EulerCauchy
-- `MockTheta5.Bailey.gaussBinom_stable` (lemma) in RamanujanTau.MockTheta5EulerCauchy
-- `MockTheta5.Bailey.euler_cauchy` (theorem) in RamanujanTau.MockTheta5EulerCauchy
-- `Ramanujan.MultiQuintuple.quintExp2_nonneg` (lemma) in RamanujanTau.MultiQuintupleCancellation
-- `Ramanujan.MultiQuintuple.quintExp2_even` (lemma) in RamanujanTau.MultiQuintupleCancellation
-- `Ramanujan.MultiQuintuple.quintExp2_natAbs_le_add_one` (lemma) in RamanujanTau.MultiQuintupleCancellation
-- `Ramanujan.MultiQuintuple.quintExpHalf` (def) in RamanujanTau.MultiQuintupleCancellation
-- `Ramanujan.MultiQuintuple.quintExp2_eq_two_mul_quintExpHalf` (lemma) in RamanujanTau.MultiQuintupleCancellation
-- `Ramanujan.MultiQuintuple.quintBilateralMonomial` (def) in RamanujanTau.MultiQuintupleCancellation
-- `Ramanujan.MultiQuintuple.coeff_quintBilateralMonomial` (lemma) in RamanujanTau.MultiQuintupleCancellation
-- `Ramanujan.MultiQuintuple.quintBilateralTermCoeff_eq_zero_of_cutoff` (lemma) in RamanujanTau.MultiQuintupleCancellation
-- `Ramanujan.MultiQuintuple.quintBranchInterval` (def) in RamanujanTau.MultiQuintupleCancellation
-- `Ramanujan.MultiQuintuple.quintBilateralTrunc` (def) in RamanujanTau.MultiQuintupleCancellation
-- `Ramanujan.MultiQuintuple.coeff_quintBilateralTrunc` (lemma) in RamanujanTau.MultiQuintupleCancellation
-- ... and 20800 more
+- `Ramanujan.MultiQuintuple.watsonAddChar` (def) in RamanujanTau.MultiQuintupleWatsonFourierAmplitude
+- `Ramanujan.MultiQuintuple.watsonAddChar_exp` (theorem) in RamanujanTau.MultiQuintupleWatsonFourierAmplitude
+- `Ramanujan.MultiQuintuple.watsonAddChar_add` (theorem) in RamanujanTau.MultiQuintupleWatsonFourierAmplitude
+- `Ramanujan.MultiQuintuple.watsonAddChar_eq_of_dvd` (theorem) in RamanujanTau.MultiQuintupleWatsonFourierAmplitude
+- `Ramanujan.MultiQuintuple.rawFourierPhase` (def) in RamanujanTau.MultiQuintupleWatsonFourierAmplitude
+- `Ramanujan.MultiQuintuple.rawFourierAmplitude` (def) in RamanujanTau.MultiQuintupleWatsonFourierAmplitude
+- `Ramanujan.MultiQuintuple.dualNormGaussian` (def) in RamanujanTau.MultiQuintupleWatsonFourierAmplitude
+- `Ramanujan.MultiQuintuple.fourierDualPoint_pairing` (theorem) in RamanujanTau.MultiQuintupleWatsonFourierAmplitude
+- `Ramanujan.MultiQuintuple.watson_poisson_branch_term` (theorem) in RamanujanTau.MultiQuintupleWatsonFourierAmplitude
+- `Ramanujan.MultiQuintuple.sum_watson_poisson_branch_terms` (theorem) in RamanujanTau.MultiQuintupleWatsonFourierAmplitude
+- `BosonicOscillator.Mode` (abbrev) in RamanujanTau.BosonicOscillator
+- `BosonicOscillator.frequency` (def) in RamanujanTau.BosonicOscillator
+- `BosonicOscillator.Exponent` (abbrev) in RamanujanTau.BosonicOscillator
+- `BosonicOscillator.Space` (abbrev) in RamanujanTau.BosonicOscillator
+- ... and 42656 more
 
 ### Rerandomized-Subsampled-Trigonometric-Transforms (+2158)
 
@@ -851,6 +797,60 @@
 - `fourier_exp_negsq_2` (lemma) in theta_function
 - `fourier_exp_negsq` (lemma) in theta_function
 
+### SupersingularCongruences (+914)
+
+- `LevelOne.mul_sq_sub_one_div_twelve` (lemma) in SupersingularCongruences.LarsonConjecture
+- `LevelOne.discriminantPow_satisfiesBehrensConditions_of_eq` (theorem) in SupersingularCongruences.LarsonConjecture
+- `LevelOne.discriminantPow_satisfiesBehrensConditions` (theorem) in SupersingularCongruences.LarsonConjecture
+- `LevelOne.not_behrensC4_discriminantPow_of_eq` (theorem) in SupersingularCongruences.LarsonConjecture
+- `LevelOne.not_behrensC4_discriminantPow` (theorem) in SupersingularCongruences.LarsonConjecture
+- `LevelOne.not_behrensC4_discriminantPow_of_isAdmissible` (theorem) in SupersingularCongruences.LarsonConjecture
+- `LevelOne.not_satisfiesBehrensConditions_discriminantPow` (theorem) in SupersingularCongruences.LarsonConjecture
+- `LevelOne.discriminantPow_satisfiesBehrensConditions_iff` (theorem) in SupersingularCongruences.LarsonConjecture
+- `LevelOne.discriminantPow_behrensC4_iff` (theorem) in SupersingularCongruences.LarsonConjecture
+- `LevelOne.not_behrensC4_discriminantPow_pow` (theorem) in SupersingularCongruences.LarsonConjecture
+- `LevelTwoForms.LarsonLevelTwoStructure` (def) in SupersingularCongruences.External
+- `Nat.Prime.dvd_choose_add_sub_one` (lemma) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Polynomial.coeff_taylor_sub_one` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Gamma0.legendreCurve_a₄` (lemma) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Gamma0.legendreCurve_a₆` (lemma) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Gamma0.legendreCurve_cubic_eq` (lemma) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Gamma0.legendreCurve_hasseCoeff` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Gamma0.deuringPolynomial_separable` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Gamma0.two_pow_sub_one_eq_one` (lemma) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Gamma0.deuringPolynomial_eval_eq_zero_iff` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Gamma0.deuringPolynomial_isRoot_iff` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Gamma0.hasseRule_eq_zero_iff` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Gamma0.hasseRule_smulDiff_two` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `LevelOne.eisenstein_slash_eq` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `LevelOne.qExpansion_eisenstein_slash` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `LevelOne.coeff_zero_qExpansion_eisenstein_slash` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `LevelOne.reduceTo_qExpansion_eisenstein_slash` (theorem) in SupersingularCongruences.KatzForms.HasseInvariant
+- `Rat.not_dvd_den_add` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.not_dvd_den_mul` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.not_dvd_den_neg` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.not_dvd_den_sub` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.not_dvd_den_intCast` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.not_dvd_den_natCast` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.not_dvd_den_inv_natCast` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.not_dvd_den_sum` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.den_ne_zero_of_not_dvd` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.cast_add_of_not_dvd` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.cast_mul_of_not_dvd` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.cast_sub_of_not_dvd` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.cast_sum_of_not_dvd` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `Rat.cast_eq_zero_of_dvd_num` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `PowerSeries.IsPIntegral.coeff` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `PowerSeries.IsPIntegral.add` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `PowerSeries.IsPIntegral.neg` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `PowerSeries.IsPIntegral.sub` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `PowerSeries.IsPIntegral.mul` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `PowerSeries.isPIntegral_C` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `PowerSeries.isPIntegral_one` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `PowerSeries.IsPIntegral.pow` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- `PowerSeries.IsPIntegral.const_mul` (lemma) in SupersingularCongruences.KatzForms.ReductionAlgebra
+- ... and 864 more
+
 ### TernaryPoly (+78429)
 
 - `TernaryPoly.Paper.Ternary` (abbrev) in TernaryPeriodPolynomials.Polynomial.Definitions
@@ -905,6 +905,60 @@
 - `TernaryPeriodPolynomials.Argument.Statements.EisensteinClass.rest_average_vanishes` (theorem) in TernaryPeriodPolynomials.EisensteinSeries.EisensteinAverage
 - ... and 78379 more
 
+### WeightTwoCusps (+10804)
+
+- `WeightTwoCusps.first_coeffs` (def) in WeightTwoCusps.QExpansion
+- `WeightTwoCusps.first_coeffs_succ` (theorem) in WeightTwoCusps.QExpansion
+- `WeightTwoCusps.first_coeffs_eq_map_range` (theorem) in WeightTwoCusps.QExpansion
+- `WeightTwoCusps.zero_at_cusps_Gamma0_prime` (theorem) in WeightTwoCusps.CuspVanishing
+- `WeightTwoCusps.realPeriods_surjective_of_normal_subgroup` (theorem) in Dimension.Periods.Descent
+- `WeightTwoCusps.realPeriods_surjective_of_Gamma_le` (theorem) in Dimension.Periods.Descent
+- `WeightTwoCusps.realPeriodEquiv_of_Gamma_le` (def) in Dimension.Periods.Descent
+- `WeightTwoCusps.two_mul_finrank_cuspForms_eq_parabolicHoms_of_Gamma_le` (theorem) in Dimension.Periods.Descent
+- `WeightTwoCusps.normalSlash` (def) in Dimension.Periods.Covariance
+- `WeightTwoCusps.periodOf_normalSlash` (theorem) in Dimension.Periods.Covariance
+- `WeightTwoCusps.realParabolicHoms_restrict` (def) in Dimension.Periods.Restriction
+- `WeightTwoCusps.periodOf_restrict` (theorem) in Dimension.Periods.Restriction
+- `WeightTwoCusps.realPeriods_restrict` (theorem) in Dimension.Periods.Restriction
+- `WeightTwoCusps.realParabolicHoms_restrict_injective` (theorem) in Dimension.Periods.Restriction
+- `WeightTwoCusps.periodMapOf_apply_eq_periodOf` (theorem) in Dimension.Periods.Basic
+- `WeightTwoCusps.periodMapOf_apply_additive` (theorem) in Dimension.Periods.Basic
+- `WeightTwoCusps.realPeriods` (def) in Dimension.Periods.Basic
+- `WeightTwoCusps.realPeriods_apply` (theorem) in Dimension.Periods.Basic
+- `WeightTwoCusps.realPeriods_injective` (theorem) in Dimension.Periods.Basic
+- `WeightTwoCusps.finiteDimensional_realParabolicHoms` (instance) in Dimension.Periods.Basic
+- `WeightTwoCusps.finiteDimensional_weightTwoCuspForms` (instance) in Dimension.Periods.Basic
+- `WeightTwoCusps.realParabolicHoms_finrank_eq_int` (theorem) in Dimension.Periods.Basic
+- `WeightTwoCusps.realParabolicHoms_finrank_eq_rat` (theorem) in Dimension.Periods.Basic
+- `WeightTwoCusps.two_mul_finrank_cuspForms_le_intParabolicHoms` (theorem) in Dimension.Periods.Basic
+- `WeightTwoCusps.CongruenceIndex.psi` (def) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.mkSL` (def) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.psi_one` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.psi_prime_mul_of_dvd` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.psi_prime_mul_of_not_dvd` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.mem_Gamma0_iff_dvd` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.inv_mul_apply_10` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.lowU` (def) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.topP` (def) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.lowU_mem` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.topP_mem` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.Gamma0_mul_le` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.mk_eq_mk_iff_Gamma0` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.eq_of_dvd_sub` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.relIndex_Gamma0_prime_mul` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.Gamma0_index_aux` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.CongruenceIndex.Gamma0_index'` (theorem) in Dimension.Gamma_0.Index
+- `WeightTwoCusps.Gamma0_trace_ne_of_no_roots` (theorem) in Dimension.Gamma_0.TorsionFree
+- `WeightTwoCusps.Gamma0_four_eq_projectiveClosure_Gamma1_four` (theorem) in Dimension.Gamma_0.TorsionFree
+- `WeightTwoCusps.Gamma0_le_Gamma0_four` (theorem) in Dimension.Gamma_0.TorsionFree
+- `WeightTwoCusps.Gamma0_trace_ne_of_four_dvd` (theorem) in Dimension.Gamma_0.TorsionFree
+- `WeightTwoCusps.gamma0AffineRep` (def) in Dimension.Gamma_0.CuspCoordinates
+- `WeightTwoCusps.gamma0AffineRep_firstColumn` (theorem) in Dimension.Gamma_0.CuspCoordinates
+- `WeightTwoCusps.gamma0_coset_eq_iff` (theorem) in Dimension.Gamma_0.CuspCoordinates
+- `WeightTwoCusps.gamma0_cusp_eq_iff` (theorem) in Dimension.Gamma_0.CuspCoordinates
+- `WeightTwoCusps.gamma0_S_fixed_affine_iff` (theorem) in Dimension.Gamma_0.CuspCoordinates
+- ... and 10754 more
+
 ### a-lean4-formalisation-of-Hilbert-basis-theorem-for-power-series-ring (+39)
 
 - `PowerSeries.C_mul_X_pow_eq_monomial` (theorem) in hilbert_basis
@@ -947,6 +1001,60 @@
 - `PowerSeries.exists_trunc_eq_mem_span_biUnion_of_forall_coeff_mem_span` (theorem) in hilbert_basis
 - `PowerSeries.isNoetherianRing'` (theorem) in hilbert_basis
 
+### adversarial-bco (+6905)
+
+- `AdversarialBco.BodySpec.phi` (def) in AdversarialBco.StatementBody
+- `AdversarialBco.BodySpec.Qtail` (def) in AdversarialBco.StatementBody
+- `AdversarialBco.TheoremConj1UpperBitExp` (def) in AdversarialBco.ChallengeConj1BitExp
+- `AdversarialBco.TheoremConj1LowerPoly` (def) in AdversarialBco.ChallengeConj1LowerPoly
+- `AdversarialBco.RealRAM.Op2` (inductive) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.Op1` (inductive) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.Spec` (inductive) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.Op2.eval` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.Op1.eval` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.Spec.fn` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.State` (structure) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.World` (structure) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.vecAt` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.matAt` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.matEntry` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.writeMat` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.symPart` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.regretPts` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.pastNoise` (abbrev) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.NoiseOK` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.gaussStream` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.RealRAM.polytope` (def) in AdversarialBco.ChallengeBase.StatementConj1Poly
+- `AdversarialBco.RealRAM.HeightLE` (def) in AdversarialBco.ChallengeBase.StatementConj1Poly
+- `AdversarialBco.BitRAM.len` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.Instr` (inductive) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.State` (structure) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.World` (structure) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.toE` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.ptAt` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.playCost` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.feedback` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.readCoins` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.reading` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.step` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.run` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.SpaceLE` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.coinLaw` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.BitRAM.coinStream` (def) in AdversarialBco.ChallengeBase.StatementBitRAM
+- `AdversarialBco.E` (abbrev) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.AdmLoss` (def) in AdversarialBco.ChallengeBase.StatementPoly
+- `AdversarialBco.BitRAM.entry` (def) in AdversarialBco.ChallengeBase.StatementConj1Bit
+- `AdversarialBco.BitRAM.inputMem` (def) in AdversarialBco.ChallengeBase.StatementConj1Bit
+- `AdversarialBco.BitRAM.initBit` (def) in AdversarialBco.ChallengeBase.StatementConj1Bit
+- `AdversarialBco.BitRAM.GameBit` (structure) in AdversarialBco.ChallengeBase.StatementConj1Bit
+- `AdversarialBco.BitRAM.GameBit.world` (def) in AdversarialBco.ChallengeBase.StatementConj1Bit
+- `AdversarialBco.BitRAM.stepBit` (def) in AdversarialBco.ChallengeBase.StatementConj1Bit
+- `AdversarialBco.BitRAM.runBit` (def) in AdversarialBco.ChallengeBase.StatementConj1Bit
+- `AdversarialBco.BitRAM.playedBit` (def) in AdversarialBco.ChallengeBase.StatementConj1Bit
+- `AdversarialBco.BitRAM.CostOKBit` (def) in AdversarialBco.ChallengeBase.StatementConj1Bit
+- `AdversarialBco.BitRAM.SpaceOKBit` (def) in AdversarialBco.ChallengeBase.StatementConj1Bit
+- ... and 6855 more
+
 ### bernoulli (+8)
 
 - `exp_ne_constant` (theorem) in src.sheet3
@@ -957,60 +1065,6 @@
 - `rescale_mk` (lemma) in src.sheet3
 - `power_series.sum_mk` (lemma) in src.sheet3
 - `rescale_one'` (lemma) in src.sheet3
-
-### birch-swinnerton-dyer-143 (+8992)
-
-- `Towers.BSD.BSD_disc_from_deg_801` (lemma) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.i801_p2351` (instance) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.i801_p2357` (instance) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.i801_p2371` (instance) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.i801_p2377` (instance) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.i801_p2381` (instance) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.i801_p2383` (instance) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.i801_p2389` (instance) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.i801_p2393` (instance) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.i801_p2399` (instance) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.i801_p2411` (instance) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_E143_card_p2351` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_E143_card_p2357` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_E143_card_p2371` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_E143_card_p2377` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_E143_card_p2381` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_E143_card_p2383` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_E143_card_p2389` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_E143_card_p2393` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_E143_card_p2399` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_E143_card_p2411` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_ap_p2351` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_ap_p2357` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_ap_p2371` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_ap_p2377` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_ap_p2381` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_ap_p2383` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_ap_p2389` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_ap_p2393` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_ap_p2399` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_ap_p2411` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_DegreeNonneg_p2351` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_DegreeNonneg_p2357` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_DegreeNonneg_p2371` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_DegreeNonneg_p2377` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_DegreeNonneg_p2381` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_DegreeNonneg_p2383` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_DegreeNonneg_p2389` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_DegreeNonneg_p2393` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_DegreeNonneg_p2399` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_DegreeNonneg_p2411` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_Hasse_OPEN_p2351` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_Hasse_OPEN_p2357` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_Hasse_OPEN_p2371` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_Hasse_OPEN_p2377` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_Hasse_OPEN_p2381` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_Hasse_OPEN_p2383` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_Hasse_OPEN_p2389` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_Hasse_OPEN_p2393` (theorem) in BSD.BSD_Genesis801_CLOSED
-- `Towers.BSD.BSD_Hasse_OPEN_p2399` (theorem) in BSD.BSD_Genesis801_CLOSED
-- ... and 8942 more
 
 ### calegari-slopes (+753)
 
@@ -1722,6 +1776,60 @@
 - `T_is_onn` (theorem) in keeptrack
 - `T_isconn_not_path_conn` (theorem) in keeptrack
 
+### lfd-summation-systems (+3892)
+
+- `ICFallDegrees.GrowthRationalPolynomialDenominators.clear_denominator` (theorem) in formal.ICFallDegrees.GrowthRationalPolynomialDenominators
+- `ICFallDegrees.BinaryDimensionTwoCurves.ordinary_base_independent` (theorem) in formal.ICFallDegrees.BinaryDimensionTwoBases
+- `ICFallDegrees.BinaryDimensionTwoCurves.koblitz_base_independent` (theorem) in formal.ICFallDegrees.BinaryDimensionTwoBases
+- `ICFallDegrees.BinaryDimensionTwoCurves.ordinary_factor_base_dimension` (theorem) in formal.ICFallDegrees.BinaryDimensionTwoBases
+- `ICFallDegrees.BinaryDimensionTwoCurves.koblitz_factor_base_dimension` (theorem) in formal.ICFallDegrees.BinaryDimensionTwoBases
+- `ICFallDegrees.GrowthIntegralBezoutSpecialization.unit_of_integral_bezout` (theorem) in formal.ICFallDegrees.GrowthIntegralBezoutSpecialization
+- `ICFallDegrees.GeneratedPrimeFirstFall.basisData` (def) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.pivotData` (def) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.basis` (def) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.pivot` (def) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.linA` (def) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.linB` (def) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.certificate` (def) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.witnessData` (def) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.separatingExponent` (def) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.checked_space` (theorem) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.checked_fall` (theorem) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.witness_degree` (theorem) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.witness_coefficient` (theorem) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.basis_coefficient_zero` (theorem) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.pivot_degree` (theorem) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.witness_not_at_two` (theorem) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.affine_first_strict_fall_three` (theorem) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GeneratedPrimeFirstFall.actual_curve_first_strict_fall_three` (theorem) in formal.ICFallDegrees.GeneratedPrimeFirstFall
+- `ICFallDegrees.GrowthRationalUnit.target_is_root` (theorem) in formal.ICFallDegrees.GrowthRationalUnit
+- `ICFallDegrees.GrowthRationalUnit.s3_square_family` (theorem) in formal.ICFallDegrees.GrowthRationalUnit
+- `ICFallDegrees.GrowthRationalUnit.parameter_of_s3_zero` (theorem) in formal.ICFallDegrees.GrowthRationalUnit
+- `ICFallDegrees.GrowthRationalUnit.s3_ne_zero_of_parameter_not_in_subfield` (theorem) in formal.ICFallDegrees.GrowthRationalUnit
+- `ICFallDegrees.GrowthRationalUnit.discriminant_factor` (theorem) in formal.ICFallDegrees.GrowthRationalUnit
+- `ICFallDegrees.GrowthRationalUnit.nonsingular_of_parameter_conditions` (theorem) in formal.ICFallDegrees.GrowthRationalUnit
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_0` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_1` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_2` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_3` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_4` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_5` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_6` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_7` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_8` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_9` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_10` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_11` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_12` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.prod_13` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.sum_ok` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.outside_ok` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.char_p` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.parts_lowIdeal` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.witness_lowIdeal` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- `ICFallDegrees.N5CertWitnessInstanceP40961.witness_weight` (theorem) in formal.ICFallDegrees.N5CertWitnessInstanceP40961
+- ... and 3842 more
+
 ### logarithm-measure (+7241)
 
 - `algebraicLogRoots` (def) in sources.anc.lean.VerifyAlgebraicLog
@@ -1858,7 +1966,7 @@
 - `LogarithmicMorrisFull.BlockSurvivor` (def) in logarithmicmorris.ScratchOrderSignInvolution
 - ... and 620 more
 
-### mathlib4 (+13349)
+### mathlib4 (+13403)
 
 - `AEMeasurable.ccos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.ccosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
@@ -1910,115 +2018,115 @@
 - `AddChar.expect_eq_zero_iff_ne_zero` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.expect_ne_zero_iff_eq_zero` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.Orthogonality
 - `AddChar.forall_apply_eq_zero` (theorem) in Mathlib.Analysis.Fourier.FiniteAbelian.PontryaginDuality
-- ... and 13299 more
+- ... and 13353 more
 
-### matrix_category (+78)
+### modular-forms-lean (+8385)
 
-- `MatrixCategory.intCast_matrix_apply` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.intCast_mul_apply` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.commutant` (def) in MatrixCategory.Commutant
-- `MatrixCategory.mem_commutant` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.adjoinInt` (def) in MatrixCategory.Commutant
-- `MatrixCategory.mem_adjoinInt` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.adjoinInt_le_commutant` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.scalarGap` (def) in MatrixCategory.Commutant
-- `MatrixCategory.scalarGap_dvd₁` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.scalarGap_dvd₂` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.scalarGap_dvd₃` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.exists_bezout` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.scalarGap_ne_zero` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.mem_commutant_iff` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.gcd_mul_entries` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.commutant_quotient_equiv` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.index_adjoinInt_commutant` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.two_dvd_scalarGap_iff` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.two_dvd_index_iff` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.MObj.two_dvd_index_iff` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.scalarGap_sq_dvd_disc` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.MObj.not_dvd_scalarGap` (theorem) in MatrixCategory.Commutant
-- `MatrixCategory.smithOne` (def) in MatrixCategory.Smith
-- `MatrixCategory.smithTwo` (def) in MatrixCategory.Smith
-- `MatrixCategory.content_sq_dvd_det` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.smithOne_sq_dvd` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.smithOne_dvd_natAbs_det` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.smithOne_dvd_smithTwo` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.content_nonneg` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.content_eq_zero_iff` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.content_dvd_mul_left` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.content_dvd_mul_right` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.content_unit_mul` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.content_smul` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.content_diagonal` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.eq_smith_of_diagonalization` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.exists_unit_mulVec_gcd` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.exists_unit_vecMul_gcd` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.det_eq_zero_aux` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.exists_chained_diagonalization_of_det_eq_zero` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.exists_good_t` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.det_ne_zero_content_one` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.exists_chained_diagonalization_of_det_ne_zero` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.exists_chained_diagonalization` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.exists_smith_diagonalization` (theorem) in MatrixCategory.Smith
-- `MatrixCategory.content` (def) in MatrixCategory.Content
-- `MatrixCategory.dvd_content_iff` (theorem) in MatrixCategory.Content
-- `MatrixCategory.map_zmod_eq_zero_iff_dvd_content` (theorem) in MatrixCategory.Content
-- `MatrixCategory.IsPrimitive` (def) in MatrixCategory.Content
-- `MatrixCategory.isPrimitive_iff_forall_prime` (theorem) in MatrixCategory.Content
-- ... and 28 more
+- `whose` (structure) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.kloosterman_mul_of_coprime` (theorem) in Solution_Iwaniec
+- `ModularFormsKB.Headlines.kloostermanMoment_two` (theorem) in Solution_Iwaniec
+- `ModularFormsKB.Headlines.waldspurger_card_admissible` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_isAdmissible_iff_even` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_two_mul_fibreDim` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_fibreDim_le_one` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_prod_localSign` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_isAdmissible_localSign_iff` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_kohnenPattern_isAdmissible` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_localSign_eq_kohnenPattern_iff` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_kohnen_fibreDim` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.gross_grossCoeff_eq_zero_of_mod_four` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.gross_grossCoeff_eq_zero_of_split` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.gross_grossCoeff_values` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.gross_brandt_rowSum_symm` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.gross_brandt_eigen` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.gross_brandt_eisenstein` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_exists_constant` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_coeff_eq_zero_iff` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_kohnen_central_nonneg` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_kohnen_ratio` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_kohnen_coeff_ne_zero_iff` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_twistRoot_eq_one` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_carries_unique` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.waldspurger_finrank_plusFibre_eq_one` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.gross_grossCoeff_eq_zero_iff` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.eisensteinLattice_functionalEquation` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.rankin_unfolding` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.shimuraLift_theta_of_dualUnfolding` (theorem) in Solution_Waldspurger
+- `ModularFormsKB.Headlines.siegelTheta_dominated` (theorem) in Solution_AndrianovZhuravlev
+- `ModularFormsKB.Headlines.congruent_isCongruent_iff_point` (theorem) in Solution_CongruentNumbers
+- `ModularFormsKB.Headlines.congruent_five_six_seven_fortyOne` (theorem) in Solution_CongruentNumbers
+- `ModularFormsKB.Headlines.congruent_tunnell_counts` (theorem) in Solution_CongruentNumbers
+- `ModularFormsKB.Headlines.congruent_tunnell_five_consistent` (theorem) in Solution_CongruentNumbers
+- `ModularFormsKB.Headlines.congruent_not_isCongruent_of_odd` (theorem) in Solution_CongruentNumbers
+- `ModularFormsKB.Headlines.congruent_not_isCongruent_of_even` (theorem) in Solution_CongruentNumbers
+- `ModularFormsKB.Headlines.congruent_not_isCongruent_one_three_eleven` (theorem) in Solution_CongruentNumbers
+- `ModularFormsKB.Headlines.congruent_isCongruent_iff_odd` (theorem) in Solution_CongruentNumbers
+- `ModularFormsKB.Headlines.congruent_isCongruent_iff_even` (theorem) in Solution_CongruentNumbers
+- `of` (structure) in Challenge_MilneArithmetic
+- `ModularFormsKB.Headlines.weil_riemannHypothesis_curves` (theorem) in Solution_MilneArithmetic
+- `ModularFormsKB.Headlines.j_isIntegral_of_imaginaryQuadratic` (theorem) in Solution_MilneArithmetic
+- `ModularFormsKB.Headlines.classGroupAction_ellCM` (theorem) in Solution_MilneArithmetic
+- `ModularFormsKB.Headlines.betti_tate_comparison` (theorem) in Solution_MilneArithmetic
+- `ModularFormsKB.Headlines.conductor_exponent_eq_two_iff` (theorem) in Solution_MilneArithmetic
+- `ModularFormsKB.Headlines.kronecker_modularEquation` (theorem) in Solution_Milne
+- `ModularFormsKB.Headlines.doublyPeriodic_sums` (theorem) in Solution_Milne
+- `ModularFormsKB.Headlines.prescribedDivisor` (theorem) in Solution_Milne
+- `ModularFormsKB.Headlines.ellipticFunctionField` (theorem) in Solution_Milne
+- ... and 8335 more
 
-### modular-forms-lean (+4058)
+### morley-smith-formal (+454)
 
-- `of` (structure) in Solution
-- `ModularFormsKB.Headlines.weil_riemannHypothesis_curves` (theorem) in Solution
-- `ModularFormsKB.Headlines.kronecker_modularEquation` (theorem) in Solution
-- `ModularFormsKB.Headlines.j_isIntegral_of_imaginaryQuadratic` (theorem) in Solution
-- `ModularFormsKB.Headlines.doublyPeriodic_sums` (theorem) in Solution
-- `ModularFormsKB.Headlines.prescribedDivisor` (theorem) in Solution
-- `ModularFormsKB.Headlines.ellipticFunctionField` (theorem) in Solution
-- `ModularFormsKB.Headlines.ellipticModuli_jLine` (theorem) in Solution
-- `ModularFormsKB.Headlines.cyclicModuli` (theorem) in Solution
-- `ModularFormsKB.Headlines.hecke_converse` (theorem) in Solution
-- `ModularFormsKB.Headlines.hecke_converse_levelOne` (theorem) in Solution
-- `ModularFormsKB.Headlines.weil_converse` (theorem) in Solution
-- `ModularFormsKB.Headlines.weil_converse_cusp` (theorem) in Solution
-- `foo` (theorem) in ModularFormsKB.Citation
-- `ModularFormsKB.Citation.KBTag` (structure) in ModularFormsKB.Citation
-- `ModularFormsKB.Citation.kbEntries` (def) in ModularFormsKB.Citation
-- `ModularFormsKB.Dimension.dedekindPsi` (def) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.dedekindPsi_apply` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.dedekindPsi_eq_index` (lemma) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.isMultiplicative_dedekindPsi` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.dedekindPsi_prime_pow` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.Gamma0_index_eq_dedekindPsi` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.Gamma1_index_eq` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.one_mem_strictPeriods` (lemma) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.sturm_bound_of_T_mem` (lemma) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.eq_of_sturm_bound_of_T_mem` (lemma) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finrank_le_of_coeff` (lemma) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finrank_le_of_coeff_of_coeff_zero` (lemma) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.T_mem_Gamma0` (lemma) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.T_mem_Gamma1` (lemma) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.sturm_bound_Gamma0` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.eq_of_sturm_bound_Gamma0` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finiteDimensional_modularForm_Gamma0` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finiteDimensional_cuspForm_Gamma0` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finrank_modularForm_Gamma0_le` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finrank_cuspForm_Gamma0_le` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.sturm_bound_Gamma1` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.eq_of_sturm_bound_Gamma1` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finiteDimensional_modularForm_Gamma1` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finiteDimensional_cuspForm_Gamma1` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finrank_modularForm_Gamma1_le` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finrank_cuspForm_Gamma1_le` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.toNat_mul_div_lt` (lemma) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.toModularFormₗ_mem_modFormCharSpace` (lemma) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.sturm_bound_char` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.eq_of_sturm_bound_char` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finrank_modFormCharSpace_le` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Dimension.finrank_cuspFormCharSpace_le` (theorem) in ModularFormsKB.Dimension.SturmGamma0
-- `ModularFormsKB.Milne.modularFormLevelWeight` (abbrev) in ModularFormsKB.Milne.Citations
-- `ModularFormsKB.Milne.exists_SL2R_smul_eq` (theorem) in ModularFormsKB.Milne.Citations
-- ... and 4008 more
+- `HeckePropagation.congr_of_prime` (theorem) in MorleySmithFormal.HeckePropagation.Solution
+- `HeckePropagation.sigma_recursion` (theorem) in MorleySmithFormal.HeckePropagation.Solution
+- `MorleySmithFormal.HeckePropagation.congr_prime_pow` (theorem) in MorleySmithFormal.HeckePropagation.Basic
+- `MorleySmithFormal.HeckePropagation.congr_of_prime` (theorem) in MorleySmithFormal.HeckePropagation.Basic
+- `MorleySmithFormal.HeckePropagation.sigma_recursion` (theorem) in MorleySmithFormal.HeckePropagation.Basic
+- `RamanujanCongruences.form` (def) in MorleySmithFormal.RamanujanCongruences.Solution
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_5` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_6` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_7` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_8` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_9` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_10` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_11` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_12` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_13` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_14` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_15` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_16` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_17` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_18` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_19` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_20` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_21` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_22` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_23` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_24` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_25` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli'_26` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli_eq'` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli_four'` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli_six'` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli_12` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli_16` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli_18` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli_20` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli_22` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `MorleySmithFormal.RamanujanCongruences.bernoulli_26` (theorem) in MorleySmithFormal.RamanujanCongruences.Bernoulli
+- `RamanujanCongruences.congr_of` (theorem) in MorleySmithFormal.RamanujanCongruences.Solution
+- `RamanujanCongruences.congr_12` (theorem) in MorleySmithFormal.RamanujanCongruences.Solution
+- `RamanujanCongruences.congr_16` (theorem) in MorleySmithFormal.RamanujanCongruences.Solution
+- `RamanujanCongruences.congr_18` (theorem) in MorleySmithFormal.RamanujanCongruences.Solution
+- `RamanujanCongruences.congr_20` (theorem) in MorleySmithFormal.RamanujanCongruences.Solution
+- `RamanujanCongruences.congr_22` (theorem) in MorleySmithFormal.RamanujanCongruences.Solution
+- `RamanujanCongruences.congr_26` (theorem) in MorleySmithFormal.RamanujanCongruences.Solution
+- `MorleySmithFormal.RamanujanCongruences.AbsConv` (def) in MorleySmithFormal.RamanujanCongruences.Basic
+- `MorleySmithFormal.RamanujanCongruences.ev` (def) in MorleySmithFormal.RamanujanCongruences.Basic
+- `MorleySmithFormal.RamanujanCongruences.coeff_mul_pow` (theorem) in MorleySmithFormal.RamanujanCongruences.Basic
+- `MorleySmithFormal.RamanujanCongruences.AbsConv.mul` (theorem) in MorleySmithFormal.RamanujanCongruences.Basic
+- `MorleySmithFormal.RamanujanCongruences.ev_mul` (theorem) in MorleySmithFormal.RamanujanCongruences.Basic
+- `MorleySmithFormal.RamanujanCongruences.AbsConv.pow` (theorem) in MorleySmithFormal.RamanujanCongruences.Basic
+- ... and 404 more
 
 ### neumann-cosine-lean (+244)
 
@@ -2290,6 +2398,60 @@
 - `MvPowerSeries.killComplFun` (def) in rename
 - ... and 53 more
 
+### rank-growth-multiquadratic (+54)
+
+- `RankGrowth.TwistFamily` (structure) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.rankL` (def) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.Parity` (def) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.numPlus` (def) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.rankL_eq` (lemma) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.part1` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.one_sub_le_two_mul` (lemma) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.two_le_of_even_sign` (lemma) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.two_mul_sum_ge` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.sum_rootNumber` (lemma) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.numPlus_le` (lemma) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.numPlus_eq_n_iff` (lemma) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.numPlus_eq_zero_iff` (lemma) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.bound_plus` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.bound_minus` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.part2` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.part3_rootNumber` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.part3a` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.part3b` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.part3b_bsd` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.part4a` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.part4b` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.TwistFamily.part4c` (theorem) in lean.RankGrowth.MultiquadraticRank
+- `RankGrowth.countPlus` (def) in lean.RankGrowth.SignPatterns
+- `RankGrowth.countMinus` (def) in lean.RankGrowth.SignPatterns
+- `RankGrowth.incEven` (def) in lean.RankGrowth.SignPatterns
+- `RankGrowth.incOdd` (def) in lean.RankGrowth.SignPatterns
+- `RankGrowth.two_pow_eq` (lemma) in lean.RankGrowth.SignPatterns
+- `RankGrowth.countPlus_le` (theorem) in lean.RankGrowth.SignPatterns
+- `RankGrowth.countMinus_le` (theorem) in lean.RankGrowth.SignPatterns
+- `RankGrowth.incEven_attained` (theorem) in lean.RankGrowth.SignPatterns
+- `RankGrowth.incOdd_attained` (theorem) in lean.RankGrowth.SignPatterns
+- `RankGrowth.TwistFamily.signPattern_plus` (theorem) in lean.RankGrowth.SignPatterns
+- `RankGrowth.TwistFamily.signPattern_minus` (theorem) in lean.RankGrowth.SignPatterns
+- `RankGrowth.numF` (def) in lean.RankGrowth.GoodValues
+- `RankGrowth.f_eval_eq` (theorem) in lean.RankGrowth.GoodValues
+- `RankGrowth.numF_modEq` (theorem) in lean.RankGrowth.GoodValues
+- `RankGrowth.legendreSym_F` (theorem) in lean.RankGrowth.GoodValues
+- `RankGrowth.legendreSym_F_eq_one` (theorem) in lean.RankGrowth.GoodValues
+- `RankGrowth.legendreSym_F_eq_neg_one` (theorem) in lean.RankGrowth.GoodValues
+- `RankGrowth.legendreSym_mul_sq` (theorem) in lean.RankGrowth.GoodValues
+- `RankGrowth.numF_modEq_one_eight` (theorem) in lean.RankGrowth.GoodValues
+- `RankGrowth.numF_pos` (theorem) in lean.RankGrowth.GoodValues
+- `RankGrowth.numF_neg` (theorem) in lean.RankGrowth.GoodValues
+- `RankGrowth.prod_not_isSquare` (theorem) in lean.RankGrowth.GoodValues
+- `RankGrowth.mul_self_eq_one_of_sign` (lemma) in lean.RankGrowth.RootNumbers
+- `RankGrowth.rootNumber_product` (theorem) in lean.RankGrowth.RootNumbers
+- `RankGrowth.rootNumber_full_product` (theorem) in lean.RankGrowth.RootNumbers
+- `RankGrowth.rootNumber_eq_mul_prod` (lemma) in lean.RankGrowth.RootNumbers
+- `RankGrowth.sum_prod_eq_prod_one_add` (lemma) in lean.RankGrowth.RootNumbers
+- ... and 4 more
+
 ### rank2sha (+162)
 
 - `FinShaRank2.AxiomAudit.allowedAxioms` (def) in formalisation.FinShaRank2.AxiomAudit
@@ -2452,7 +2614,7 @@
 - `gr` (def) in Ray.Dynamics.FlipPetal
 - ... and 968 more
 
-### riemann (+57276)
+### riemann (+57384)
 
 - `AMW.cAMn` (def) in submissions.attempt-030.proof.Solution
 - `AMW.cAM` (def) in submissions.attempt-030.proof.Solution
@@ -2504,7 +2666,7 @@
 - `AMW.phiW_le_one` (theorem) in submissions.attempt-030.proof.Solution
 - `AMW.phiW_eq_zero` (theorem) in submissions.attempt-030.proof.Solution
 - `AMW.phiW_contDiff` (theorem) in submissions.attempt-030.proof.Solution
-- ... and 57226 more
+- ... and 57334 more
 
 ### riemann-bandwidth1-frontier-audit (+1610)
 
@@ -3224,4 +3386,4 @@
 
 ## Update History (1 runs)
 
-- **2026-11-09T08:31:25.558225+00:00**: Checked 79 repos, updated 80, +266299 -0 declarations
+- **2026-11-16T08:55:50.687564+00:00**: Checked 82 repos, updated 83, +306225 -0 declarations
